@@ -1,0 +1,4 @@
+CREO配置文件使用方法：
+1、先将下载下载的CREO文件复制到D盘下面（一定要是D盘 不要乱改）
+2、将桌面上的Creo Parametric图标选中后并按住鼠标右键属性--更改起始位置为 D:\CREO
+3、启动Creo Parametric 就OK了
