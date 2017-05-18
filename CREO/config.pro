@@ -40,7 +40,7 @@ step_export_dwg_views as_3d_views
 dxf_block_to_pro_symbol yes
 intf_use_variable_size no
 auto_associate_dimensions yes
-web_browser_homepage #
+web_browser_homepage about:blank
 system_colors_file E:\Creo Files\CREO\syscol.scl
 shade_quality 6
 mdl_tree_cfg_file E:\Creo Files\CREO\tree.cfg
@@ -59,3 +59,5 @@ template_mold_layout mmns_mold_lay.asm
 mfg_setup_dir E:\Creo Files\CREO\Mfg
 gpostpp_dir E:\Creo Files\CREO\Gpost
 trail_dir E:\Creo Files\CREO\Trail
+js_error_policy suppress_continue
+suppress_license_loss_dialog yes

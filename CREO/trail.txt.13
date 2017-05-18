@@ -1,0 +1,119 @@
+﻿!trail file version No. 1861
+!Creo  TM  4.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 1936
+!	Application: Creo_Parametric
+!	Start date&time: 2017/05/18  15:32:24
+!	language: chinese_cn
+!	machine type: x86e_win64
+!	datecode: M010
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.205333 1756 0 0 1017 1920 0 0 1080 13
+!mem_use INCREASE Blocks 766719, AppSize 96510869, SysSize 110431168
+< 0 0.929185 1539 0 0 784 1920 0 0 1080 13
+< 0 0.929185 1259 0 0 784 1920 0 0 1080 13
+< 0 0.928000 1259 0 0 783 1920 0 0 1080 13
+< 0 0.928000 1279 0 0 783 1920 0 0 1080 13
+< 0 0.928000 1299 0 0 783 1920 0 0 1080 13
+< 0 0.928000 1319 0 0 783 1920 0 0 1080 13
+!%CI欢迎使用 Creo Parametric Trial Edition 4.0。
+!AFX datecode: 4.0 M010 2017.02.16.11
+!AFX exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\x86e_win64\afx40.dll
+!AFX text path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\
+< 0 1.085630 1319 0 0 916 1920 0 0 1080 13
+< 0 0.928000 1319 0 0 783 1920 0 0 1080 13
+< 0 0.920889 1319 0 0 777 1920 0 0 1080 13
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): connected to Pro/E.
+!	exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\x86e_win64\obj\mcp_applet_async.exe
+!	type: asynchronous
+~ Close `main_dlg_cur` `appl_casc`
+!mem_use INCREASE Blocks 794654, AppSize 125868363, SysSize 141379328
+~ Command `ProCmdRibbonOptionsDlg` 
+!ODUI external UI session start for device : ribbon_options_dialog 
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `ConfigLayout`
+~ Activate `ribbon_options_dialog` `ConfigLayout.AddOpt`
+~ Input `add_opt` `InputOpt` `suppress_license_loss_dialog`
+~ Update `add_opt` `InputOpt` `suppress_license_loss_dialog`
+~ FocusOut `add_opt` `InputOpt`
+~ Open `add_opt` `EditPanel`
+~ Close `add_opt` `EditPanel`
+~ Select `add_opt` `EditPanel` 1 `yes`
+~ FocusOut `add_opt` `EditPanel`
+~ Activate `add_opt` `AddOpt`
+~ Activate `ribbon_options_dialog` `ConfigLayout.AddOpt`
+~ Activate `lic_exitdlg` `Retry`
+!%CI重新获得CREOPMA_TRIAL许可证;可以恢复工作。
+!%CI已重新获得浮动许可证; 您可以继续工作。
+~ Activate `warning` `Ok`
+~ Input `add_opt` `InputOpt` `suppress_dlg_license_expired`
+~ Update `add_opt` `InputOpt` `suppress_dlg_license_expired`
+~ FocusOut `add_opt` `InputOpt`
+~ Open `add_opt` `EditPanel`
+~ Close `add_opt` `EditPanel`
+~ FocusOut `add_opt` `EditPanel`
+~ Input `add_opt` `EditPanel` `y`
+~ Input `add_opt` `EditPanel` `ye`
+~ Input `add_opt` `EditPanel` `yes`
+~ Update `add_opt` `EditPanel` `yes`
+~ FocusOut `add_opt` `EditPanel`
+~ FocusOut `add_opt` `InputOpt`
+~ Open `add_opt` `EditPanel`
+~ Close `add_opt` `EditPanel`
+~ FocusOut `add_opt` `EditPanel`
+~ FocusOut `add_opt` `InputOpt`
+~ FocusOut `add_opt` `EditPanel`
+~ FocusOut `add_opt` `InputOpt`
+~ FocusOut `add_opt` `EditPanel`
+~ FocusOut `add_opt` `InputOpt`
+~ Activate `add_opt` `Cancel`
+~ Activate `ribbon_options_dialog` `ConfigLayout.AddOpt`
+~ Input `add_opt` `InputOpt` `suppress_dlg_license_expired`
+~ Update `add_opt` `InputOpt` `suppress_dlg_license_expired`
+~ FocusOut `add_opt` `InputOpt`
+~ Open `add_opt` `EditPanel`
+~ Close `add_opt` `EditPanel`
+~ Input `add_opt` `EditPanel` ``
+~ Input `add_opt` `EditPanel` `1`
+~ Input `add_opt` `EditPanel` ``
+~ Input `add_opt` `EditPanel` `y`
+~ Input `add_opt` `EditPanel` `ye`
+~ Input `add_opt` `EditPanel` `yes`
+~ Update `add_opt` `EditPanel` `yes`
+~ FocusOut `add_opt` `EditPanel`
+~ Activate `add_opt` `Cancel`
+~ Activate `ribbon_options_dialog` `OkPshBtn`
+! UITools Msg Dialog Future: warning
+!                          : 所做的配置设置将仅应用于当前会话。
+!                          : 
+!                          : 是否要将这些设置保存到配置文件?
+!                          : 
+!                          : 注意: 用户自定义设置将自动
+!                          : 保存到配置文件目录。
+~ Activate `UITools Msg Dialog Future` `yes`
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Command `ProFileSelPushOpen@context_dlg_open_cmd` 
+!ODUI external UI session stop. 
+~ Activate `main_dlg_cur` `EMBED_BROWSER Close`
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 640 168 0 1 1319 777 1920 1080 107437
+** 0.478825 0.782497 0 1 1
+0.478825 0.660232 L 0 0.920888889 0
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 640 168 0 0 1319 777 1920 1080 107518
+~ Activate `lic_exitdlg` `Retry`
+!%CI重新获得CREOPMA_TRIAL许可证;可以恢复工作。
+!%CI已重新获得浮动许可证; 您可以继续工作。
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric Trial Edition 将终止，所有未保存的工作都将会丢失。
+!               : 是否确实要退出?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File
