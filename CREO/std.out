@@ -83,4 +83,3 @@ Features Not Obtained:
  MATHCAD_WAVELETS
 ERROR - E:\Creo-Files\CREO\config.pro, linenum 1 :  Keyword 'TOL_MODE' is not valid.
 ERROR - E:\Creo-Files\CREO\config.pro, linenum 12:  Keyword 'TOL_MODE' is not valid.
-gdi32_comm_shutdown wait for polling thread timed out.
