@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="201703151903.xsl"?>
+<PrefValues defaultLockStatus="unlocked">
+<Pref Application="基本环境" Category="常规" Tab="部件" displayValue="是" modified="2017-03-03T08:20:53" name="UG_dimetric_views" title="添加斜二测视图" value="1"/>
+<Pref Application="基本环境" Category="常规" Tab="部件" displayValue="20" modified="2017-03-03T08:20:53" name="UG_Auto_part_save" title="提醒保存更改的时间间隔" value="20"/>
+<Pref Application="基本环境" Category="常规" Tab="目录" displayValue="E:\" modified="2017-03-03T08:20:53" name="UG_initialPartDir_WIN" title="部件文件目录" value="E:\"/>
+<Pref Application="基本环境" Category="常规" Tab="文件新建" displayValue="KFSB-2017-0" modified="2017-03-03T08:20:53" name="UG_FileNewAssignedModellingName" title="原生 NX，新部件的自动名称 - 建模部件" value="KFSB-2017-0"/>
+<Pref Application="基本环境" Category="常规" Tab="文件新建" displayValue="asm" modified="2017-03-03T08:20:53" name="UG_FileNewAssignedAssemblyName" title="原生 NX，新部件的自动名称 - 装配部件" value="asm"/>
+<Pref Application="基本环境" Category="常规" Tab="文件新建" displayValue="2D" modified="2017-03-03T08:20:53" name="UG_FileNewAssignedDraftingName" title="原生 NX，新部件的自动名称 - 制图部件" value="2D"/>
+<Pref Application="基本环境" Category="对象" Tab="默认" displayValue="0.50 mm" modified="2017-03-03T08:20:53" name="UG_objectWidth" title="宽度" value="9"/>
+<Pref Application="基本环境" Category="对象" Tab="实体" displayValue="0.13 mm" modified="2016-08-02T03:29:50" name="UG_solidBodyWidth" title="宽度" value="5"/>
+<Pref Application="基本环境" Category="对象" Tab="片体" displayValue="0.13 mm" modified="2016-08-02T03:29:50" name="UG_sheetBodyWidth" title="宽度" value="5"/>
+<Pref Application="基本环境" Category="对象" Tab="无限长直线" displayValue="0.13 mm" modified="2016-08-02T03:29:50" name="UG_infinitelineWidth" title="宽度" value="5"/>
+<Pref Application="基本环境" Category="用户属性" Tab="全部" displayValue="${UGII_BASE_DIR}\TKLTOOLS\Configuration\Tangkl_Set_ATT.xml" modified="2016-08-02T03:29:50" name="UG_AttributeTemplateFile_WIN" title="模板 - 属性模板目录名称" value="${UGII_BASE_DIR}\TKLTOOLS\Configuration\Tangkl_Set_ATT.xml"/>
+<Pref Application="基本环境" Category="用户属性" Tab="全部" displayValue="从不" modified="2017-03-03T08:20:53" name="UG_AllowAttributesWithoutTemplates" title="模板 - 允许在无模板的情况下创建属性" value="2"/>
+<Pref Application="基本环境" Category="用户属性" Tab="全部" displayValue="文本：2001 年 4 月 28 日 22:06:15" modified="2017-03-03T08:20:53" name="UG_AttributeJournalDateStringFormat" title="操作记录录制 - 记录的日期字符串格式" value="0"/>
+<Pref Application="基本环境" Category="用户界面" Tab="角色" displayValue="当前" modified="2017-03-03T08:20:53" name="NX_allowRoleSwitchMode" title="加载角色后 NX 窗口显示（仅适用于 Windows）" value="1"/>
+<Pref Application="基本环境" Category="用户界面" Tab="操作记录" displayValue="C++" modified="2016-08-02T03:29:50" name="UG_journalLanguage" title="操作记录语言" value="1"/>
+<Pref Application="基本环境" Category="用户界面" Tab="宏" displayValue="是" modified="2017-03-03T08:20:53" name="UG_macroRecordAllTransforms" title="录制 - 录制所有的变换" value="1"/>
+<Pref Application="基本环境" Category="用户界面" Tab="宏" displayValue="是" modified="2017-03-03T08:20:53" name="UG_showPlaybackDialogs" title="回放 - 回放时显示对话框" value="1"/>
+<Pref Application="基本环境" Category="可视化" Tab="直线" displayValue="2" modified="2016-08-02T03:29:50" name="UG_pixelWidth2" title="线宽 - 宽度 2" value="2"/>
+<Pref Application="基本环境" Category="可视化" Tab="直线" displayValue="2" modified="2016-08-02T03:29:50" name="UG_pixelWidth3" title="线宽 - 宽度 3" value="2"/>
+<Pref Application="基本环境" Category="可视化" Tab="直线" displayValue="2" modified="2016-08-02T03:29:50" name="UG_pixelWidth4" title="线宽 - 宽度 4" value="2"/>
+<Pref Application="基本环境" Category="可视化" Tab="性能" displayValue="是" modified="2016-08-02T03:29:50" name="UG_disableViewAnimation" title="一般图形 - 禁用视图顺畅变化" value="1"/>
+<Pref Application="基本环境" Category="线宽" Tab="转换" displayValue="0.13 mm" modified="2016-08-02T03:29:50" name="UG_thinLineWidthToNewLineWidth" title="细" value="5"/>
+<Pref Application="基本环境" Category="线宽" Tab="转换" displayValue="0.18 mm" modified="2016-08-02T03:29:50" name="UG_normalLineWidthToNewLineWidth" title="正常" value="6"/>
+<Pref Application="基本环境" Category="线宽" Tab="转换" displayValue="0.35 mm" modified="2016-08-02T03:29:50" name="UG_thickLineWidthToNewLineWidth" title="粗" value="8"/>
+<Pref Application="基本环境" Category="视图操作" Tab="视图操作" displayValue="前进以放大" modified="2017-03-03T08:20:53" name="UG_mouse_wheel_scroll" title="鼠标滚轮滚动（Mac 操作系统除外） - 方向" value="0"/>
+<Pref Application="基本环境" Category="视图操作" Tab="视图操作" displayValue="是" modified="2017-03-03T08:20:53" name="UG_navigateAutoPerspOff" title="导航选项 - 自动关闭透视" value="1"/>
+<Pref Application="基本环境" Category="重用库" Tab="可重用组件" displayValue="D:\temp" modified="2016-08-02T03:29:50" name="KRU_PART_FAMILY_LIB_SAVE_DIR_WIN" title="原生 NX - 部件族保存目录" value="D:\temp"/>
+<Pref Application="基本环境" Category="重用库" Tab="符号库" displayValue="唐康林专用|${UGII_BASE_DIR}\TKLTOOLS\tklsymbol" modified="2016-08-02T03:29:50" name="KRU_Symbol_LIB_NATIVE" title="符号库，原生 NX" value="唐康林专用|${UGII_BASE_DIR}\TKLTOOLS\tklsymbol"/>
+<Pref Application="基本环境" Category="绘图" Tab="制图" displayValue="高" modified="2017-03-03T08:20:53" name="UG_plotDrawingShadedViewImageResolution" title="着色视图的图像分辨率" value="3"/>
+<Pref Application="基本环境" Category="打印（仅 Windows）" Tab="常规" displayValue="1.0" modified="2016-08-02T03:29:50" name="UG_print_thin_scale_factor" title="细线宽度比例因子" value="1.0"/>
+<Pref Application="基本环境" Category="打印（仅 Windows）" Tab="常规" displayValue="1.0" modified="2016-08-02T03:29:50" name="UG_print_normal_scale_factor" title="正常宽度比例因子" value="1.0"/>
+<Pref Application="基本环境" Category="打印（仅 Windows）" Tab="常规" displayValue="1.0" modified="2016-08-02T03:29:50" name="UG_print_thick_scale_factor" title="粗线宽度比例因子" value="1.0"/>
+<Pref Application="基本环境" Category="打印（仅 Windows）" Tab="常规" displayValue="黑白线框" modified="2017-03-03T08:20:53" name="UG_print_output" title="输出" value="1"/>
+<Pref Application="基本环境" Category="打印（仅 Windows）" Tab="常规" displayValue="开" modified="2017-03-03T08:20:53" name="UG_print_white_background" title="白色背景" value="1"/>
+<Pref Application="基本环境" Category="打印（仅 Windows）" Tab="制图" displayValue="否" modified="2017-03-03T08:20:53" name="UG_printDrawingRasterImages" title="导出图纸光栅图像" value="false"/>
+<Pref Application="基本环境" Category="打印（仅 Windows）" Tab="制图" displayValue="是" modified="2017-03-03T08:20:53" name="UG_printDrawingsAsWireframe" title="导出图纸上的着色视图作为线框" value="true"/>
+<Pref Application="基本环境" Category="打印（仅 Windows）" Tab="制图" displayValue="是" modified="2017-03-03T08:20:53" name="UG_printExportCustomSymbolsInForeground" title="在前景中导出定制符号" value="true"/>
+<Pref Application="基本环境" Category="打印（仅 Windows）" Tab="制图" displayValue="高" modified="2017-03-03T08:20:53" name="UG_printDrawingShadedViewImageResolution" title="着色视图的图像分辨率" value="3"/>
+<Pref Application="基本环境" Category="PDF 导出" Tab="常规" displayValue="297.0" modified="2017-03-03T08:20:53" name="UG_pdf_x_dimension_metric" title="X 尺寸" value="297.0"/>
+<Pref Application="基本环境" Category="PDF 导出" Tab="常规" displayValue="210.0" modified="2017-03-03T08:20:53" name="UG_pdf_y_dimension_metric" title="Y 尺寸" value="210.0"/>
+<Pref Application="基本环境" Category="PDF 导出" Tab="常规" displayValue="文本" modified="2017-03-03T08:20:53" name="UG_pdf_text_mode" title="输出文本" value="0"/>
+<Pref Application="基本环境" Category="PDF 导出" Tab="常规" displayValue="C:\Users\Yang\Desktop\" modified="2017-03-03T08:20:53" name="UG_pdfOutputDir_WIN" title="输出目录" value="C:\Users\Yang\Desktop\"/>
+<Pref Application="基本环境" Category="PDF 导出" Tab="颜色" displayValue="按显示" modified="2017-03-03T08:20:53" name="UG_pdf_colors" title="使用" value="0"/>
+<Pref Application="基本环境" Category="PDF 导出" Tab="制图" displayValue="高" modified="2017-03-03T08:20:53" name="UG_pdfDrawingShadedViewImageResolution" title="着色视图的图像分辨率" value="3"/>
+<Pref Application="基本环境" Category="CGM 导出" Tab="常规" displayValue="文本" modified="2017-03-03T08:20:53" name="UG_cgm_text_mode" title="输出文本" value="0"/>
+<Pref Application="基本环境" Category="CGM 导出" Tab="常规" displayValue="C:\Users\Yang\Desktop\" modified="2017-03-03T08:20:53" name="UG_cgmOutputDir_WIN" title="输出目录" value="C:\Users\Yang\Desktop\"/>
+<Pref Application="基本环境" Category="材料/质量" Tab="位置" displayValue="是" modified="2017-03-03T08:20:53" name="UG_SiteMatMlLibraryEnable" title="站点 MatML 库 - 启用" value="1"/>
+<Pref Application="基本环境" Category="材料/质量" Tab="位置" displayValue="是" modified="2017-03-03T08:20:53" name="UG_UserMatMlLibraryEnable" title="用户 MatML 库 - 启用" value="1"/>
+<Pref Application="基本环境" Category="材料/质量" Tab="杂项" displayValue="是" modified="2017-03-03T08:20:53" name="CAE_UpdateMaterialsOnPartLoad" title="加载部件 - 加载部件时从库更新材料属性" value="ON"/>
+<Pref Application="建模" Category="常规" Tab="常规" displayValue="是" modified="2017-03-03T08:20:53" name="Solids_OptimizeCurve" title="公差 - 优化曲线" value="true"/>
+<Pref Application="建模" Category="常规" Tab="编辑" displayValue="编辑参数" modified="2017-03-03T08:20:53" name="Solids_DefaultActiononDoubleClick" title="双击操作（特征）" value="0"/>
+<Pref Application="建模" Category="常规" Tab="编辑" displayValue="可回滚编辑" modified="2016-08-02T03:29:50" name="SketchDBAction" title="双击操作（草图）" value="0"/>
+<Pref Application="建模" Category="常规" Tab="编辑" displayValue="任务环境" modified="2017-03-03T08:20:53" name="SketchEditOption" title="编辑草图操作" value="0"/>
+<Pref Application="建模" Category="常规" Tab="编辑" displayValue="否" modified="2017-03-03T08:20:53" name="InternalSketchEditDimension" title="允许编辑内部草图的尺寸" value="false"/>
+<Pref Application="建模" Category="特征参数" Tab="螺钉间隙孔" displayValue="关" modified="2017-03-03T08:20:53" name="Model_ScrewClearanceHoleEnableStartChamfer" title="起始倒斜角" value="false"/>
+<Pref Application="建模" Category="特征参数" Tab="螺钉间隙孔" displayValue="关" modified="2017-03-03T08:20:53" name="Model_ScrewClearanceHoleEnableEndChamfer" title="终止倒斜角" value="false"/>
+<Pref Application="建模" Category="特征参数" Tab="螺纹孔" displayValue="关" modified="2017-03-03T08:20:53" name="Model_ThreadedHoleEnableStartChamfer" title="起始倒斜角" value="false"/>
+<Pref Application="建模" Category="特征参数" Tab="螺纹孔" displayValue="关" modified="2017-03-03T08:20:53" name="Model_ThreadedHoleEnableEndChamfer" title="终止倒斜角" value="false"/>
+<Pref Application="建模" Category="特征参数" Tab="孔系列" displayValue="关" modified="2017-03-03T08:20:53" name="Model_StartHoleEnableStartChamfer" title="起始 - 起始倒斜角" value="false"/>
+<Pref Application="建模" Category="特征参数" Tab="孔系列" displayValue="关" modified="2017-03-03T08:20:53" name="Model_StartHoleEnableEndChamfer" title="起始 - 终止倒斜角" value="false"/>
+<Pref Application="建模" Category="特征参数" Tab="孔系列" displayValue="关" modified="2017-03-03T08:20:53" name="Model_MiddleHoleEnableStartChamfer" title="中间 - 起始倒斜角" value="false"/>
+<Pref Application="建模" Category="特征参数" Tab="孔系列" displayValue="关" modified="2017-03-03T08:20:53" name="Model_MiddleHoleEnableEndChamfer" title="中间 - 终止倒斜角" value="false"/>
+<Pref Application="建模" Category="特征参数" Tab="孔系列" displayValue="关" modified="2017-03-03T08:20:53" name="Model_EndScrewClearanceHoleEnableStartChamfer" title="结束螺钉间隙 - 起始倒斜角" value="false"/>
+<Pref Application="建模" Category="特征参数" Tab="孔系列" displayValue="关" modified="2017-03-03T08:20:53" name="Model_EndScrewClearanceHoleEnableEndChamfer" title="结束螺钉间隙 - 终止倒斜角" value="false"/>
+<Pref Application="建模" Category="特征参数" Tab="孔系列" displayValue="关" modified="2017-03-03T08:20:53" name="Model_EndThreadedHoleEnableStartChamfer" title="结束螺纹孔 - 起始倒斜角" value="false"/>
+<Pref Application="建模" Category="特征参数" Tab="孔系列" displayValue="关" modified="2017-03-03T08:20:53" name="Model_EndThreadedHoleEnableEndChamfer" title="结束螺纹孔 - 终止倒斜角" value="false"/>
+<Pref Application="建模" Category="特征参数" Tab="边和面倒圆" displayValue="0.2" modified="2017-03-03T08:20:53" name="Model_BlendRadius_MU" title="半径" value="0.2"/>
+<Pref Application="建模" Category="特征参数" Tab="凸起" displayValue="0.0" modified="2017-03-03T08:20:53" name="Model_Emboss_Taper" title="拔模角" value="0.0"/>
+<Pref Application="建模" Category="特征参数" Tab="大致偏置片体" displayValue="0.2" modified="2017-03-03T08:20:53" name="UG_modelRoughOffsetDistance_MU" title="偏置距离" value="0.2"/>
+<Pref Application="建模" Category="实体建模" Tab="质量和密度" displayValue="7.85" modified="2017-03-03T08:20:53" name="Solids_solidDensity_MU" title="密度" value="7.85"/>
+<Pref Application="建模" Category="实体建模" Tab="质量和密度" displayValue="g/cm3" modified="2017-03-03T08:20:53" name="Solids_solidDensityUnits_MU" title="密度单位" value="3"/>
+<Pref Application="建模" Category="实体建模" Tab="质量和密度" displayValue="0.999" modified="2017-03-03T08:20:53" name="Solids_MassPropsAccuracy" title="质量分析精度" value="0.999"/>
+<Pref Application="建模" Category="自由曲面建模" Tab="常规" displayValue="B 曲面" modified="2017-03-03T08:20:53" name="Solids_FreeFormConstructionResult" title="构造结果 " value="1"/>
+<Pref Application="建模" Category="特征组" Tab="全部" displayValue="带时间戳记和浮动" modified="2017-03-03T08:20:53" name="Model_FeatureGroupTypesAllowed" title="允许的特征组类型" value="2"/>
+<Pref Application="建模" Category="选择意图规则" Tab="设计特征" displayValue="相连曲线" modified="2017-03-03T08:20:53" name="Solids_ExtrudeCurveSIRule" title="拉伸 - 曲线规则" value="2"/>
+<Pref Application="建模" Category="选择意图规则" Tab="设计特征" displayValue="相连曲线" modified="2017-03-03T08:20:53" name="Solids_RevolveCurveSIRule" title="旋转 - 曲线规则" value="2"/>
+<Pref Application="建模" Category="选择意图规则" Tab="关联复制" displayValue="相连曲线" modified="2017-03-03T08:20:53" name="Curve_CompositeCurveSIRule" title="复合曲线 - 曲线规则" value="2"/>
+<Pref Application="建模" Category="选择意图规则" Tab="修剪" displayValue="单个面" modified="2017-03-03T08:20:53" name="Solids_TrimBodyFaceSIRule" title="修剪体 - 工具面 - 面规则" value="1"/>
+<Pref Application="建模" Category="选择意图规则" Tab="修剪" displayValue="单个面" modified="2017-03-03T08:20:53" name="Solids_TrimExtendFaceSIRule" title="修剪和延伸 - 目标面 - 面规则" value="1"/>
+<Pref Application="建模" Category="选择意图规则" Tab="偏置/缩放" displayValue="相切面" modified="2017-03-03T08:20:53" name="Solids_ThickenSheetFaceSIRule" title="加厚 - 面规则" value="4"/>
+<Pref Application="建模" Category="选择意图规则" Tab="曲面网格划分" displayValue="相连曲线" modified="2017-03-03T08:20:53" name="Solids_RuledCurveSIRule" title="直纹 - 曲线规则" value="2"/>
+<Pref Application="建模" Category="选择意图规则" Tab="曲面网格划分" displayValue="相连曲线" modified="2017-03-03T08:20:53" name="Solids_ThruCurvesCurveSIRule" title="通过曲线组 - 曲线规则" value="2"/>
+<Pref Application="建模" Category="选择意图规则" Tab="曲面网格划分" displayValue="相连曲线" modified="2017-03-03T08:20:53" name="Solids_ThruCurveMeshCurveSIRule" title="通过曲线网格 - 曲线规则" value="2"/>
+<Pref Application="建模" Category="选择意图规则" Tab="曲面网格划分" displayValue="单个面" modified="2017-03-03T08:20:53" name="Solids_ThruCurveMeshContFaceSIRule" title="通过曲线网格 - 面规则" value="1"/>
+<Pref Application="建模" Category="选择意图规则" Tab="曲面网格划分" displayValue="相连曲线" modified="2017-03-03T08:20:53" name="Solids_NSidedSurfaceCurveSIRule" title="N 边曲面 - 曲线规则" value="2"/>
+<Pref Application="草图" Category="常规" Tab="草图样式" displayValue="值" modified="2017-03-03T08:20:53" name="Sketch_dimensionLabelDesign" title="设计应用程序中的尺寸标签" value="2"/>
+<Pref Application="草图" Category="常规" Tab="会话设置" displayValue="否" modified="2016-08-02T03:29:50" name="Sketch_displayConstraintSymbols" title="显示约束符号" value="0"/>
+<Pref Application="草图" Category="常规" Tab="会话设置" displayValue="投影工作部件原点" modified="2016-08-02T03:29:50" name="Sketch_originOption" title="原点" value="1"/>
+<Pref Application="草图" Category="常规" Tab="部件设置" displayValue="144" modified="2016-08-02T03:29:50" name="Sketch_curveColor" title="颜色 - 曲线" value="144"/>
+<Pref Application="草图" Category="常规" Tab="部件设置" displayValue="212" modified="2016-08-02T03:29:50" name="Sketch_dimensionColor" title="颜色 - 约束和尺寸" value="212"/>
+<Pref Application="草图" Category="常规" Tab="部件设置" displayValue="78" modified="2016-08-02T03:29:50" name="Sketch_overdefinedColor" title="颜色 - 过约束的对象" value="78"/>
+<Pref Application="草图" Category="常规" Tab="部件设置" displayValue="146" modified="2016-08-02T03:29:50" name="Sketch_conflictingColor" title="颜色 - 冲突对象" value="146"/>
+<Pref Application="草图" Category="常规" Tab="部件设置" displayValue="105" modified="2016-08-02T03:29:50" name="Sketch_refDimensionColor" title="颜色 - 参考尺寸" value="105"/>
+<Pref Application="草图" Category="常规" Tab="部件设置" displayValue="105" modified="2016-08-02T03:29:50" name="Sketch_refCurveColor" title="颜色 - 参考曲线" value="105"/>
+<Pref Application="草图" Category="常规" Tab="部件设置" displayValue="60" modified="2016-08-02T03:29:50" name="Sketch_partiallydefinedColor" title="颜色 - 部分约束曲线" value="60"/>
+<Pref Application="草图" Category="常规" Tab="部件设置" displayValue="198" modified="2016-08-02T03:29:50" name="Sketch_fullydefinedColor" title="颜色 - 完全约束曲线" value="198"/>
+<Pref Application="草图" Category="常规" Tab="部件设置" displayValue="141" modified="2016-08-02T03:29:50" name="Sketch_outdatedCurveColor" title="颜色 - 过时的曲线和尺寸" value="141"/>
+<Pref Application="草图" Category="常规" Tab="部件设置" displayValue="78" modified="2016-08-02T03:29:50" name="Sketch_dofColor" title="颜色 - 自由度箭头" value="78"/>
+<Pref Application="草图" Category="常规" Tab="部件设置" displayValue="96" modified="2016-08-02T03:29:50" name="Sketch_pdatumColour" title="颜色 - 配方曲线" value="96"/>
+<Pref Application="草图" Category="常规" Tab="部件设置" displayValue="175" modified="2016-08-02T03:29:50" name="Sketch_inactiveSketchColor" title="颜色 - 不活动草图" value="175"/>
+<Pref Application="草图" Category="自动判断约束和尺寸" Tab="尺寸" displayValue="否" modified="2016-08-02T03:29:50" name="Sketch_continuousAutoDimensioningDesign" title="在设计应用程序中连续自动标注尺寸" value="0"/>
+<Pref Application="曲线" Category="样条" Tab="全部" displayValue="3" modified="2017-03-03T08:20:53" name="Model_Spline_Degree" title="样条阶数" value="3"/>
+<Pref Application="曲线" Category="圆角" Tab="全部" displayValue="20.0" modified="2017-03-03T08:20:53" name="UG_filletRadius_MU" title="半径" value="20.0"/>
+<Pref Application="曲线" Category="修剪曲线" Tab="全部" displayValue="否" modified="2017-03-03T08:20:53" name="Solids_TrimCurve_ReuseBound" title="保持边界对象已选" value="2"/>
+<Pref Application="制图" Category="常规/设置" Tab="标准" displayValue="Yang" modified="2017-03-03T08:20:53" name="Drafting_Standard" title="制图标准" value="Yang"/>
+<Pref Application="制图" Category="常规/设置" Tab="工作流" displayValue="是" modified="2016-08-02T03:29:50" name="Drafting_showNewDrawingDialog" title="基于模型 - 始终启动插入图纸页命令" value="1"/>
+<Pref Application="制图" Category="常规/设置" Tab="工作流" displayValue="基本视图命令" modified="2016-08-02T03:29:50" name="Drafting_BaseViewOrWizard" title="基于模型 - 始终启动" value="1"/>
+<Pref Application="制图" Category="常规/设置" Tab="工作流" displayValue="是" modified="2016-08-02T03:29:50" name="Drafting_AllowPMIBidirectionalEdits" title="PMI 编辑 - 允许 PMI 双向编辑" value="true"/>
+<Pref Application="制图" Category="常规/设置" Tab="保留的注释" displayValue="216" modified="2017-03-03T08:20:53" name="Drafting_retainColor" title="格式 - 颜色" value="216"/>
+<Pref Application="制图" Category="常规/设置" Tab="杂项" displayValue="是" modified="2016-08-02T03:29:50" name="Drafting_AllowExpressions" title="允许表达式" value="true"/>
+<Pref Application="制图" Category="常规/设置" Tab="文本编辑器" displayValue="0.5 1.0 1.5 2.0 3.0 4.0" modified="2016-08-02T03:29:50" name="Drafting_AEcharSizeMenu" title="字符比例因子" value="&quot;0.5&quot;\&quot;1.0&quot;\&quot;1.5&quot;\&quot;2.0&quot;\&quot;3.0&quot;\&quot;4.0&quot;"/>
+<Pref Application="制图" Category="常规/设置" Tab="文本编辑器" displayValue="3.5" modified="2016-08-02T03:29:50" name="Drafting_AEpreviewCharSize_MU" title="预览窗口 - 字符大小" value="3.5"/>
+<Pref Application="制图" Category="图纸比较" Tab="报告概况" displayValue="0.18 mm" modified="2017-03-03T08:20:53" name="Drawing_Compare_CS_Width" title="更改符号 - 宽度" value="6"/>
+<Pref Application="制图" Category="布局" Tab="2D 组件" displayValue="96 像素" modified="2017-03-03T08:20:53" name="Drafting_2DComponentPreviewImageSize" title="预览 - 图像大小" value="96"/>
+<Pref Application="制图" Category="布局" Tab="2D 组件" displayValue="JPG" modified="2017-03-03T08:20:53" name="Drafting_2DComponentPreviewImageFileFormat" title="预览 - 图像文件格式" value="1"/>
+<Pref Application="加工" Category="用户界面" Tab="对话框" displayValue="否" modified="2017-03-03T08:20:53" name="CAM_run_wzd" title="其他 - 运行工艺助理" value="0"/>
+<Pref Application="加工" Category="用户界面" Tab="资源板" displayValue="否" modified="2017-03-03T08:20:53" name="CAM_palette_show_wizard_palette" title="显示“加工向导”资源板" value="false"/>
+<Pref Application="加工" Category="工序" Tab="刀轨" displayValue="否" modified="2017-03-03T08:20:53" name="CAM_oper_replay_refresh_before_each_path" title="刀轨重播 - 在每一刀轨前刷新" value="0"/>
+<Pref Application="加工" Category="工序" Tab="刀轨" displayValue="否" modified="2017-03-03T08:20:53" name="CAM_oper_gen_pause_after_each_path" title="刀轨生成 - 在每一刀轨后暂停" value="0"/>
+<Pref Application="加工" Category="工序" Tab="刀轨" displayValue="否" modified="2017-03-03T08:20:53" name="CAM_cls_rpn" title="刀轨生成 - 在每一刀轨前刷新" value="0"/>
+<Pref Application="加工" Category="工序" Tab="刀轨" displayValue="是" modified="2017-03-03T08:20:53" name="CAM_force_regenerate_toolpath" title="刀轨生成 - 强制重新生成" value="true"/>
+<Pref Application="加工" Category="工序" Tab="刀轨" displayValue="3" modified="2017-03-03T08:20:53" name="CAM_background_generate_concurrent_limit" title="刀轨并行生成 - 并行进程最大数目" value="3"/>
+<Pref Application="加工" Category="工序" Tab="刀轨" displayValue="否" modified="2017-03-03T08:20:53" name="CAM_lock_path_allow_overwrite" title="刀轨锁定 - 允许覆盖锁定的刀轨" value="false"/>
+<Pref Application="加工" Category="几何体" Tab="坐标系" displayValue="MCS（加工）" modified="2017-03-03T08:20:53" name="CAM_inf_cod_sys" title="坐标系 - 信息列表" value="1"/>
+<Pref Application="加工" Category="仿真与可视化" Tab="常规" displayValue="3D 动态" modified="2017-03-03T08:20:53" name="CAM_vsz_ui_page" title="用户界面 - 开始页面" value="2"/>
+<Pref Application="加工" Category="仿真与可视化" Tab="常规" displayValue="是" modified="2017-03-03T08:20:53" name="CAM_vsz_show_static_page" title="用户界面 - 显示静态页面" value="1"/>
+<Pref Application="加工" Category="仿真与可视化" Tab="常规" displayValue="是" modified="2017-03-03T08:20:53" name="CAM_vsz_show_verify_2d" title="用户界面 - 显示 2D 动态页面" value="1"/>
+<Pref Application="加工" Category="仿真与可视化" Tab="常规" displayValue="5" modified="2017-03-03T08:20:53" name="CAM_ged_anm_spd" title="常规 - 动画速度" value="5"/>
+<Pref Application="加工" Category="仿真与可视化" Tab="动态" displayValue="是" modified="2017-03-03T08:20:53" name="CAM_vsz_pause_on_collision" title="碰撞检查 - 在检测碰撞后暂停" value="1"/>
+<Pref Application="加工" Category="仿真与可视化" Tab="IPW" displayValue="中等" modified="2017-03-03T08:20:53" name="CAM_vsz_ipw_type" title="保存的 IPW 分辨率" value="2"/>
+<Pref Application="加工" Category="仿真与可视化" Tab="过切" displayValue="是" modified="2017-03-03T08:20:53" name="CAM_vsz_gouge_pause_on_first_gouge" title="过切和碰撞设置 - 第一次过切或碰撞时暂停" value="true"/>
+<Pref Application="加工" Category="输出" Tab="后处理" displayValue="是" modified="2017-03-03T08:20:53" name="CAM_pst_gouge_check_before_post" title="过切检查 - 后处理前的过切检查" value="true"/>
+<Pref Application="加工" Category="铣刀" Tab="标准" displayValue="14.0" modified="2017-03-03T08:20:53" name="CAM_tl_mlg_dia_MU" title="直径" value="14.0"/>
+<Pref Application="运动分析" Category="预处理器" Tab="求解器和环境" displayValue="Simcenter Motion" modified="2016-09-12T00:11:28" name="CAE_DefaultMotionSolverType" title="求解器" value="LmsSolver"/>
+</PrefValues>
