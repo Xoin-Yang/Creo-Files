@@ -57,7 +57,16 @@ template_mfgnc D:\Program Files\PTC\Creo 4.0\M010\Common Files\templates\mmns_mf
 template_module mmns_asm_module.asm
 template_mold_layout mmns_mold_lay.asm
 mfg_setup_dir E:\Creo Files\CREO\Mfg
-gpostpp_dir E:\Creo Files\CREO\Gpost
-trail_dir E:\Creo Files\CREO\Trail
+gpostpp_dir E:\Creo-Files\CREO\Gpost
+trail_dir E:\Creo-Files\CREO\Trail\
 js_error_policy suppress_continue
 suppress_license_loss_dialog yes
+mapkey s @MAPKEY_LABEL草绘;~ Command `ProCmdDatumSketCurve`;
+mapkey x @MAPKEY_LABEL拉伸;~ Command `ProCmdFtExtrude`;
+mapkey $F8 @MAPKEY_LABEL视图法向;\
+mapkey(continued) ~ Select `main_dlg_cur` \
+mapkey(continued) `igToolbar_AncestorIGT_IGT_GRP_inh396938342.proe_win:casc340798662`;\
+mapkey(continued) ~ Close `main_dlg_cur` \
+mapkey(continued) `igToolbar_AncestorIGT_IGT_GRP_inh396938342.proe_win:casc340798662`;\
+mapkey(continued) ~ Command `ProCmdViewNormal`;
+mapkey r @MAPKEY_LABEL扫描;~ Command `ProCmdFtRevolve`;

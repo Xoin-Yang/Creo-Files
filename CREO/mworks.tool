@@ -3,22 +3,22 @@
   <Tools>
     <Tool Units="Millimeter">
       <Basic>
-        <Workcell>23</Workcell>
+        <Workcell>20</Workcell>
         <Head>1</Head>
         <ID>T0001</ID>
         <Pocket>1</Pocket>
         <Teeth>2</Teeth>
         <Type>Milling</Type>
       </Basic>
-      <Cutter>
+      <Cutter FluteLength="20.000000">
         <Apt ID="Cutter1" Type="APT 7">
-          <Diameter>12.000000</Diameter>
+          <Diameter>10.000000</Diameter>
           <Radius>0.000000</Radius>
-          <ECorner>6.000000</ECorner>
+          <ECorner>5.000000</ECorner>
           <FCorner>0.000000</FCorner>
           <Alpha>0.000000</Alpha>
           <Beta>0.000000</Beta>
-          <Length>100.000000</Length>
+          <Length>60.000000</Length>
           <SpindleDirection>CW</SpindleDirection>
         </Apt>
       </Cutter>
