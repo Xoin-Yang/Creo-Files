@@ -148,3 +148,4 @@
 !               : 是否确实要退出?
 ~ FocusIn `UI Message Dialog` `yes`
 ~ Activate `UI Message Dialog` `yes`
+!End of Trail File
