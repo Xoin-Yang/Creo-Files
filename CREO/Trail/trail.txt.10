@@ -1,0 +1,150 @@
+﻿!trail file version No. 1800
+!Creo  TM  3.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 7136
+!	Application: Creo_Parametric
+!	Start date&time: 2017/05/23  12:10:26
+!	language: chinese_cn
+!	machine type: x86e_win64
+!	datecode: M120
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.205333 1737 0 0 1017 1920 0 0 1080 13
+!mem_use INCREASE Blocks 650677, AppSize 83507306, SysSize 95765496
+< 0 0.976593 1569 0 0 824 1920 0 0 1080 13
+< 0 0.976593 1271 0 0 824 1920 0 0 1080 13
+< 0 0.965926 1271 0 0 815 1920 0 0 1080 13
+!%CI欢迎使用 Creo Parametric 3.0。
+~ Activate `msglist` `Ok`
+!AFX datecode: Dec 13 2016 : 10:01:30
+< 0 0.963556 1271 0 0 813 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Command `ProCmdModelNew` 
+~ Activate `new` `OK`
+!mem_use INCREASE Blocks 677883, AppSize 108042643, SysSize 122025952
+!Command ProCmdModelNewExe was pushed from the software.
+!%CE无法找到默认模板E:\Creo Files\CREO\Templates\GB_Yang.prt.1。
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): connected to Pro/E.
+!	exec path: D:\Program Files\PTC\Creo 3.0\M120\Common Files\x86e_win64\obj\mcp_applet_async.exe
+!	type: asynchronous
+~ FocusOut `new_file_opts` `inp_template_name`
+~ Select `new_file_opts` `lst_template_names` 1 `mmns_part_solid`
+~ Select `new_file_opts` `lst_template_names` 1 `mmns_harn_part`
+~ Activate `new_file_opts` `psh_ok`
+!23-May-17 12:11:19  Start D:\Program Files\PTC\Creo 3.0\M120\Common Files\templates\mmns_harn_part.prt
+!23-May-17 12:11:19  End   D:\Program Files\PTC\Creo 3.0\M120\Common Files\templates\mmns_harn_part.prt
+!Application (UNNAMED): running public notification type 99, mode spawn
+!Application (UNNAMED): returned from public notification type 99, mode spawn
+!23-May-17 12:11:19  Start E:\Creo-Files\CREO\prt0001.prt.1
+!23-May-17 12:11:19  End   E:\Creo-Files\CREO\prt0001.prt.1
+!%CI用D:\Program Files\PTC\Creo 3.0\M120\Common Files\templates\mmns_harn_part.prt作为模板。
+!%CE不能从模型树配置文件E:\Creo Files\CREO\tree.cfg读取。
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+!mem_use INCREASE Blocks 726170, AppSize 148294036, SysSize 162793376
+~ Sync LearnConn_Startup
+~ Activate `transient_balloon` `no`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1093 385 0 1 1271 813 1920 1080 55267
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1093 385 0 0 1271 813 1920 1080 55372
+@ sel view 0
+ 0.869977 -0.288123 -0.228641 0.000000 0.587134 -0.739882
+ 0.367820 0.681476 0.540786 500.000000 421.875000 -1664.322880 1.000000 0.000000 0
+~ Command `ProCmdWinCloseGroup` 
+!Command ProCmdWinClose was pushed from the software.
+! Executed sub-command ProCmdWinCloseAsyn.
+!%CI基本窗口不能关闭。
+~ Command `ProCmdModelNew` 
+~ Select `new` `Type` 1 `Assembly`
+~ Activate `new` `OK`
+!Command ProCmdModelNewExe was pushed from the software.
+!%CE无法找到默认模板E:\Creo Files\CREO\Templates\GB_Yang.asm.1。
+~ FocusOut `new_file_opts` `inp_template_name`
+~ Select `new_file_opts` `lst_template_names` 1 `direct_asm_solid_inlbs_rel`
+~ Select `new_file_opts` `lst_template_names` 1 `direct_asm_solid_mmks_0_001mm`
+~ Activate `new_file_opts` `psh_ok`
+!23-May-17 12:11:32  Start D:\Program Files\PTC\Creo 3.0\M120\Common Files\templates\direct_asm_solid_mmks_0_001mm.asm
+!23-May-17 12:11:32  End   D:\Program Files\PTC\Creo 3.0\M120\Common Files\templates\direct_asm_solid_mmks_0_001mm.asm
+!Application (UNNAMED): running public notification type 99, mode spawn
+!Application (UNNAMED): returned from public notification type 99, mode spawn
+!23-May-17 12:11:32  Start E:\Creo-Files\CREO\asm0001.asm.1
+!23-May-17 12:11:32  End   E:\Creo-Files\CREO\asm0001.asm.1
+!%CI用D:\Program Files\PTC\Creo 3.0\M120\Common Files\templates\direct_asm_solid_mmks_0_001mm.asm作为模板。
+!%CE不能从模型树配置文件E:\Creo Files\CREO\tree.cfg读取。
+~ LButtonArm `main_dlg_cur` `proe_win` 9 895 137 0 1 1271 813 1920 1080 67291
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 895 137 0 0 1271 813 1920 1080 67394
+@ sel view 0
+ 0.869977 -0.288123 -0.228641 0.000000 0.587134 -0.739882
+ 0.367820 0.681476 0.540786 500.000000 421.875000 -1664.322880 1.000000 0.000000 0
+~ Command `ProCmdWinCloseGroup` 
+!Command ProCmdWinClose was pushed from the software.
+! Executed sub-command ProCmdWinCloseAsyn.
+!%CI基本窗口不能关闭。
+~ Command `ProCmdModelNew` 
+~ Select `new` `Type` 1 `Assembly`
+~ Select `new` `Type` 1 `Manufacturing`
+~ Activate `new` `OK`
+!Command ProCmdModelNewExe was pushed from the software.
+!23-May-17 12:11:42  Start D:\Program Files\PTC\Creo 4.0\M010\Common Files\templates\mmns_mfg_nc.asm
+!23-May-17 12:11:42  Start D:\Program Files\PTC\Creo 4.0\M010\Common Files\templates\mmns_mfg_nc.asm
+!23-May-17 12:11:42  End   D:\Program Files\PTC\Creo 4.0\M010\Common Files\templates\mmns_mfg_nc.asm
+!23-May-17 12:11:42  End   D:\Program Files\PTC\Creo 4.0\M010\Common Files\templates\mmns_mfg_nc.asm
+!Application (UNNAMED): running public notification type 99, mode spawn
+!Application (UNNAMED): returned from public notification type 99, mode spawn
+!Application (UNNAMED): running public notification type 99, mode spawn
+!Application (UNNAMED): returned from public notification type 99, mode spawn
+!23-May-17 12:11:42  Start E:\Creo-Files\CREO\mfg0001.asm.1
+!23-May-17 12:11:42  Start E:\Creo-Files\CREO\mfg0001.asm.1
+!23-May-17 12:11:42  End   E:\Creo-Files\CREO\mfg0001.asm.1
+!23-May-17 12:11:42  End   E:\Creo-Files\CREO\mfg0001.asm.1
+!%CI用默认模板D:\Program Files\PTC\Creo 4.0\M010\Common Files\templates\mmns_mfg_nc.asm作为模板。
+!%CE不能从模型树配置文件E:\Creo Files\CREO\tree.cfg读取。
+~ LButtonArm `main_dlg_cur` `proe_win` 9 331 102 0 1 1271 813 1920 1080 77812
+!mem_use INCREASE Blocks 768375, AppSize 237094994, SysSize 251762392
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 331 102 0 0 1271 813 1920 1080 77912
+@ sel view 0
+ 0.869977 -0.288123 -0.228641 0.000000 0.587134 -0.739882
+ 0.367820 0.681476 0.540786 500.000000 421.875000 -1664.322880 1.000000 0.000000 0
+~ Activate `main_dlg_cur` `page_Tools_control_btn` 1
+~ Activate `main_dlg_cur` `page_MfgApplsNC_control_btn` 1
+~ Command `ProCmdUtilNCPostProcessor` 
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Resize `main_dlg_cur` `main_dlg_cur` 4 0.000000 0.000000 45.516219 26.780352
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Resize `main_dlg_cur` `main_dlg_cur` 4 0.000000 0.000000 45.516219 26.780352
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Resize `main_dlg_cur` `main_dlg_cur` 4 0.000000 0.000000 45.516219 26.780352
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Resize `main_dlg_cur` `main_dlg_cur` 4 0.000000 0.000000 45.516219 26.780352
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Resize `main_dlg_cur` `main_dlg_cur` 4 0.000000 0.000000 45.516219 26.780352
+~ Activate `main_dlg_cur` `main_dlg_cur`
+< 0 0.973037 1445 0 0 821 1920 0 0 1080 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+~ Move `main_dlg_cur` `main_dlg_cur` 0
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric 将终止，所有未保存的工作都将会丢失。
+!               : 是否确实要退出?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
