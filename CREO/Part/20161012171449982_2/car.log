@@ -1,0 +1,34 @@
+proepview - Version : parametric4_B000 Creo 4.0 - F000 (14.0.0.28) x86e_win64
+Copyright (C) 2000-2017 PTC Inc. All Rights Reserved.
+
+Recipe file: D:/Program Files/PTC/Creo 4.0/M010/Common Files/text/prodview/export_pvs.rcp
+Source file: E:/Creo-Files/CREO/Part/20161012171449982_2/asm0001.asm.1
+Output file: C:/Users/PT-XY/AppData/Local/Temp/sk9op9p_/car.pvs
+Processing asm0001.asm : ...
+Processing tt.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing ttm.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing 01.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing 03.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing 04.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing 06.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing 05.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing 01.asm : ...
+Processing 07.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing 08.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing m16x45_gb27<gb27>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+... 01.asm : COMPLETE
+Processing 02.asm : COMPLETE
+Processing 02.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+... asm0001.asm : COMPLETE
+Generating Output : COMPLETE
