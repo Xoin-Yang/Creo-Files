@@ -1,13 +1,13 @@
 ﻿tol_mode nominal
-drawing_setup_file E:\Creo Files\CREO\GB.dtl
-format_setup_file E:\Creo Files\CREO\GB.dtl
+drawing_setup_file E:\Creo Files\CREO\GB_PTC.dtl
+format_setup_file E:\Creo Files\CREO\GB_PTC.dtl
 pro_unit_length unit_mm
 pro_unit_mass unit_gram
 template_designasm E:\Creo Files\CREO\Templates\GB_Yang.asm.1
 template_drawing E:\Creo Files\CREO\Templates\GB_Yang_a4prt.drw.1
 template_sheetmetalpart E:\Creo Files\CREO\Templates\GB_Yang_sheetmetal.prt.1
 template_solidpart E:\Creo Files\CREO\Templates\GB_Yang.prt.1
-todays_date_note_format %Mmm-%dd-%yy
+todays_date_note_format %yy-%Mmm-%dd
 tolerance_standard iso
 tol_mode nominal
 weld_ui_standard iso
@@ -70,3 +70,4 @@ mapkey(continued) ~ Close `main_dlg_cur` \
 mapkey(continued) `igToolbar_AncestorIGT_IGT_GRP_inh396938342.proe_win:casc340798662`;\
 mapkey(continued) ~ Command `ProCmdViewNormal`;
 mapkey r @MAPKEY_LABEL扫描;~ Command `ProCmdFtRevolve`;
+mapkey t @MAPKEY_LABEL修建;~ Command `ProCmdEditDelSeg`  1;
