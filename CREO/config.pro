@@ -6,7 +6,7 @@ pro_unit_mass unit_gram
 template_designasm E:\Creo Files\CREO\Templates\GB_Yang.asm.1
 template_drawing E:\Creo Files\CREO\Templates\GB_Yang_a4prt.drw.1
 template_sheetmetalpart E:\Creo Files\CREO\Templates\GB_Yang_sheetmetal.prt.1
-template_solidpart E:\Creo Files\CREO\Templates\GB_Yang.prt.1
+template_solidpart mmns_part_solid.prt
 todays_date_note_format %yy-%Mmm-%dd
 tolerance_standard iso
 tol_mode nominal
