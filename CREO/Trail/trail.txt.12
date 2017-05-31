@@ -1,0 +1,31 @@
+﻿!trail file version No. 1861
+!Creo  TM  4.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 6564
+!	Application: Creo_Parametric
+!	Start date&time: 2017/05/30  16:47:40
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: M010
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.205333 1725 0 0 1017 1920 0 0 1080 13
+!mem_use INCREASE Blocks 738416, AppSize 73775411, SysSize 86767776
+< 0 0.923259 1513 0 0 779 1920 0 0 1080 13
+< 0 0.923259 1370 0 0 779 1920 0 0 1080 13
+< 0 0.922074 1370 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1390 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1410 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1430 0 0 778 1920 0 0 1080 13
+!%CIWelcome to Creo Parametric 4.0.
+< 0 1.083259 1430 0 0 914 1920 0 0 1080 13
+< 0 0.922074 1430 0 0 778 1920 0 0 1080 13
+< 0 0.916148 1430 0 0 773 1920 0 0 1080 13
+~ Activate `pse_abnorm_exit_dlg` `psh_continue`
+~ Activate `msglist` `Ok`
+!AFX datecode: 4.0 M010 2017.02.16.11
+!AFX exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\x86e_win64\afx40.dll
+!AFX text path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\
+!End of Trail File
