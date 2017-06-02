@@ -1,0 +1,378 @@
+﻿!trail file version No. 1861
+!Creo  TM  4.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 8804
+!	Application: Creo_Parametric
+!	Start date&time: 2017/06/02  10:56:50
+!	language: chinese_cn
+!	machine type: x86e_win64
+!	datecode: M010
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.168593 1845 0 0 986 1920 0 0 1080 13
+!mem_use INCREASE Blocks 772439, AppSize 97262015, SysSize 110948176
+< 0 0.922074 1607 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1416 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1436 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1456 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1474 0 0 778 1920 0 0 1080 13
+!%CI欢迎使用 Creo Parametric 4.0。
+!AFX datecode: 4.0 M010 2017.02.16.11
+!AFX exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\x86e_win64\afx40.dll
+!AFX text path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\
+< 0 1.082074 1474 0 0 913 1920 0 0 1080 13
+< 0 0.922074 1474 0 0 778 1920 0 0 1080 13
+< 0 0.916148 1474 0 0 773 1920 0 0 1080 13
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): connected to Pro/E.
+!	exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\x86e_win64\obj\mcp_applet_async.exe
+!	type: asynchronous
+~ Activate `main_dlg_cur` `In Session`
+~ Activate `main_dlg_cur` `EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.page_1` 1
+~ Trail `UI Desktop` `UI Desktop` `SmartTabs` \
+ `selectButton main_dlg_cur@EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay page_1 0`
+~ RButtonArm `main_dlg_cur` `EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.page_1` 0 ``
+~ Open `main_dlg_cur` `PM_EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.tab_container`
+~ Close `main_dlg_cur` `PM_EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.tab_container`
+~ PopupOver `main_dlg_cur` `PM_EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.tab_container` 1 `EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.page_1`
+~ Activate `main_dlg_cur` `EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.page_2` 1
+~ Trail `UI Desktop` `UI Desktop` `SmartTabs` \
+ `selectButton main_dlg_cur@EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay page_2 0`
+~ Activate `main_dlg_cur` `EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.page_3` 1
+~ Trail `UI Desktop` `UI Desktop` `SmartTabs` \
+ `selectButton main_dlg_cur@EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay page_3 0`
+~ Activate `main_dlg_cur` `EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.page_3_close`
+~ Activate `main_dlg_cur` `EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.page_2_close`
+~ Activate `main_dlg_cur` `EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.page_1_close`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 0
+< 0 0.917333 1474 0 0 774 1920 0 0 1080 13
+~ Move `main_dlg_cur` `sash_swap` 98
+< 0 0.918519 1474 0 0 775 1920 0 0 1080 13
+~ Move `main_dlg_cur` `sash_swap` 98
+< 0 0.919704 1474 0 0 776 1920 0 0 1080 13
+~ Move `main_dlg_cur` `sash_swap` 98
+< 0 0.920889 1474 0 0 777 1920 0 0 1080 13
+~ Move `main_dlg_cur` `sash_swap` 98
+< 0 0.922074 1474 0 0 778 1920 0 0 1080 13
+~ Move `main_dlg_cur` `sash_swap` 98
+< 0 0.923259 1474 0 0 779 1920 0 0 1080 13
+~ Move `main_dlg_cur` `sash_swap` 98
+< 0 0.925630 1474 0 0 781 1920 0 0 1080 13
+~ Move `main_dlg_cur` `sash_swap` 99
+< 0 0.926815 1474 0 0 782 1920 0 0 1080 13
+~ Move `main_dlg_cur` `sash_swap` 99
+< 0 0.929185 1474 0 0 784 1920 0 0 1080 13
+~ Move `main_dlg_cur` `sash_swap` 99
+< 0 0.930370 1474 0 0 785 1920 0 0 1080 13
+~ Move `main_dlg_cur` `sash_swap` 99
+< 0 0.932741 1474 0 0 787 1920 0 0 1080 13
+~ Move `main_dlg_cur` `sash_swap` 100
+< 0 0.935111 1474 0 0 789 1920 0 0 1080 13
+~ Move `main_dlg_cur` `sash_swap` 100
+~ Activate `main_dlg_cur` `Pro|Library_shortcut`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist:<NULL>`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `config_files`
+~ Activate `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `config_files`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `appearance_orig.dmt`
+~ Activate `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `appearance_orig.dmt`
+~ Activate `main_dlg_cur` `SAB_Pro|Library`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `configure.bat`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `plms4schools.bat`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `plms4schools.txt`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 0
+~ LButtonArm `main_dlg_cur` `tb_EMBED_BROWSER_TB_SAB_LAYOUT` 3 370 10 0
+~ LButtonDisarm `main_dlg_cur` `tb_EMBED_BROWSER_TB_SAB_LAYOUT` 3 370 10 0
+~ LButtonActivate `main_dlg_cur` `tb_EMBED_BROWSER_TB_SAB_LAYOUT` 3 370 10 0
+~ FocusOut `main_dlg_cur` `opt_EMBED_BROWSER_TB_SAB_LAYOUT`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 0
+~ Command `ProCmdBrowserBtn`  0
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+~ Activate `main_dlg_cur` `In Session`
+~ Activate `main_dlg_cur` `desktop_pb`
+~ RButtonArm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` ``
+~ PopupOver `main_dlg_cur` `listPopup` 1 `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist`
+~ Open `main_dlg_cur` `listPopup`
+~ Close `main_dlg_cur` `listPopup`
+~ Activate `main_dlg_cur` `psh_refresh`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `Auto CAD 制图模板A0-A4(2016.12.26).dwg`
+~ Activate `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `Auto CAD 制图模板A0-A4(2016.12.26).dwg`
+!Command ProCmdModelImpCreateExe was pushed from the software.
+~ RButtonArm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` `Auto CAD 制图模板A0-A4(2016.12.26).dwg`
+~ Activate `impt_new_model` `PushButton4`
+!Command ProCmdWinActivate was pushed from the software.
+~ RButtonArm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` `Auto CAD 制图模板A0-A4(2016.12.26).dwg`
+~ PopupOver `main_dlg_cur` `listPopup` 1 `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist`
+~ Open `main_dlg_cur` `listPopup`
+~ Close `main_dlg_cur` `listPopup`
+~ Activate `main_dlg_cur` `rmb_activate_button`
+!Command ProCmdModelImpCreateExe was pushed from the software.
+~ Activate `impt_new_model` `PushButton3`
+@ ok
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CWE:\Creo Files\CREO\GB_PTC.dtls 不存在。使用系统默认值。
+!%CWE:\Creo Files\CREO\GB_PTC.dtls 不存在。使用系统默认值。
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+!mem_use INCREASE Blocks 853391, AppSize 127279465, SysSize 142781800
+~ Activate `import_2d_dlg` `OK_Button`
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+!%CI正在加载公差表 2 ...
+@ dimtype
+ 27
+!sket_eps               1.5
+@ dimtype
+ 27
+@ dimtype
+ 27
+@ dimtype
+ 10
+@ dimtype
+ 4
+@ dimtype
+ 26
+@ dimtype
+ 26
+@ dimtype
+ 27
+@ dimtype
+ 26
+@ dimtype
+ 26
+@ dimtype
+ 27
+@ dimtype
+ 27
+@ dimtype
+ 27
+@ dimtype
+ 27
+@ dimtype
+ 27
+@ dimtype
+ 27
+@ dimtype
+ 27
+@ dimtype
+ 27
+@ dimtype
+ 27
+@ dimtype
+ 27
+@ dimtype
+ 27
+@ dimtype
+ 27
+@ dimtype
+ 27
+@ dimtype
+ 5
+@ dimtype
+ 26
+@ dimtype
+ 27
+@ dimtype
+ 26
+@ dimtype
+ 4
+@ dimtype
+ 4
+@ dimtype
+ 4
+@ dimtype
+ 4
+@ dimtype
+ 4
+@ dimtype
+ 4
+@ dimtype
+ 4
+@ dimtype
+ 4
+@ dimtype
+ 4
+@ dimtype
+ 4
+@ dimtype
+ 4
+@ dimtype
+ 4
+@ dimtype
+ 4
+@ dimtype
+ 10
+@ dimtype
+ 10
+@ dimtype
+ 10
+@ dimtype
+ 10
+@ dimtype
+ 10
+@ dimtype
+ 10
+@ dimtype
+ 10
+@ dimtype
+ 10
+@ dimtype
+ 10
+@ dimtype
+ 10
+@ dimtype
+ 10
+@ dimtype
+ 10
+@ dimtype
+ 3
+@ dimtype
+ 3
+@ dimtype
+ 3
+@ dimtype
+ 3
+@ dimtype
+ 3
+@ dimtype
+ 3
+@ dimtype
+ 3
+@ dimtype
+ 3
+@ dimtype
+ 3
+@ dimtype
+ 3
+@ dimtype
+ 3
+@ dimtype
+ 3
+@ dimtype
+ 3
+!%CP绘图比格式大。是否缩放以适合格式? [是]
+YES!
+!%CE图元不能形成环; 不能修改拔模剖面线。
+!%CE图元不能形成环; 不能修改拔模剖面线。
+!%CE不能从模型树配置文件E:\Creo Files\CREO\tree.cfg读取。
+< 0 0.898370 1474 0 0 758 1920 0 0 1080 13
+~ Wheel `main_dlg_cur` `proe_win` 9 446 334 393216 0 1474 758 1920 1080 333552
+~ Wheel `main_dlg_cur` `proe_win` 9 446 334 393216 0 1474 758 1920 1080 333661
+~ Wheel `main_dlg_cur` `proe_win` 9 560 541 458752 0 1474 758 1920 1080 334082
+~ Wheel `main_dlg_cur` `proe_win` 9 561 541 458752 0 1474 758 1920 1080 334098
+~ Wheel `main_dlg_cur` `proe_win` 9 561 541 458752 0 1474 758 1920 1080 334129
+~ Wheel `main_dlg_cur` `proe_win` 9 564 536 458752 0 1474 758 1920 1080 334160
+~ Wheel `main_dlg_cur` `proe_win` 9 509 400 458752 1024 1474 758 1920 1080 334489
+~ Wheel `main_dlg_cur` `proe_win` 9 509 393 458752 1024 1474 758 1920 1080 334520
+~ Wheel `main_dlg_cur` `proe_win` 9 509 372 458752 1024 1474 758 1920 1080 334551
+~ Wheel `main_dlg_cur` `proe_win` 9 493 280 458752 0 1474 758 1920 1080 334816
+~ Wheel `main_dlg_cur` `proe_win` 9 493 280 458752 0 1474 758 1920 1080 334832
+~ Wheel `main_dlg_cur` `proe_win` 9 493 280 458752 0 1474 758 1920 1080 334847
+~ Wheel `main_dlg_cur` `proe_win` 9 493 280 458752 0 1474 758 1920 1080 334879
+~ Wheel `main_dlg_cur` `proe_win` 9 376 433 458752 1024 1474 758 1920 1080 335440
+~ Wheel `main_dlg_cur` `proe_win` 9 376 433 458752 0 1474 758 1920 1080 335456
+~ Wheel `main_dlg_cur` `proe_win` 9 376 433 458752 0 1474 758 1920 1080 335487
+~ Wheel `main_dlg_cur` `proe_win` 9 376 433 458752 0 1474 758 1920 1080 335534
+~ Wheel `main_dlg_cur` `proe_win` 9 316 425 458752 0 1474 758 1920 1080 335877
+~ Wheel `main_dlg_cur` `proe_win` 9 227 295 458752 0 1474 758 1920 1080 336285
+~ Wheel `main_dlg_cur` `proe_win` 9 227 294 458752 0 1474 758 1920 1080 336316
+~ Wheel `main_dlg_cur` `proe_win` 9 227 294 458752 0 1474 758 1920 1080 336331
+~ Wheel `main_dlg_cur` `proe_win` 9 227 293 458752 0 1474 758 1920 1080 336363
+~ Wheel `main_dlg_cur` `proe_win` 9 403 294 393216 0 1474 758 1920 1080 336768
+~ Wheel `main_dlg_cur` `proe_win` 9 403 294 393216 0 1474 758 1920 1080 336784
+~ Wheel `main_dlg_cur` `proe_win` 9 403 294 393216 0 1474 758 1920 1080 336799
+~ Wheel `main_dlg_cur` `proe_win` 9 403 294 393216 0 1474 758 1920 1080 336831
+~ Wheel `main_dlg_cur` `proe_win` 9 403 294 393216 0 1474 758 1920 1080 337033
+~ Wheel `main_dlg_cur` `proe_win` 9 403 294 393216 0 1474 758 1920 1080 337049
+~ Wheel `main_dlg_cur` `proe_win` 9 403 294 393216 0 1474 758 1920 1080 337080
+~ Wheel `main_dlg_cur` `proe_win` 9 403 294 393216 0 1474 758 1920 1080 337111
+~ Wheel `main_dlg_cur` `proe_win` 9 613 366 458752 0 1474 758 1920 1080 337613
+~ Wheel `main_dlg_cur` `proe_win` 9 618 369 458752 1536 1474 758 1920 1080 337628
+~ Wheel `main_dlg_cur` `proe_win` 9 625 371 458752 1536 1474 758 1920 1080 337659
+~ Wheel `main_dlg_cur` `proe_win` 9 628 373 458752 1536 1474 758 1920 1080 337691
+~ Wheel `main_dlg_cur` `proe_win` 9 629 374 393216 1536 1474 758 1920 1080 337940
+~ Wheel `main_dlg_cur` `proe_win` 9 629 374 393216 0 1474 758 1920 1080 337971
+~ Wheel `main_dlg_cur` `proe_win` 9 629 374 393216 0 1474 758 1920 1080 337987
+~ Wheel `main_dlg_cur` `proe_win` 9 629 374 393216 0 1474 758 1920 1080 338018
+~ Wheel `main_dlg_cur` `proe_win` 9 629 374 393216 0 1474 758 1920 1080 338252
+~ Wheel `main_dlg_cur` `proe_win` 9 629 374 393216 0 1474 758 1920 1080 338283
+~ Wheel `main_dlg_cur` `proe_win` 9 629 374 393216 0 1474 758 1920 1080 338299
+~ Wheel `main_dlg_cur` `proe_win` 9 629 374 393216 0 1474 758 1920 1080 338330
+~ Wheel `main_dlg_cur` `proe_win` 9 629 374 393216 0 1474 758 1920 1080 338564
+~ Wheel `main_dlg_cur` `proe_win` 9 629 374 393216 0 1474 758 1920 1080 338580
+~ Wheel `main_dlg_cur` `proe_win` 9 629 374 393216 0 1474 758 1920 1080 338595
+~ Wheel `main_dlg_cur` `proe_win` 9 629 374 393216 0 1474 758 1920 1080 338627
+~ Wheel `main_dlg_cur` `proe_win` 9 425 711 458752 0 1474 758 1920 1080 339079
+~ Wheel `main_dlg_cur` `proe_win` 9 420 715 458752 1536 1474 758 1920 1080 339095
+~ Wheel `main_dlg_cur` `proe_win` 9 418 717 458752 1536 1474 758 1920 1080 339110
+~ Wheel `main_dlg_cur` `proe_win` 9 417 718 458752 1536 1474 758 1920 1080 339141
+~ Wheel `main_dlg_cur` `proe_win` 9 417 718 458752 0 1474 758 1920 1080 339173
+~ Wheel `main_dlg_cur` `proe_win` 9 580 606 458752 0 1474 758 1920 1080 339440
+~ Wheel `main_dlg_cur` `proe_win` 9 582 605 458752 0 1474 758 1920 1080 339455
+~ Wheel `main_dlg_cur` `proe_win` 9 582 605 458752 0 1474 758 1920 1080 339471
+~ Wheel `main_dlg_cur` `proe_win` 9 583 605 458752 512 1474 758 1920 1080 339502
+~ Wheel `main_dlg_cur` `proe_win` 9 835 363 458752 1536 1474 758 1920 1080 339955
+~ Wheel `main_dlg_cur` `proe_win` 9 835 363 458752 0 1474 758 1920 1080 339986
+~ Wheel `main_dlg_cur` `proe_win` 9 835 363 458752 0 1474 758 1920 1080 340048
+~ Wheel `main_dlg_cur` `proe_win` 9 612 377 393216 512 1474 758 1920 1080 341047
+~ Wheel `main_dlg_cur` `proe_win` 9 608 381 393216 0 1474 758 1920 1080 341078
+~ Wheel `main_dlg_cur` `proe_win` 9 604 386 393216 1536 1474 758 1920 1080 341093
+~ Wheel `main_dlg_cur` `proe_win` 9 591 403 393216 1536 1474 758 1920 1080 341125
+~ Wheel `main_dlg_cur` `proe_win` 9 587 404 393216 0 1474 758 1920 1080 341343
+~ Wheel `main_dlg_cur` `proe_win` 9 587 404 393216 0 1474 758 1920 1080 341343
+~ Wheel `main_dlg_cur` `proe_win` 9 587 404 393216 0 1474 758 1920 1080 341374
+~ Wheel `main_dlg_cur` `proe_win` 9 587 404 393216 0 1474 758 1920 1080 341593
+~ Wheel `main_dlg_cur` `proe_win` 9 587 404 393216 0 1474 758 1920 1080 341624
+~ Wheel `main_dlg_cur` `proe_win` 9 587 404 393216 0 1474 758 1920 1080 341639
+~ Wheel `main_dlg_cur` `proe_win` 9 587 404 393216 0 1474 758 1920 1080 341671
+~ Wheel `main_dlg_cur` `proe_win` 9 587 404 393216 0 1474 758 1920 1080 342265
+~ Wheel `main_dlg_cur` `proe_win` 9 587 404 393216 0 1474 758 1920 1080 342297
+~ Wheel `main_dlg_cur` `proe_win` 9 587 404 393216 0 1474 758 1920 1080 342328
+~ Wheel `main_dlg_cur` `proe_win` 9 684 407 393216 0 1474 758 1920 1080 343311
+~ Wheel `main_dlg_cur` `proe_win` 9 682 409 393216 1024 1474 758 1920 1080 343342
+~ Wheel `main_dlg_cur` `proe_win` 9 681 409 393216 512 1474 758 1920 1080 343357
+~ Wheel `main_dlg_cur` `proe_win` 9 681 409 393216 0 1474 758 1920 1080 343389
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdModelDelete` 
+! Message Dialog: Warning
+!               : 警告!!! 此命令可能导致丢失数据。确实要从
+!               : 会话和工作目录中删除 AUTO_CAD_制图模板A0-A4_2016_12_26_ 的所有版本吗?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!%CIAUTO_CAD_制图模板A0-A4_2016_12_26_已被清除。
+!Command ProCmdWinClose was pushed from the software.
+!%CIAUTO_CAD_制图模板A0-A4_2016_12_26_已被删除。
+< 0 0.929185 1474 0 0 784 1920 0 0 1080 13
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric 将终止，所有未保存的工作都将会丢失。
+!               : 是否确实要退出?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

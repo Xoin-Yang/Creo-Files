@@ -1,0 +1,411 @@
+﻿!trail file version No. 1861
+!Creo  TM  4.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 8944
+!	Application: Creo_Parametric
+!	Start date&time: 2017/06/01  13:59:39
+!	language: chinese_cn
+!	machine type: x86e_win64
+!	datecode: M010
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.168593 1845 0 0 986 1920 0 0 1080 13
+!mem_use INCREASE Blocks 772440, AppSize 97327471, SysSize 111013664
+< 0 0.922074 1607 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1416 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1436 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1456 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1474 0 0 778 1920 0 0 1080 13
+!%CI欢迎使用 Creo Parametric 4.0。
+!AFX datecode: 4.0 M010 2017.02.16.11
+!AFX exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\x86e_win64\afx40.dll
+!AFX text path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\
+< 0 1.082074 1474 0 0 913 1920 0 0 1080 13
+< 0 0.922074 1474 0 0 778 1920 0 0 1080 13
+< 0 0.916148 1474 0 0 773 1920 0 0 1080 13
+~ Command `ProCmdModelNew` 
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): connected to Pro/E.
+!	exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\x86e_win64\obj\mcp_applet_async.exe
+!	type: asynchronous
+~ Activate `new` `OK`
+!Command ProCmdModelNewExe was pushed from the software.
+! 1-Jun-17 13:59:44  Start E:\Creo-Files\CREO\Templates\template_yang.prt
+! 1-Jun-17 13:59:44  End   E:\Creo-Files\CREO\Templates\template_yang.prt
+! 1-Jun-17 13:59:44  Start E:\Creo-Files\CREO\prt0001.prt
+! 1-Jun-17 13:59:44  End   E:\Creo-Files\CREO\prt0001.prt
+!%CI用默认模板E:\Creo-Files\CREO\Templates\template_yang.prt作为模板。
+@ oa_sel_filter_set _30_
+!%CE不能从模型树配置文件E:\Creo Files\CREO\tree.cfg读取。
+@ stack attr 2
+~ Command `ProCmdFtExtrude` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style on, Tab style off. Feature title : 拉伸
+!ODUI session started.
+!%CP选择一个草绘。(如果首选内部草绘，可在放置面板中找到 "定义" 选项。)
+~ LButtonArm `main_dlg_cur` `proe_win` 9 677 78 0 1 1474 773 1920 1080 12152
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 677 78 0 0 1474 773 1920 1080 12277
+@ sel view 0
+ 1.327015 0.000000 0.000000 0.000000 0.000000 -1.327015
+ 0.000000 1.327015 0.000000 500.000000 421.875000 -2338.268590 1.000000 0.000000 0
+@ stack attr 8
+@ stack idx 0
+@SEL_REC 0 [] 2 18 -1 (0.0000000000 0.0000000000) (-49.3525472870 0.0000000000 -254.3301270189)
+!%CI显示基准平面曲面X-Y，模型PRT0001。
+!X-Y:F2(基准平面) ID=18
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : 草绘
+!ODUI session started.
+!sket_eps         5.6517806
+!Command ProCmdSketSetup was pushed from the software.
+!Command ProCmdSketQuit was pushed from the software.
+!Command ProCmdEditOneByOne was pushed from the software.
+~ Command `ProCmdSketRectangle`  1
+!%CP选取两点来指示方框的对角线。使用中键中止。
+!%CI当约束处于活动状态时，可通过单击右键在锁定/禁用/启用约束之间切换。使用 Tab 键可切换活动约束。按住 Shift 键可禁用捕捉到新约束。
+~ Command `ProCmdSketCenterRectangle`  1
+!%CP单击鼠标左键以定义矩形的中心。用中键中止。
+!%CI当约束处于活动状态时，可通过单击右键在锁定/禁用/启用约束之间切换。使用 Tab 键可切换活动约束。按住 Shift 键可禁用捕捉到新约束。
+~ Enter `main_dlg_cur` `proe_win` 9 76 0 0 1536 1474 773 1920 1080 18860
+~ Move `main_dlg_cur` `proe_win` 9 76 0 0 0 1474 773 1920 1080 18860
+>M rb_append_tb_cnd_CB ProeWin0 252 769 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 1 4 7 0
+>M rb_append_tb_cnd_CB ProeWin0 274 774 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 1 4 7 0
+>M rb_append_tb_cnd_CB ProeWin0 275 774 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 1 4 7 0
+>M rb_append_tb_cnd_CB ProeWin0 276 774 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 1 4 7 0
+>M rb_append_tb_cnd_CB ProeWin0 276 773 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 1 4 7 0
+>M rb_append_tb_cnd_CB ProeWin0 277 773 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 1 4 7 0
+>M rb_loop_touch_tt_ch ProeWin0 734 387 c0 0 1474 0 0 773 1920 0 0 1080 13
+@TOUCH 7 4 1 0.024676 1.000000 -1 -1 -1 1001
+~ LButtonArm `main_dlg_cur` `proe_win` 9 734 387 0 1 1474 773 1920 1080 20093
+>M rb_append_tb_cnd_CB ProeWin0 277 773 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 1 4 7 0
+!Dragger (SKETCHER_LOOP_DRAGGER) start dragging
+!%CI当约束处于活动状态时，可通过单击右键在锁定/禁用/启用约束之间切换。使用 Tab 键可切换活动约束。按住 Shift 键可禁用捕捉到新约束。
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 734 387 0 0 1474 773 1920 1080 20217
+0.496725 0.420238 N 0 0.916148148 0
+~ Move `main_dlg_cur` `proe_win` 9 734 386 0 1024 1474 773 1920 1080 20249
+>M rb_append_tb_cnd_CB ProeWin0 277 773 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 1 4 7 0
+>M rb_append_tb_cnd_CB ProeWin0 276 770 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 1 4 7 0
+>M rb_append_tb_cnd_CB ProeWin0 274 769 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 1 4 7 0
+>M rb_append_tb_cnd_CB ProeWin0 272 767 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB -1 -1 0 -1 -1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 618 304 0 1 1474 773 1920 1080 21933
+!Dragger (SKETCHER_LOOP_DRAGGER) start dragging
+!%CP单击鼠标左键以定义矩形的中心。用中键中止。
+!%CI当约束处于活动状态时，可通过单击右键在锁定/禁用/启用约束之间切换。使用 Tab 键可切换活动约束。按住 Shift 键可禁用捕捉到新约束。
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 618 304 0 0 1474 773 1920 1080 22011
+0.370108 0.510834 N 0 0.916148148 0
+~ Move `main_dlg_cur` `proe_win` 9 619 304 0 512 1474 773 1920 1080 22105
+>M rb_append_tb_cnd_CB ProeWin0 190 711 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 5 1 7 0
+>M rb_append_tb_cnd_CB ProeWin0 190 712 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 5 1 7 0
+>M rb_append_tb_cnd_CB ProeWin0 190 712 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 5 1 7 0
+>M rb_append_tb_cnd_CB ProeWin0 191 712 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 5 1 7 0
+>M rb_append_tb_cnd_CB ProeWin0 192 714 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 5 1 7 0
+>M rb_append_tb_cnd_CB ProeWin0 193 716 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 5 4 7 0
+>M rb_append_tb_cnd_CB ProeWin0 194 718 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 5 4 7 0
+>M rb_append_tb_cnd_CB ProeWin0 195 719 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 8 4 7 0
+>M rb_append_tb_cnd_CB ProeWin0 198 724 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB -1 -1 0 -1 -1
+>M rb_append_tb_cnd_CB ProeWin0 198 723 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 8 4 7 0
+>M rb_append_tb_cnd_CB ProeWin0 195 713 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 4 4 7 0
+>M rb_append_tb_cnd_CB ProeWin0 190 703 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB -1 -1 0 -1 -1
+~ RButtonArm `main_dlg_cur` `proe_win` 9 604 261 0 4 1474 773 1920 1080 23337
+** 0.354827 0.661061 0 2 2
+0.354827 0.557770 R 0 0.916148148 0
+~ RButtonDisarm `main_dlg_cur` `proe_win` 9 604 261 0 0 1474 773 1920 1080 23478
+>M rb_append_tb_cnd_CB ProeWin0 278 602 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 0 4 7 0
+>M rb_append_tb_cnd_CB ProeWin0 312 580 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB -1 -1 0 -1 -1
+~ Command `ProCmdSketDone` 
+!ODUI session finished.
+!sket_eps       1.864358228
+!%CP选择一个草绘。(如果首选内部草绘，可在放置面板中找到 "编辑" 选项。)
+!mem_use INCREASE Blocks 894809, AppSize 121673781, SysSize 138033648
+~ Enter `main_dlg_cur` `dashInst0.Quit`
+~ Exit `main_dlg_cur` `dashInst0.Quit`
+~ Activate `main_dlg_cur` `dashInst0.Done`
+!ODUI session finished.
+!F5(拉伸_1)
+!%CI显示零件PRT0001中的特征5 (拉伸_1)。 
+!Undo: added rec_id 167 type 5304 
+~ MButtonArm `main_dlg_cur` `proe_win` 9 285 393 0 2 1474 773 1920 1080 27144
+~ Move `main_dlg_cur` `proe_win` 9 286 393 0 514 1474 773 1920 1080 27159
+~ Move `main_dlg_cur` `proe_win` 9 286 392 0 1026 1474 773 1920 1080 27237
+~ Move `main_dlg_cur` `proe_win` 9 285 391 0 1538 1474 773 1920 1080 27253
+~ Move `main_dlg_cur` `proe_win` 9 285 390 0 1026 1474 773 1920 1080 27253
+~ Move `main_dlg_cur` `proe_win` 9 284 390 0 514 1474 773 1920 1080 27253
+~ Move `main_dlg_cur` `proe_win` 9 284 389 0 1026 1474 773 1920 1080 27253
+~ Move `main_dlg_cur` `proe_win` 9 284 388 0 1026 1474 773 1920 1080 27253
+~ Move `main_dlg_cur` `proe_win` 9 283 386 0 1538 1474 773 1920 1080 27253
+~ Move `main_dlg_cur` `proe_win` 9 282 384 0 1538 1474 773 1920 1080 27269
+~ Move `main_dlg_cur` `proe_win` 9 282 382 0 1026 1474 773 1920 1080 27269
+~ Move `main_dlg_cur` `proe_win` 9 280 373 0 1538 1474 773 1920 1080 27284
+~ Move `main_dlg_cur` `proe_win` 9 278 364 0 1538 1474 773 1920 1080 27300
+~ Move `main_dlg_cur` `proe_win` 9 275 356 0 1538 1474 773 1920 1080 27315
+~ Move `main_dlg_cur` `proe_win` 9 275 349 0 1026 1474 773 1920 1080 27331
+~ Move `main_dlg_cur` `proe_win` 9 274 344 0 1538 1474 773 1920 1080 27347
+~ Move `main_dlg_cur` `proe_win` 9 273 339 0 1538 1474 773 1920 1080 27362
+~ Move `main_dlg_cur` `proe_win` 9 273 333 0 1026 1474 773 1920 1080 27378
+~ Move `main_dlg_cur` `proe_win` 9 273 329 0 1026 1474 773 1920 1080 27393
+~ Move `main_dlg_cur` `proe_win` 9 273 327 0 1026 1474 773 1920 1080 27409
+~ Move `main_dlg_cur` `proe_win` 9 273 324 0 1026 1474 773 1920 1080 27440
+~ Move `main_dlg_cur` `proe_win` 9 274 318 0 1538 1474 773 1920 1080 27456
+~ Move `main_dlg_cur` `proe_win` 9 276 312 0 1538 1474 773 1920 1080 27471
+~ Move `main_dlg_cur` `proe_win` 9 277 308 0 1538 1474 773 1920 1080 27487
+~ Move `main_dlg_cur` `proe_win` 9 277 307 0 1026 1474 773 1920 1080 27503
+~ Move `main_dlg_cur` `proe_win` 9 277 306 0 1026 1474 773 1920 1080 27518
+~ Move `main_dlg_cur` `proe_win` 9 277 305 0 1026 1474 773 1920 1080 27534
+~ Move `main_dlg_cur` `proe_win` 9 278 305 0 514 1474 773 1920 1080 27581
+~ Move `main_dlg_cur` `proe_win` 9 279 305 0 514 1474 773 1920 1080 27596
+~ Move `main_dlg_cur` `proe_win` 9 280 305 0 514 1474 773 1920 1080 27596
+~ Move `main_dlg_cur` `proe_win` 9 281 305 0 514 1474 773 1920 1080 27596
+~ Move `main_dlg_cur` `proe_win` 9 290 307 0 1538 1474 773 1920 1080 27612
+~ Move `main_dlg_cur` `proe_win` 9 298 310 0 1538 1474 773 1920 1080 27627
+~ Move `main_dlg_cur` `proe_win` 9 304 313 0 1538 1474 773 1920 1080 27643
+~ Move `main_dlg_cur` `proe_win` 9 310 318 0 1538 1474 773 1920 1080 27659
+~ Move `main_dlg_cur` `proe_win` 9 316 322 0 1538 1474 773 1920 1080 27690
+~ Move `main_dlg_cur` `proe_win` 9 319 324 0 1538 1474 773 1920 1080 27705
+~ Move `main_dlg_cur` `proe_win` 9 320 325 0 1538 1474 773 1920 1080 27721
+~ Move `main_dlg_cur` `proe_win` 9 320 326 0 1026 1474 773 1920 1080 27737
+~ Move `main_dlg_cur` `proe_win` 9 321 326 0 514 1474 773 1920 1080 27752
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 321 326 0 0 1474 773 1920 1080 27955
+~ Wheel `main_dlg_cur` `proe_win` 9 319 361 393216 0 1474 773 1920 1080 28205
+~ Wheel `main_dlg_cur` `proe_win` 9 319 362 393216 0 1474 773 1920 1080 28251
+~ Wheel `main_dlg_cur` `proe_win` 9 319 362 393216 0 1474 773 1920 1080 28298
+~ RButtonArm `main_dlg_cur` `proe_win` 9 410 366 0 4 1474 773 1920 1080 30716
+~ Move `main_dlg_cur` `proe_win` 9 410 366 0 4 1474 773 1920 1080 30716
+~ Timer `UI Desktop` `UI Desktop` `popupMenuRMBTimerCB`
+@ sel_rmb_cmds 1
+~ RButtonDisarm `main_dlg_cur` `proe_win` 9 410 366 0 256 1474 773 1920 1080 31215
+~ Exit `main_dlg_cur` `proe_win` 9 410 366 0 4 1474 773 1920 1080 31215
+~ Close `rmb_popup` `PopupMenu`
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 134 315 0 1 1474 773 1920 1080 33119
+~ Move `main_dlg_cur` `proe_win` 9 134 315 0 1 1474 773 1920 1080 33119
+~ Move `main_dlg_cur` `proe_win` 9 134 315 0 1 1474 773 1920 1080 33119
+~ Move `main_dlg_cur` `proe_win` 9 134 315 0 1 1474 773 1920 1080 33119
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 134 315 0 0 1474 773 1920 1080 33197
+@ sel view 0
+ 3.709679 0.859660 1.289595 0.477247 2.549119 -3.072135
+ -1.474553 2.987769 2.250048 406.937492 145.920115 -2955.873740 0.512000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!拉伸 1
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node6`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:PHTLeft.AssyTree:<NULL>`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Command `ProCmdRedefine@PopupMenuTree` 
+!sket_eps       3.641324665
+!sket_eps       3.643507976
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style on, Tab style off. Feature title : 拉伸
+!ODUI session started.
+!%CP选择一个草绘。(如果首选内部草绘，可在放置面板中找到 "编辑" 选项。)
+~ LButtonArm `main_dlg_cur` `proe_win` 9 507 316 0 1 1474 773 1920 1080 37159
+!Dragger (Resize by Direction vect Dragger) start dragging
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 507 316 0 0 1474 773 1920 1080 37253
+!Dragger (Resize by Direction vect Dragger) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 507 316 0 129 1474 773 1920 1080 37331
+@ sel view 0
+ 3.709679 0.859660 1.289595 0.477247 2.549119 -3.072135
+ -1.474553 2.987769 2.250048 406.937492 145.920115 -2955.873740 0.512000 0.000000 0
+@ stack attr 8
+@ sel stop
+@ sel stop
+!Embed Edit (Resize by Direction vect Dragger) start edit
+~ Move `main_dlg_cur` `proe_win` 9 507 316 0 1 1474 773 1920 1080 37331
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 507 316 0 0 1474 773 1920 1080 37440
+~ Update `main_dlg_cur` `GrmTextTagEmbedMRU` `100`
+~ Activate `main_dlg_cur` `GrmTextTagEmbedMRU`
+!Embed Edit (Resize by Direction vect Dragger) finished edit (Applied)
+!New Value is 100
+~ Enter `main_dlg_cur` `dashInst0.Quit`
+~ Exit `main_dlg_cur` `dashInst0.Quit`
+~ Activate `main_dlg_cur` `dashInst0.Done`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CI正在从5 重新生成PRT0001特征5 ...
+!%CIPRT0001 重新生成成功完成。
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 176 type 5300 
+!%CI特征成功重新定义。
+!F5(拉伸_1)
+!%CI显示零件PRT0001中的特征5 (拉伸_1)。 
+~ Activate `main_dlg_cur` `page_Tools_control_btn` 1
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+< 0 0.879407 1474 0 0 742 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_Analysis_control_btn` 1
+< 0 0.916148 1474 0 0 773 1920 0 0 1080 13
+~ Command `ProCmdDToolsMechanica` 
+!Mech #
+!Mech # Creo Simulate Command Script File
+!Mech #    Product:		Creo Simulate P-30-42:spg
+!Mech #    Created:		06/01/17 at 14:00:24
+!Mech #    Machine:		x86e_win64
+!Mech #    OS:  		Windows 7 64 Service Pack 1
+!Mech #    Graphics:		opengl/window0
+!Mech #
+!Mech #    Language:		chs(chinese_cn)
+!Mech #
+~ Activate `0_std_error` `OK`
+~ Command `ProCmdDToolsMechanica` 
+~ Activate `0_std_error` `OK`
+~ Command `ProCmdDToolsTolAnl` 
+!Application (CETOL Lite): running DLL-mode user_initialize
+!Application (CETOL Lite): returned from DLL-mode user_initialize; status is 0
+~ LButtonArm `main_dlg_cur` `proe_win` 9 456 489 0 1 1474 773 1920 1080 61885
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 456 489 0 0 1474 773 1920 1080 61994
+@ sel view 0
+ 3.721565 0.862415 1.293727 0.478776 2.557287 -3.081979
+ -1.479277 2.997342 2.257258 406.639310 145.035926 -2443.297815 0.510365 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 2 54 -1 (-64.1434097855 -62.7006816200) (-64.1434097855 100.0000000000 62.7006816200)
+!曲面:F5(拉伸_1) ID=54
+!%CI显示由特征5 (拉伸_1)，模型PRT0001创建的曲面。 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 447 534 0 1 1474 773 1920 1080 62587
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 447 534 0 0 1474 773 1920 1080 62665
+@ sel view 0
+ 3.721565 0.862415 1.293727 0.478776 2.557287 -3.081979
+ -1.479277 2.997342 2.257258 406.639310 145.035926 -2443.297815 0.510365 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 2 63 -1 (34.0682205275 68.5214250084) (-63.8143315916 68.5214250084 67.8597525196)
+!曲面:F5(拉伸_1) ID=63
+!%CI显示由特征5 (拉伸_1)，模型PRT0001创建的曲面。 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 964 219 0 1 1474 773 1920 1080 65442
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 964 219 0 0 1474 773 1920 1080 65551
+@ sel view 0
+ 3.721565 0.862415 1.293727 0.478776 2.557287 -3.081979
+ -1.479277 2.997342 2.257258 406.639310 145.035926 -2443.297815 0.510365 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Activate `TolAnalManager` `sig_close`
+~ Command `ProCmdWinCloseGroup` 
+!Command ProCmdWinClose was pushed from the software.
+! Executed sub-command ProCmdWinCloseAsyn.
+!%CI基本窗口不能关闭。
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1082 615 0 1 1474 773 1920 1080 643500
+** 0.876577 0.203105 0 1 1
+0.876577 0.171370 L 0 0.916148148 0
+~ Move `main_dlg_cur` `proe_win` 9 1083 615 0 513 1474 773 1920 1080 643562
+~ Move `main_dlg_cur` `proe_win` 9 1084 616 0 1537 1474 773 1920 1080 643578
+~ Move `main_dlg_cur` `proe_win` 9 1085 616 0 513 1474 773 1920 1080 643578
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1085 616 0 0 1474 773 1920 1080 643578
+~ LButtonArm `main_dlg_cur` `proe_win` 9 949 216 0 1 1474 773 1920 1080 803503
+** 0.731404 0.719276 0 1 1
+0.731404 0.606889 L 0 0.916148148 0
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 949 216 0 0 1474 773 1920 1080 803597
+!%CI已重新获得浮动许可证; 您可以继续工作。
+!%CI重新获得NC-SHEETMETAL许可证。
+!%CI重新获得NC-ADVANCED许可证。
+!%CI重新获得Chinese_Translation许可证。
+!%CI重新获得NC-CHECK许可证。
+!%CI重新获得NOTEBOOK许可证。
+!%CI重新获得CMM许可证。
+!%CI重新获得PROCESS_MFG许可证。
+!%CI重新获得Web.Link许可证。
+!%CI重新获得MOLDDESIGN-2许可证。
+!%CI重新获得Behavioral_Modeler许可证。
+!%CI重新获得Expert_Machinist许可证。
+!%CI重新获得PlasticAdvisor许可证。
+!%CI重新获得TOOLKIT许可证。
+!%CI重新获得Collaboration_Ext_CatiaV4许可证。
+!%CI重新获得Interactive_Surface_Design许可证。
+!%CI重新获得ISOGEN许可证。
+!%CI重新获得Mechanism_Dynamics许可证。
+!%CI重新获得Expert_Moldbase许可证。
+!%CI重新获得Progressive_Die许可证。
+!%CI重新获得Reverse_Engineering许可证。
+!%CI重新获得Collaboration许可证。
+!%CI重新获得Advanced_Framework许可证。
+!%CI重新获得Collaboration_Ext_NX许可证。
+!%CI重新获得INTF_for_CATIA_V5许可证。
+!%CI重新获得INTF_for_I-DEAS许可证。
+!%CI重新获得Collaboration_Ext_CatiaV5许可证。
+!%CI重新获得Clearance_Creepage许可证。
+!%CI重新获得ECAD_COLLABORATION许可证。
+!%CI重新获得INTF_for_JT许可证。
+!%CI重新获得Digital_Rights_Mgt许可证。
+!%CI重新获得Tolerance_Analysis许可证。
+!%CI重新获得Manikin许可证。
+!%CI重新获得Manikin_Analysis许可证。
+!%CI重新获得Legacy_Migration许可证。
+!%CI重新获得ADVANCED_RENDER_2许可证。
+!%CI重新获得Layout_Authoring许可证。
+!%CI重新获得Layout_3D_Integration许可证。
+!%CI重新获得ObjectToolkitCpp许可证。
+!%CI重新获得Flexible_Modeling许可证。
+!%CI重新获得Options_Modeler许可证。
+!%CI重新获得Options_Modeler_Basic许可证。
+!%CI重新获得Options_Modeler_Enterprise许可证。
+!%CI重新获得Design_Exploration许可证。
+!%CI重新获得Update_Control许可证。
+!%CI重新获得ObjectToolkitJava许可证。
+!%CI重新获得ObjectToolkitJavaRuntime许可证。
+!%CI重新获得ObjectToolkitJavaExtension许可证。
+!%CI重新获得Harness_Stickgen许可证。
+!%CI重新获得Harness_Stickgen_Adv许可证。
+!%CI重新获得Mold_Analysis许可证。
+!%CI重新获得Collaboration_Ext_SolidWorks许可证。
+!%CI重新获得IntelligentFastnerExtension许可证。
+!%CI重新获得GDT_ADVISOR许可证。
+!%CI重新获得GDT_ASMESTANDARD_2009许可证。
+!%CI重新获得GDT_ISOSTANDARD_2012许可证。
+!%CI重新获得Advanced_Rendering_III许可证。
+!%CI重新获得ADDITIVE_MANUFACTURING许可证。
+!%CI重新获得SHUTOFF_FACES许可证。
+!%CI重新获得CLEARANCE_CREEPAGE许可证。
+!%CI重新获得CABLING许可证。
+!%CI重新获得COMPOSITE许可证。
+!%CI重新获得DIAGRAM许可证。
+!%CI重新获得HARNESS-MFG许可证。
+!%CI重新获得DIEFACE许可证。
+!%CI重新获得ASSEMBLY许可证。
+!%CI重新获得FEM-POST许可证。
+!%CI重新获得PIPING许可证。
+!%CI重新获得SCAN_TOOLS许可证。
+!%CI重新获得CASTING许可证。
+!%CI重新获得MESH许可证。
+!%CI重新获得VERIFY许可证。
+!%CI重新获得96许可证。
+!%CI重新获得PROCESS_ASM许可证。
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric 将终止，所有未保存的工作都将会丢失。
+!               : 是否确实要退出?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!Application (CETOL Lite): running DLL-mode user_terminate
+!Application (CETOL Lite): returned from DLL-mode user_terminate
+!End of Trail File

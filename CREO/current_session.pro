@@ -1,4 +1,64 @@
-﻿tol_mode nominal
+﻿file_open_default_folder working_directory
+show_sketch_dims_in_feature yes
+check_interference_of_matches no
+autoplace_single_comp no
+sketcher_starts_in_2d yes
+allow_3dbox_selection yes
+ang_dim_in_screen yes
+attach_menumanager yes
+auto_add_remove yes
+can_snap_to_missing_ref no
+comp_assemble_start move_then_place
+create_temp_interfaces yes
+edge_display_quality high
+fix_boundaries_on_import yes
+highlight_new_dims yes
+hole_diameter_override yes
+inch_grid_interval .125
+intf_in_use_template_models yes
+intf3d_in_close_open_boundaries yes
+keep_info_datums no
+logical_objects yes
+marquee_selection_for_parts yes
+millimeter_grid_interval .5
+parenthesize_ref_dim yes
+preferred_save_as_type dwg
+preferred_save_as_type dxf
+preferred_save_as_type iges
+preferred_save_as_type shrinkwrap
+preferred_save_as_type step
+provide_pick_message_always yes
+rename_drawings_with_object both
+retrieve_data_sharing_ref_parts yes
+retrieve_merge_ref_parts yes
+save_dialog_for_existing_models no
+sketcher_refit_after_dim_modify no
+skip_small_surfaces no
+shrinkwrap_alert no
+suppress_appearance_message yes
+tolerance_standard iso
+display shadewithedges
+display_axis_tags yes
+display_full_object_path yes
+display_plane_tags yes
+display_point_tags yes
+max_animation_time .5
+min_animation_steps 15
+open_window_maximized yes
+prehighlight_tree yes
+spin_with_part_entities yes
+visible_message_lines 2
+windows_scale .97
+pro_unit_length unit_mm
+pro_unit_sys mmks
+weld_ui_standard iso
+pro_format_dir $pro_directory\creo_standards\formats
+pro_library_dir $pro_directory\creo_standards
+pro_material_dir $pro_directory\creo_standards\material_database
+pro_symbol_dir $pro_directory\symbols
+search_path $pro_directory\creo_standards\formats\sample_formats
+search_path $pro_directory\creo_standards\formats\dte_formats
+start_model_dir $pro_directory\creo_standards\templates
 drawing_setup_file E:\Creo Files\CREO\GB_PTC.dtl
 format_setup_file E:\Creo Files\CREO\GB_PTC.dtl
 pro_unit_length unit_mm
@@ -6,14 +66,13 @@ pro_unit_mass unit_gram
 template_designasm E:\Creo Files\CREO\Templates\GB_Yang.asm.1
 template_drawing E:\Creo Files\CREO\Templates\GB_Yang_a4prt.drw.1
 template_sheetmetalpart E:\Creo Files\CREO\Templates\GB_Yang_sheetmetal.prt.1
-template_solidpart E:\Creo-Files\CREO\Templates\template_yang.prt
+template_solidpart mmns_part_solid.prt
 todays_date_note_format %yy-%Mmm-%dd
 tolerance_standard iso
-tol_mode nominal
 weld_ui_standard iso
 save_display yes
 datum_point_display NO
-display_coord_sys YES
+display_coord_sys NO
 display_axes NO
 display_annotations no
 show_selected_item_id yes
@@ -78,3 +137,4 @@ saving_model_thumbnails yes
 use_inverted_mousewheel_zoom yes
 auto_center_dimension yes
 pro_dtl_setup_dir E:\Creo-Files\CREO\Dtl
+intf2d_in_dim as_sep_ent

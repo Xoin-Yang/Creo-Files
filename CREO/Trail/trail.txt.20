@@ -1,0 +1,127 @@
+﻿!trail file version No. 1861
+!Creo  TM  4.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 10056
+!	Application: Creo_Parametric
+!	Start date&time: 2017/05/31  14:16:32
+!	language: chinese_cn
+!	machine type: x86e_win64
+!	datecode: M010
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.168593 1845 0 0 986 1920 0 0 1080 13
+!mem_use INCREASE Blocks 772404, AppSize 97179020, SysSize 110930568
+< 0 0.922074 1607 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1450 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1470 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1490 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1508 0 0 778 1920 0 0 1080 13
+!%CI欢迎使用 Creo Parametric 4.0。
+!AFX datecode: 4.0 M010 2017.02.16.11
+!AFX exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\x86e_win64\afx40.dll
+!AFX text path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\
+< 0 1.082074 1508 0 0 913 1920 0 0 1080 13
+< 0 0.922074 1508 0 0 778 1920 0 0 1080 13
+< 0 0.916148 1508 0 0 773 1920 0 0 1080 13
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): connected to Pro/E.
+!	exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\x86e_win64\obj\mcp_applet_async.exe
+!	type: asynchronous
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdRibbonOptionsDlg` 
+!ODUI external UI session start for device : ribbon_options_dialog 
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `ConfigLayout`
+~ Activate `ribbon_options_dialog` `ConfigLayout.SearchOpt`
+~ Input `find` `EnterKeyword` `sketcher_starts_in_2d`
+~ Update `find` `EnterKeyword` `sketcher_starts_in_2d`
+~ Activate `find` `FindNow`
+~ Open `find` `Values`
+~ Close `find` `Values`
+~ Select `find` `Values` 1 `yes`
+~ Activate `find` `Apply`
+~ Activate `find` `Close`
+~ Activate `ribbon_options_dialog` `ConfigLayout.SearchOpt`
+~ Input `find` `EnterKeyword` `save_file_iterations`
+~ Update `find` `EnterKeyword` `save_file_iterations`
+~ Activate `find` `FindNow`
+~ Open `find` `Values`
+~ Close `find` `Values`
+~ Select `find` `Values` 1 `no`
+~ Activate `find` `Apply`
+~ Activate `find` `Close`
+~ Activate `ribbon_options_dialog` `ConfigLayout.SearchOpt`
+~ Input `find` `EnterKeyword` `override_store_back`
+~ Update `find` `EnterKeyword` `override_store_back`
+~ Activate `find` `FindNow`
+~ Activate `find` `Close`
+~ Activate `ribbon_options_dialog` `ConfigLayout.AddOpt`
+~ Input `add_opt` `InputOpt` `step_export_format`
+~ Update `add_opt` `InputOpt` `step_export_format`
+~ FocusOut `add_opt` `InputOpt`
+~ Open `add_opt` `EditPanel`
+~ Close `add_opt` `EditPanel`
+~ FocusOut `add_opt` `EditPanel`
+~ Open `add_opt` `EditPanel`
+~ Close `add_opt` `EditPanel`
+~ Select `add_opt` `EditPanel` 1 `ap203_is_ext`
+~ FocusOut `add_opt` `EditPanel`
+~ Activate `add_opt` `AddOpt`
+~ Activate `ribbon_options_dialog` `ConfigLayout.SearchOpt`
+~ Input `find` `EnterKeyword` `step_appearance_layers_group`
+~ Update `find` `EnterKeyword` `step_appearance_layers_group`
+~ Activate `find` `FindNow`
+~ Open `find` `Values`
+~ Close `find` `Values`
+~ Select `find` `Values` 1 `yes`
+~ Activate `find` `Apply`
+~ Activate `find` `Close`
+~ Activate `ribbon_options_dialog` `ConfigLayout.SearchOpt`
+~ Input `find` `EnterKeyword` `Saving_model_thumbnails`
+~ Update `find` `EnterKeyword` `Saving_model_thumbnails`
+~ Activate `find` `FindNow`
+~ Activate `find` `Apply`
+~ Activate `find` `Close`
+~ Activate `ribbon_options_dialog` `ConfigLayout.AddOpt`
+~ Input `add_opt` `InputOpt` `use_inverted_mousewheel_zoom`
+~ Update `add_opt` `InputOpt` `use_inverted_mousewheel_zoom`
+~ FocusOut `add_opt` `InputOpt`
+~ Open `add_opt` `EditPanel`
+~ Close `add_opt` `EditPanel`
+~ Select `add_opt` `EditPanel` 1 `yes`
+~ FocusOut `add_opt` `EditPanel`
+~ Activate `add_opt` `AddOpt`
+~ Activate `ribbon_options_dialog` `ConfigLayout.SearchOpt`
+~ Input `find` `EnterKeyword` `use_inverted_mousewheel_zoom`
+~ Update `find` `EnterKeyword` `use_inverted_mousewheel_zoom`
+~ Activate `find` `FindNow`
+~ Open `find` `Values`
+~ Close `find` `Values`
+~ Select `find` `Values` 1 `yes`
+~ Activate `find` `Apply`
+~ Activate `find` `Close`
+~ Activate `ribbon_options_dialog` `OkPshBtn`
+! UITools Msg Dialog Future: warning
+!                          : 所做的配置设置将仅应用于当前会话。
+!                          : 
+!                          : 是否要将这些设置保存到配置文件?
+!                          : 
+!                          : 注意: 用户自定义设置将自动
+!                          : 保存到配置文件目录。
+~ Activate `UITools Msg Dialog Future` `yes`
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Command `ProFileSelPushOpen@context_dlg_open_cmd` 
+!ODUI external UI session stop. 
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric 将终止，所有未保存的工作都将会丢失。
+!               : 是否确实要退出?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

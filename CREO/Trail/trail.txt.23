@@ -1,0 +1,84 @@
+﻿!trail file version No. 1861
+!Creo  TM  4.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 9396
+!	Application: Creo_Parametric
+!	Start date&time: 2017/05/31  14:23:18
+!	language: chinese_cn
+!	machine type: x86e_win64
+!	datecode: M010
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.168593 1845 0 0 986 1920 0 0 1080 13
+!mem_use INCREASE Blocks 772429, AppSize 97256143, SysSize 110942088
+< 0 0.922074 1607 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1450 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1470 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1490 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1508 0 0 778 1920 0 0 1080 13
+!%CI欢迎使用 Creo Parametric 4.0。
+!AFX datecode: 4.0 M010 2017.02.16.11
+!AFX exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\x86e_win64\afx40.dll
+!AFX text path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\
+< 0 1.082074 1508 0 0 913 1920 0 0 1080 13
+< 0 0.922074 1508 0 0 778 1920 0 0 1080 13
+< 0 0.916148 1508 0 0 773 1920 0 0 1080 13
+~ Command `ProCmdModelNew` 
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): connected to Pro/E.
+!	exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\x86e_win64\obj\mcp_applet_async.exe
+!	type: asynchronous
+~ Activate `new` `Cancel`
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdRibbonOptionsDlg` 
+!ODUI external UI session start for device : ribbon_options_dialog 
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `ConfigLayout`
+~ Activate `ribbon_options_dialog` `ConfigLayout.SearchOpt`
+~ Activate `find` `Close`
+~ Activate `ribbon_options_dialog` `ConfigLayout.AddOpt`
+~ Input `add_opt` `InputOpt` `auto_center_dimension`
+~ Update `add_opt` `InputOpt` `auto_center_dimension`
+~ FocusOut `add_opt` `InputOpt`
+~ Open `add_opt` `EditPanel`
+~ Close `add_opt` `EditPanel`
+~ Select `add_opt` `EditPanel` 1 `yes`
+~ FocusOut `add_opt` `EditPanel`
+~ Activate `add_opt` `AddOpt`
+~ Activate `ribbon_options_dialog` `OkPshBtn`
+! UITools Msg Dialog Future: warning
+!                          : 所做的配置设置将仅应用于当前会话。
+!                          : 
+!                          : 是否要将这些设置保存到配置文件?
+!                          : 
+!                          : 注意: 用户自定义设置将自动
+!                          : 保存到配置文件目录。
+~ Activate `UITools Msg Dialog Future` `yes`
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Select `file_open` `Ph_list.Filelist` 0
+~ Select `file_open` `Ph_list.Filelist` 0
+~ Select `file_open` `Ph_list.Filelist` 0
+~ Select `file_open` `Ph_list.Filelist` 1 `config.pro`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `file_open:Ph_list.Filelist:<NULL>`
+~ Command `ProFileSelPushOpen@context_dlg_open_cmd` 
+!ODUI external UI session stop. 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 403 452 0 1 1508 773 1920 1080 75581
+** 0.116874 0.413972 0 1 1
+0.116874 0.349288 L 0 0.916148148 0
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 403 452 0 0 1508 773 1920 1080 75678
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric 将终止，所有未保存的工作都将会丢失。
+!               : 是否确实要退出?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File
