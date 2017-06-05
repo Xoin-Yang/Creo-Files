@@ -1,0 +1,205 @@
+$$ *********************************************************
+$$ Generic FADAL VMC - CNC 32
+$$ Developed by PTC Technical Marketing                    *
+$$ *********************************************************
+$$
+$$ Post-processor :
+$$ Date :
+$$
+$$ ********************************************************************
+$$ *             V A R I A B L E S    S E C T I O N                   *
+$$ ********************************************************************
+$$
+
+$$ Debug options **
+DMY=POSTF(24,1)
+PRINT/ON 
+
+REDEF/ON                $$ Allow redefinition of Var.
+
+$$ Addresses
+A=1;B=2;C=3;D=4;E=5;F=6;G=7;H=8;I=9;J=10;K=11;L=12;M=13;N=14
+O=15;P=16;Q=17;R=18;S=19;T=20;U=21;V=22;W=23;X=24;Y=25;Z=26
+
+
+$$ Custom Var.
+
+
+$$ ********************************************************************
+$$ *              A  L I A S    S E C T I O N                         *
+$$ ********************************************************************
+$$ 
+
+$$ Replace for  / in comment 
+T1=TEXT/' / '
+T2=TEXT/''
+REPLAC/T1,T2    $$ remove all occurence of ' / ' in NC tape
+
+
+$$ ********************************************************************
+$$ *              M A C R O S    S E C T I O N                        *
+$$ ********************************************************************
+$$ 
+
+
+CLNAME = MACRO / 
+$$ Macro to extract the CL file name, returns CLNAM (CL file name 
+$$ without the path
+$$
+$$ Usage :
+$$
+$$	    $$ Insert name of CL file
+$$          CALL / CLNAME
+$$          INSERT / '(',CLNAM,')$'
+$$
+
+  PRG=TEXT/PART
+
+$$ Strip-out absolute path in CL file name (Unix and NT)
+  PRGLEN=CANF(PRG,1)
+  DO/SLASH,LOOPV=PRGLEN,4,-1
+    1CHAR=TEXT/RANGE,PRG,LOOPV,LOOPV
+    ASCII=ICHARF(1CHAR)
+    IF(ASCII.EQ.47.OR.ASCII.EQ.92)THEN
+      PRG=TEXT/RANGE,PRG,LOOPV+1,PRGLEN
+      JUMPTO/OK1
+    ENDIF
+  SLASH)CONTIN
+  OK1)CONTIN
+
+  $$ Strip out extensions and convert name to uppercase
+  PGNAME=TEXT/' '
+  PRGLEN=CANF(PRG,1)
+  DO/DOT,LOOPV=1,PRGLEN,1
+    1CHAR=TEXT/RANGE,PRG,LOOPV,LOOPV
+    ASCII=ICHARF(1CHAR)
+    IF(ASCII.EQ.46)THEN
+      JUMPTO/OK2
+    ELSE
+      IF(ASCII.GE.97.AND.ASCII.LE.122)THEN
+        PGNAME=TEXT/PGNAME,(TEXT/CONVS,ASCII-32)
+      ELSE
+        PGNAME=TEXT/PGNAME,1CHAR
+      ENDIF
+    ENDIF
+  DOT)CONTIN
+  OK2)CONTIN
+  CLNAM=TEXT/OMIT,PGNAME,2
+
+TERMAC		$$ CLNAME
+
+$$ ********************************************************************
+$$ *             C I M F I L     S E C T I O N                        *
+$$ ********************************************************************
+$$
+
+
+CIMFIL/ON,COOLNT
+$$ Macro on COOLNT to ignore 
+$$ the COOLNT options (HIGH, LOW, ...)
+XX=POSTF(12,4) $$ change to 4 words in CL record (line,class,sub,minor)
+XX=POSTF(13)   $$ Process
+CIMFIL/OFF
+
+
+CIMFIL/ON,FINI
+XX=POSTF(20)	$$ Save CL rec.
+$$ Insert NC tape footer block(s) here
+$$ For example : INSERT/'M2$'
+
+$$ End of footer block(s)
+XX=POSTF(21)	$$ restore CL rec.
+XX=POSTF(13)	$$ process CL rec.
+CIMFIL/OFF
+
+
+CIMFIL/ON,LOADTL
+XX=POSTF(20)	$$ Save CL rec.
+$$ Some variables
+$$ LOADTL / tool number, OSETNO, offset number
+TNUM=POSTF(7,4)		$$ Tool number
+NBEL=POSTF(5)		$$ number of argument
+IF (NBEL.GT.4) THEN
+  OFNUM=POSTF(7,6)	$$ Offset number 
+ENDIF
+$$ Put NC block(s) before tool change here
+INSERT/' G90 G80 G40 G17 G0$'
+$$ End of block(s) before tool change
+$$ Process the tool change
+XX=POSTF(21)	$$ restore CL rec.
+XX=POSTF(13)	$$ Process CL rec.
+$$ Put NC block(s) after the tool change here
+$$ For example PREFUN/90   to output a G90
+REPEAT/OFF
+REPEAT/X,Y,G,90,ALL			$$ Output G90 with next X or Y
+$$ End of block(s) after tool change
+CIMFIL/OFF
+
+
+CIMFIL/ON,MACHIN
+XX=POSTF(13)	$$ process CL rec.
+$$ Insert NC tape header block(s) here
+$$ For example : INSERT/'G90G40G80$'  will generate N10G90G40G80
+CALL/CLNAME
+INSERT/' (Pro/NC Tool path : ',CLNAM,')$'
+INSERT/' (PARTNO : ',PARTN,')$'
+INSERT/' G90 G80 G40 G17 G0$'
+$$ Support for CSINK cycle : output G81 for a CSINK cycle
+DMY=POSTF(2,1,471,81)  $$ Set INTCOM 471 to 81
+$$ End Header block(s)
+CIMFIL/OFF
+
+
+CIMFIL/ON,PARTNO
+$$ Extract PARTNO and put in it in a variable
+$$ can be used later for a message (after MACHIN processing)
+$$ INSERT/'(',PARTN,')$'
+XX=POSTF(13)		$$ Process PARTNO
+TXT=TEXT/CLW		$$ Extract the text
+PARTN=TEXT/OMIT,TXT,1	$$ Remove trailin blank(s) (important)
+CIMFIL/OFF
+
+
+CIMFIL/ON,PPRINT
+$$ macro to remove PPRINT with the word COMMENTS
+MESS=TEXT/CLW           $$ Extract text of PPRINT
+TEST=TEXT/'COMMENTS'
+OK=INDXF(MESS,TEST)
+IF (OK.EQ.0) THEN
+  $$ PPRINT text does not include COMMENTS 
+  XX=POSTF(13)          $$ Process CL rec.
+ENDIF
+CIMFIL/OFF
+
+CIMFIL/ON,CYCLE     $$ GET THE CYCLE STATEMENTS
+$$ Macro to support G99/G98 in CYCLE
+4TH = POSTF(7,4)    $$ GET THE 4TH CL WORD VALUE
+4TY = POSTF(6,4)    $$ GET THE 4TH CL WORD TYPE
+IF(4TY .EQ. 0 .AND. 4TH .EQ. (ICODEF(OFF)))THEN    $$ FOUND CYCLE/OFF
+  NUL = POSTF(13)   $$ EXECUTE THE CYCLE/OFF
+ELSE                $$ FOUND SOMETHING ELSE
+  NUMWD = POSTF(5)  $$ GET THE NUMBER OF CL WORDS
+  NUL = POSTF(9,(NUMWD+1),192)    $$ ADD THE WORD PULBAC TO THE CL RECORD
+$$ Now check if RETURN was used
+$$ default is G99 
+  RVAL=99
+  IF ((POSTF(7,NUMWD)).EQ.ICODEF(RETURN)) THEN
+    RVAL=98
+  ENDIF
+  IF ((POSTF(7,(NUMWD-1))).EQ.ICODEF(RETURN)) THEN
+$$ There is a Z value defined for the return.
+$$ if it is equal to the current Z use G98 (return initial)
+$$ otherwise use G99
+     RETVAL=POSTF(7,NUMWD)
+     CURZ=POSTF(1,3,416)                
+     IF (CURZ.EQ.RETVAL) THEN
+       RVAL=98
+     ELSE
+       RVAL=99
+     ENDIF
+  ENDIF
+  NUL = POSTF(10,(NUMWD+2),RVAL)  $$ ADD THE VALUE OF G code for return
+  NUL = POSTF(12,(NUMWD+2))       $$ INCREASE THE NUMBER OF CL WORDS BY 2
+  NUL = POSTF(13)                 $$ EXECUTE THE CL RECORD
+ENDIF
+CIMFIL/OFF

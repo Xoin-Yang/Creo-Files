@@ -78,3 +78,4 @@ saving_model_thumbnails yes
 use_inverted_mousewheel_zoom yes
 auto_center_dimension yes
 pro_dtl_setup_dir E:\Creo-Files\CREO\Dtl
+menu_translation yes

@@ -1,0 +1,500 @@
+﻿!trail file version No. 1861
+!Creo  TM  4.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 12100
+!	Application: Creo_Parametric
+!	Start date&time: 2017/06/02  16:25:51
+!	language: chinese_cn
+!	machine type: x86e_win64
+!	datecode: M010
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.168593 1845 0 0 986 1920 0 0 1080 13
+!mem_use INCREASE Blocks 772437, AppSize 97196460, SysSize 110948176
+< 0 0.922074 1607 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1416 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1436 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1456 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1474 0 0 778 1920 0 0 1080 13
+!%CI欢迎使用 Creo Parametric 4.0。
+!AFX datecode: 4.0 M010 2017.02.16.11
+!AFX exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\x86e_win64\afx40.dll
+!AFX text path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\
+< 0 1.082074 1474 0 0 913 1920 0 0 1080 13
+< 0 0.922074 1474 0 0 778 1920 0 0 1080 13
+< 0 0.916148 1474 0 0 773 1920 0 0 1080 13
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): connected to Pro/E.
+!	exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\x86e_win64\obj\mcp_applet_async.exe
+!	type: asynchronous
+~ Command `ProCmdModelNew` 
+~ Select `new` `Type` 1 `Manufacturing`
+~ Select `new` `Type` 1 `Drawing`
+~ Select `new` `Type` 1 `Assembly`
+~ Select `new` `Type` 1 `Part`
+~ Select `new` `Type` 1 `Sketch`
+~ Select `new` `Type` 1 `Part`
+~ Activate `new` `OK`
+!Command ProCmdModelNewExe was pushed from the software.
+! 2-Jun-17 16:26:13  Start E:\Creo-Files\CREO\Templates\template_yang.prt
+! 2-Jun-17 16:26:13  End   E:\Creo-Files\CREO\Templates\template_yang.prt
+! 2-Jun-17 16:26:13  Start E:\Creo-Files\CREO\prt0001.prt
+! 2-Jun-17 16:26:13  End   E:\Creo-Files\CREO\prt0001.prt
+!%CI用默认模板E:\Creo-Files\CREO\Templates\template_yang.prt作为模板。
+@ oa_sel_filter_set _30_
+!%CE不能从模型树配置文件E:\Creo Files\CREO\tree.cfg读取。
+@ stack attr 2
+~ Activate `main_dlg_cur` `page_Flex_Modeling_control_btn` 1
+@ oa_sel_filter_set Prt_fl_objs
+~ Sync LearnConn_Startup
+~ Activate `transient_balloon` `no`
+~ Activate `main_dlg_cur` `page_View_control_btn` 1
+@ oa_sel_filter_set 2
+~ Activate `main_dlg_cur` `page_Tools_control_btn` 1
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+< 0 0.879407 1474 0 0 742 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_Analysis_control_btn` 1
+< 0 0.916148 1474 0 0 773 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_Model_control_btn` 1
+~ Activate `main_dlg_cur` `page_Flex_Modeling_control_btn` 1
+@ oa_sel_filter_set Prt_fl_objs
+~ Activate `main_dlg_cur` `page_Applications_control_btn` 1
+@ oa_sel_filter_set 2
+~ Close `main_dlg_cur` `adb_main_menu`
+~ Activate `main_dlg_cur` `page_Flex_Modeling_control_btn` 1
+@ oa_sel_filter_set Prt_fl_objs
+~ Activate `main_dlg_cur` `page_View_control_btn` 1
+@ oa_sel_filter_set 2
+~ Activate `main_dlg_cur` `page_Tools_control_btn` 1
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+< 0 0.874667 1474 0 0 738 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_Analysis_control_btn` 1
+< 0 0.916148 1474 0 0 773 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_Model_control_btn` 1
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdModelNew` 
+~ Select `new` `Type` 1 `Assembly`
+~ Select `new` `Type` 1 `Manufacturing`
+~ Select `new` `Type` 1 `Drawing`
+~ Select `new` `Type` 1 `Format`
+~ Select `new` `Type` 1 `Layout`
+~ Select `new` `Type` 1 `CE`
+~ Select `new` `Type` 1 `Assembly`
+~ Select `new` `Type` 1 `Part`
+~ Select `new` `part` 1 `Sheetmetal`
+~ Select `new` `part` 1 `Bulk`
+~ Activate `new` `Cancel`
+~ Command `ProCmdFreestyle` 
+!%CP单击 "样式" 工具栏上的图标来创建曲线和曲面。
+~ Command `ProCmdFreeformQuit` 
+!mem_use INCREASE Blocks 880313, AppSize 121746441, SysSize 137246256
+~ Activate `main_dlg_cur` `page_Applications_control_btn` 1
+~ Activate `main_dlg_cur` `page_Flex_Modeling_control_btn` 1
+@ oa_sel_filter_set Prt_fl_objs
+~ Activate `main_dlg_cur` `page_View_control_btn` 1
+@ oa_sel_filter_set 2
+~ Activate `main_dlg_cur` `page_Tools_control_btn` 1
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+< 0 0.874667 1474 0 0 738 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_Analysis_control_btn` 1
+< 0 0.916148 1474 0 0 773 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_Model_control_btn` 1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 170 117 0 1 1474 773 1920 1080 215626
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 170 117 0 0 1474 773 1920 1080 215737
+@ sel view 0
+ 1.327015 0.000000 0.000000 0.000000 0.000000 -1.327015
+ 0.000000 1.327015 0.000000 500.000000 421.875000 -2338.268590 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Key `main_dlg_cur` `proe_win` 9 170 117 5439603 0 1474 773 1920 1080 215737 `S`
+!playing mapkey s
+~ Command `ProCmdDatumSketCurve` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : 草绘
+!ODUI session started.
+!%CP选择一个平面或曲面以定义草绘平面。
+~ LButtonArm `main_dlg_cur` `proe_win` 9 841 82 0 1 1474 773 1920 1080 217355
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 841 82 0 0 1474 773 1920 1080 217435
+@ sel view 0
+ 1.327015 0.000000 0.000000 0.000000 0.000000 -1.327015
+ 0.000000 1.327015 0.000000 500.000000 421.875000 -2338.268590 1.000000 0.000000 0
+@ stack attr 8
+@ stack idx 0
+@SEL_REC 0 [] 2 18 -1 (0.0000000000 0.0000000000) (85.5444152974 0.0000000000 -254.3301270189)
+!%CI显示基准平面曲面X-Y，模型PRT0001。
+!X-Y:F2(基准平面) ID=18
+!%CP选择一个参考 (例如曲面、平面或边) 以定义视图方向。
+~ Trigger `Odui_Dlg_00` `t1.RefMru` 2 `collector_preview_row_0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.RefMru` 2 `` ``
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!sket_eps         5.6517806
+!Command ProCmdEditOneByOne was pushed from the software.
+~ Command `ProCmdSketRectangle`  1
+!%CP选取两点来指示方框的对角线。使用中键中止。
+!%CI当约束处于活动状态时，可通过单击右键在锁定/禁用/启用约束之间切换。使用 Tab 键可切换活动约束。按住 Shift 键可禁用捕捉到新约束。
+~ Enter `main_dlg_cur` `proe_win` 9 321 139 0 1536 1474 773 1920 1080 219935
+~ Move `main_dlg_cur` `proe_win` 9 321 139 0 0 1474 773 1920 1080 219935
+~ LButtonArm `main_dlg_cur` `proe_win` 9 601 254 0 1 1474 773 1920 1080 220382
+!Dragger (SKETCHER_LOOP_DRAGGER) start dragging
+!%CI当约束处于活动状态时，可通过单击右键在锁定/禁用/启用约束之间切换。使用 Tab 键可切换活动约束。按住 Shift 键可禁用捕捉到新约束。
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 601 254 0 0 1474 773 1920 1080 220470
+0.351552 0.565411 N 0 0.916148148 0
+~ Move `main_dlg_cur` `proe_win` 9 602 255 0 1536 1474 773 1920 1080 220471
+>M rb_append_tb_cnd_CB ProeWin0 283 782 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 0 4 7 0
+>M rb_append_tb_cnd_CB ProeWin0 309 802 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB -1 -1 0 -1 -1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 894 490 0 1 1474 773 1920 1080 220958
+!Dragger (SKETCHER_LOOP_DRAGGER) start dragging
+!%CP选取两点来指示方框的对角线。使用中键中止。
+!%CI当约束处于活动状态时，可通过单击右键在锁定/禁用/启用约束之间切换。使用 Tab 键可切换活动约束。按住 Shift 键可禁用捕捉到新约束。
+~ Move `main_dlg_cur` `proe_win` 9 893 491 0 1537 1474 773 1920 1080 221078
+>M rb_append_tb_cnd_CB ProeWin0 396 852 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 6 1 7 0
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 893 491 0 0 1474 773 1920 1080 221094
+>M rb_append_tb_cnd_CB ProeWin0 395 852 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 6 1 7 0
+>M rb_append_tb_cnd_CB ProeWin0 394 852 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 6 1 7 0
+>M rb_append_tb_cnd_CB ProeWin0 393 852 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 6 1 7 0
+>M rb_append_tb_cnd_CB ProeWin0 393 852 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 6 1 7 0
+>M rb_append_tb_cnd_CB ProeWin0 392 852 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB 0 6 4 7 0
+>M rb_append_tb_cnd_CB ProeWin0 358 843 c0 0 1474 0 0 773 1920 0 0 1080 13
+@RB_ABSORB_TB -1 -1 0 -1 -1
+~ Key `main_dlg_cur` `proe_win` 9 798 429 65536 1536 1474 773 1920 1080 221379 `Esc`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 714 229 0 1 1474 773 1920 1080 222379
+** 0.474895 0.702458 0 1 1
+0.474895 0.592699 L 0 0.916148148 0
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 714 229 0 0 1474 773 1920 1080 222444
+@ sel view 0
+ 1.327015 0.000000 0.000000 0.000000 0.000000 -1.327015
+ 0.000000 1.327015 0.000000 500.000000 421.875000 -2338.268590 1.000000 0.000000 0
+@ stack attr 8
+@ sel2d 0 SKETCH_DIM 
+1 10 1 1 1 4 4
+@ sel2d 0 SKETCH_DIM 
+1 10 1 1 1 4 4
+@ stack idx 0
+!sd1 = 241.00  (弱)
+~ LButtonArm `main_dlg_cur` `proe_win` 9 714 229 0 129 1474 773 1920 1080 222523
+@ sel view 0
+ 1.327015 0.000000 0.000000 0.000000 0.000000 -1.327015
+ 0.000000 1.327015 0.000000 500.000000 421.875000 -2338.268590 1.000000 0.000000 0
+@ stack attr 8
+@ sel2d 0 SKETCH_DIM 
+1 10 1 1 1 4 4
+** 0.474895 0.702458 0 64 64
+0.474895 0.592699 E 0 0.916148148 0
+~ Move `main_dlg_cur` `proe_win` 9 714 229 0 1 1474 773 1920 1080 222530
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 714 229 0 0 1474 773 1920 1080 222613
+~ Update `main_dlg_cur` `mod_dim_emb` `25`
+~ Activate `main_dlg_cur` `mod_dim_emb`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 654 339 0 1 1474 773 1920 1080 226185
+** 0.409403 0.560155 0 1 1
+0.459480 0.504602 L 0 0.916148148 0
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 654 339 0 0 1474 773 1920 1080 226264
+@ sel view 0
+ 3.284130 0.000000 0.000000 0.000000 0.000000 -3.284130
+ 0.000000 3.284130 0.000000 683.690886 378.989619 -1711.657725 0.404069 0.000000 0
+@ stack attr 8
+@ sel2d 0 SKETCH_DIM 
+0 10 0 1 1 5 4
+@ sel2d 0 SKETCH_DIM 
+0 10 0 1 1 5 4
+@ stack idx 0
+!sd0 = 194.12  (弱)
+~ LButtonArm `main_dlg_cur` `proe_win` 9 654 339 0 129 1474 773 1920 1080 226352
+@ sel view 0
+ 3.284130 0.000000 0.000000 0.000000 0.000000 -3.284130
+ 0.000000 3.284130 0.000000 683.690886 378.989619 -1711.657725 0.404069 0.000000 0
+@ stack attr 8
+@ sel2d 0 SKETCH_DIM 
+0 10 0 1 1 5 4
+** 0.409403 0.560155 0 64 64
+0.459480 0.504602 E 0 0.916148148 0
+~ Move `main_dlg_cur` `proe_win` 9 654 339 0 1 1474 773 1920 1080 226355
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 654 339 0 0 1474 773 1920 1080 226447
+~ Update `main_dlg_cur` `mod_dim_emb` `25`
+~ Activate `main_dlg_cur` `mod_dim_emb`
+~ Key `main_dlg_cur` `proe_win` 9 654 339 65536 0 1474 773 1920 1080 227560 `Esc`
+~ Activate `main_dlg_cur` `SketEscKey_sket_main_1`
+~ Wheel `main_dlg_cur` `proe_win` 9 658 506 458752 0 1474 773 1920 1080 228458
+~ Wheel `main_dlg_cur` `proe_win` 9 658 506 458752 0 1474 773 1920 1080 228493
+~ Wheel `main_dlg_cur` `proe_win` 9 660 506 458752 0 1474 773 1920 1080 228537
+~ LButtonArm `main_dlg_cur` `proe_win` 9 677 485 0 1 1474 773 1920 1080 229067
+** 0.434508 0.371281 0 1 1
+0.494099 0.089349 L 0 0.916148148 0
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 677 485 0 0 1474 773 1920 1080 229133
+@ sel view 0
+ 7.061142 0.000000 0.000000 0.000000 0.000000 -7.061142
+ 0.000000 7.061142 0.000000 894.950048 723.941205 -2051.449743 0.367055 0.000000 0
+@ stack attr 8
+@ sel2d 0 SKETCH_DIM 
+3 10 3 2 2 0 0 7 1
+@ sel2d 0 SKETCH_DIM 
+3 10 3 2 2 0 0 7 1
+@ stack idx 0
+!sd3 = 111.87  (弱)
+~ LButtonArm `main_dlg_cur` `proe_win` 9 677 485 0 129 1474 773 1920 1080 229232
+@ sel view 0
+ 7.061142 0.000000 0.000000 0.000000 0.000000 -7.061142
+ 0.000000 7.061142 0.000000 894.950048 723.941205 -2051.449743 0.367055 0.000000 0
+@ stack attr 8
+@ sel2d 0 SKETCH_DIM 
+3 10 3 2 2 0 0 7 1
+** 0.434508 0.371281 0 64 64
+0.494099 0.089349 E 0 0.916148148 0
+~ Move `main_dlg_cur` `proe_win` 9 677 485 0 1 1474 773 1920 1080 229232
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 677 485 0 0 1474 773 1920 1080 229273
+~ Update `main_dlg_cur` `mod_dim_emb` `12.5`
+~ Activate `main_dlg_cur` `mod_dim_emb`
+!sket_eps       2.893711667
+~ LButtonArm `main_dlg_cur` `proe_win` 9 826 373 0 1 1474 773 1920 1080 231960
+** 0.597146 0.516171 0 1 1
+0.544414 0.422465 L 0 0.916148148 0
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 826 373 0 0 1474 773 1920 1080 232035
+@ sel view 0
+ 7.804852 0.000000 0.000000 0.000000 0.000000 -7.804852
+ 0.000000 7.804852 0.000000 497.729142 755.756146 -1468.852729 0.332079 0.000000 0
+@ stack attr 8
+@ sel2d 0 SKETCH_DIM 
+2 10 2 2 2 1 0 6 1
+@ sel2d 0 SKETCH_DIM 
+2 10 2 2 2 1 0 6 1
+@ stack idx 0
+!sd2 = 85.13  (弱)
+~ LButtonArm `main_dlg_cur` `proe_win` 9 826 373 0 129 1474 773 1920 1080 232082
+@ sel view 0
+ 7.804852 0.000000 0.000000 0.000000 0.000000 -7.804852
+ 0.000000 7.804852 0.000000 497.729142 755.756146 -1468.852729 0.332079 0.000000 0
+@ stack attr 8
+@ sel2d 0 SKETCH_DIM 
+2 10 2 2 2 1 0 6 1
+** 0.597146 0.516171 0 64 64
+0.544414 0.422465 E 0 0.916148148 0
+~ Move `main_dlg_cur` `proe_win` 9 826 373 0 1 1474 773 1920 1080 232082
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 826 373 0 0 1474 773 1920 1080 232195
+~ Update `main_dlg_cur` `mod_dim_emb` `12.5`
+~ Activate `main_dlg_cur` `mod_dim_emb`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 731 380 0 1 1474 773 1920 1080 234402
+** 0.493451 0.507115 0 1 1
+-0.370127 -0.741039 L 0 0.916148148 0
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 731 380 0 0 1474 773 1920 1080 234473
+@ sel view 0
+ 25.392893 0.000000 0.000000 0.000000 0.000000 -25.392893
+ 0.000000 25.392893 0.000000 493.915573 418.174697 -2285.848611 0.102069 0.000000 0
+@ stack attr 8
+~ Command `ProCmdSketDone` 
+!sket_eps      0.2953582289
+!ODUI session finished.
+!F5(草绘_1)
+!%CI显示零件PRT0001中的特征5 (草绘_1)。 
+!Undo: added rec_id 167 type 5304 
+~ Activate `main_dlg_cur` `page_Analysis_control_btn` 1
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+< 0 0.874667 1474 0 0 738 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_Tools_control_btn` 1
+< 0 0.916148 1474 0 0 773 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_View_control_btn` 1
+~ Activate `main_dlg_cur` `page_Flex_Modeling_control_btn` 1
+@ oa_sel_filter_set Prt_fl_objs
+~ Activate `main_dlg_cur` `page_Applications_control_btn` 1
+@ oa_sel_filter_set 2
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdModelNew` 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 212 450 0 1 1474 773 1920 1080 249618
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 212 450 0 0 1474 773 1920 1080 249675
+@ sel view 0
+ 26.540308 0.000000 0.000000 0.000000 0.000000 -26.540308
+ 0.000000 26.540308 0.000000 500.000000 421.875000 -2338.268590 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Key `main_dlg_cur` `proe_win` 9 303 -1 65536 1536 1474 773 1920 1080 250074 `Esc`
+~ Activate `main_dlg_cur` `ecKeyButton0x1`
+~ Key `main_dlg_cur` `proe_win` 9 303 -1 65536 1536 1474 773 1920 1080 250074 `Esc`
+~ Activate `main_dlg_cur` `ecKeyButton0x1`
+~ Command `ProCmdWinCloseGroup` 
+!Command ProCmdWinClose was pushed from the software.
+! Executed sub-command ProCmdWinCloseAsyn.
+!%CI基本窗口不能关闭。
+~ Command `ProCmdModelEraseNotDisp` 
+~ Activate `file_erase_nd` `ok_pb`
+!%CI所有没有显示的对象已被拭除。
+~ Command `ProCmdModelNew` 
+~ Select `new` `Type` 1 `Assembly`
+~ Select `new` `RadioGroup9` 1 `Interchange`
+~ Select `new` `RadioGroup9` 1 `Process Planning`
+~ Select `new` `RadioGroup9` 1 `NC Model`
+~ Select `new` `RadioGroup9` 1 `Mold Layout`
+~ Select `new` `RadioGroup9` 1 `Ext. Simp.Rep`
+~ Select `new` `RadioGroup9` 1 `Module`
+~ Select `new` `RadioGroup9` 1 `Configurable Structure`
+~ Select `new` `RadioGroup9` 1 `Ecad`
+~ Select `new` `Type` 1 `Manufacturing`
+~ Close `new` `new`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Command `ProCmdHelpSystem` 
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric 将终止，所有未保存的工作都将会丢失。
+!               : 是否确实要退出?
+~ Activate `UI Message Dialog` `no`
+~ Command `ProCmdModelNew` 
+~ Select `new` `Type` 1 `Assembly`
+~ Select `new` `Type` 1 `Manufacturing`
+~ Select `new` `Type` 1 `Assembly`
+~ Select `new` `RadioGroup9` 1 `Interchange`
+~ Select `new` `RadioGroup9` 1 `Regular`
+~ Activate `new` `OK`
+!Command ProCmdModelNewExe was pushed from the software.
+!%CE无法找到默认模板E:\Creo Files\CREO\Templates\GB_Yang.asm.1。
+~ FocusOut `new_file_opts` `inp_template_name`
+~ Activate `new_file_opts` `psh_ok`
+@ ok
+!%CI正在加载公差表 2 ...
+!%CE不能从模型树配置文件E:\Creo Files\CREO\tree.cfg读取。
+~ Activate `main_dlg_cur` `efx_user_custom_page_1_control_btn` 1
+~ Activate `main_dlg_cur` `page_Model_control_btn` 1
+~ Activate `main_dlg_cur` `page_Applications_control_btn` 1
+~ Activate `main_dlg_cur` `efx_user_custom_page_1_control_btn` 1
+~ Command `AfxCmdEquipmentNew` 
+~ Select `ProTKDialogLibrarySelection` `ListLibraryFolderContent` 1 `1`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `15`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `16`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `2`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `5`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `8`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `11`
+!mem_use INCREASE Blocks 933044, AppSize 148239322, SysSize 163833224
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `29`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `63`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `93`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `260`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `395`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `408`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `409`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `423`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `428`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `463`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `46`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `63`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `78`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `205`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `261`
+!mem_use INCREASE Blocks 934177, AppSize 175508985, SysSize 191213904
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `262`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `286`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `2`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `5`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `8`
+~ Select `ProTKDialogLibrarySelection` `TreeLibraryFolders` 1 `11`
+~ Select `ProTKDialogLibrarySelection` `ListLibraryFolderContent` 1 `14`
+~ Open `ProTKDialogComponentNew` `omMaterial`
+~ Close `ProTKDialogComponentNew` `omMaterial`
+~ Select `ProTKDialogComponentNew` `omMaterial` 1 `omMaterial_0`
+~ FocusOut `ProTKDialogComponentNew` `omMaterial`
+~ Activate `ProTKDialogComponentNew` `pbApply`
+!%CD未定义项目(首先定义项目)。
+!%TR
+ABC
+!Undo: added rec_id 5 type 5204 
+! 2-Jun-17 16:41:28  Start D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\parts\equipment\steel_construction_mm\beam_endcaps\endcap_round.prt
+! 2-Jun-17 16:41:28  End   D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\parts\equipment\steel_construction_mm\beam_endcaps\endcap_round.prt
+!%CIENDCAP_ROUND 已保存。
+! 2-Jun-17 16:41:28  Start E:\Creo-Files\CREO\endcap_round.prt
+! 2-Jun-17 16:41:28  End   E:\Creo-Files\CREO\endcap_round.prt
+!%CE'abc_endcap_round_1'不能检索。
+!%CE'abc_endcap_round_1'不能检索。
+!%CI从上次重新生成起零件'ABC_ENDCAP_ROUND_1'未被更改。
+~ FocusIn `ProTKDialogElementConfiguration` `InputPanelInputParam_0`
+~ Activate `ProTKDialogElementConfiguration` `PushbuttonSelectRequired_0`
+!%CD选择端面作为元件参考: 截面梁端点
+~ Activate `main_dlg_cur` `ecKeyButton0x1`
+~ Activate `main_dlg_cur` `ecKeyButton0x1`
+~ Activate `main_dlg_cur` `ecKeyButton0x1`
+~ Activate `ProTKDialogComponentNew` `pbCancel`
+!%CIABC_ENDCAP_ROUND_1已被删除。
+~ Key `main_dlg_cur` `proe_win` 9 1220 458 65536 1536 1474 773 1920 1080 945895 `Esc`
+~ Activate `main_dlg_cur` `ecKeyButton0x1`
+~ Key `main_dlg_cur` `proe_win` 9 630 234 65536 1536 1474 773 1920 1080 946120 `Esc`
+~ Activate `main_dlg_cur` `ecKeyButton0x1`
+~ Key `main_dlg_cur` `proe_win` 9 704 154 65536 512 1474 773 1920 1080 946327 `Esc`
+~ Activate `main_dlg_cur` `ecKeyButton0x1`
+~ Key `main_dlg_cur` `proe_win` 9 721 6 65536 0 1474 773 1920 1080 946547 `Esc`
+~ Activate `main_dlg_cur` `ecKeyButton0x1`
+~ Key `main_dlg_cur` `proe_win` 9 718 -1 65536 1024 1474 773 1920 1080 946561 `Esc`
+~ Activate `main_dlg_cur` `ecKeyButton0x1`
+~ Command `efx_component_info` 
+~ Key `main_dlg_cur` `proe_win` 9 718 -1 65536 1024 1474 773 1920 1080 946561 `Esc`
+~ Activate `main_dlg_cur` `ecKeyButton0x1`
+~ Activate `GET SELECT` `done_sel`
+~ Command `ProCmdWinCloseGroup` 
+!Command ProCmdWinClose was pushed from the software.
+! Executed sub-command ProCmdWinCloseAsyn.
+!%CI基本窗口不能关闭。
+~ Activate `main_dlg_cur` `In Session`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `asm0001.asm`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist:<NULL>`
+~ RButtonArm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` `asm0001.asm`
+~ PopupOver `main_dlg_cur` `listPopup` 1 `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist`
+~ Open `main_dlg_cur` `listPopup`
+~ Close `main_dlg_cur` `listPopup`
+~ Activate `main_dlg_cur` `psh_refresh`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 0
+~ Command `ProCmdModelEraseNotDisp` 
+~ Activate `file_erase_nd` `ok_pb`
+!%CI所有没有显示的对象已被拭除。
+~ Command `ProCmdModelNew` 
+~ Activate `new` `OK`
+!Command ProCmdModelNewExe was pushed from the software.
+! 2-Jun-17 16:41:53  Start E:\Creo-Files\CREO\Templates\template_yang.prt
+! 2-Jun-17 16:41:53  End   E:\Creo-Files\CREO\Templates\template_yang.prt
+! 2-Jun-17 16:41:53  Start E:\Creo-Files\CREO\prt0001.prt
+! 2-Jun-17 16:41:53  End   E:\Creo-Files\CREO\prt0001.prt
+!%CI用默认模板E:\Creo-Files\CREO\Templates\template_yang.prt作为模板。
+!%CE不能从模型树配置文件E:\Creo Files\CREO\tree.cfg读取。
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+~ PopupOver `main_dlg_cur` `adb_main_menu` 1 `adb_container_control_bar`
+~ Open `main_dlg_cur` `adb_main_menu`
+~ Close `main_dlg_cur` `adb_main_menu`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1071 2 0 1 1474 773 1920 1080 998195
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1071 2 0 0 1474 773 1920 1080 998252
+@ sel view 0
+ 1.327015 0.000000 0.000000 0.000000 0.000000 -1.327015
+ 0.000000 1.327015 0.000000 500.000000 421.875000 -2338.268590 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1172 3 0 1 1474 773 1920 1080 1283778
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1172 3 0 0 1474 773 1920 1080 1283885
+@ sel view 0
+ 1.327015 0.000000 0.000000 0.000000 0.000000 -1.327015
+ 0.000000 1.327015 0.000000 500.000000 421.875000 -2338.268590 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Key `main_dlg_cur` `proe_win` 9 1173 2 983040 1024 1474 773 1920 1080 1283948 `F1`
+~ Move `UI Desktop` `UI Desktop` 2 `main_dlg_w1` `proe_win` \
+ 2 795 2
+~ Command `ProCmdHelpSystem` 
+~ Command `ProCmdHelpSystem` 
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric 将终止，所有未保存的工作都将会丢失。
+!               : 是否确实要退出?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

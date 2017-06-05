@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MfgSetupDocument>
+    <DocType>PRO_NC_CUTTING_TOOL_SETUP</DocType>
+    <DocTitle>Cutting Tool Information</DocTitle>
+    <DateTime>2012-02-28T09:58:14</DateTime>
+    <ApplicationInfo AppName="Creo" Language="usascii" FtVersion="300017" AppVersion="F000" MdlVersion="1607"/>
+    <ToolingSetup>
+        <Tool Id="GRV_0020" Type="GROOVING" RefXmlId="encref_1">
+            <Attr Name="UseOutline" Value="false" DataType="boolean"/>
+            <Attr Name="ProLibraryTool" Value="false" DataType="boolean"/>
+            <Attr Name="SketchTool" Value="false" DataType="boolean"/>
+            <Attr Name="ToolByRef" Value="false" DataType="boolean"/>
+            <MfgParam Name="LENGTH_UNITS" Value="MILLIMETER"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.2"/>
+            <MfgParam Name="CORNER_RADIUS" Value="-"/>
+            <MfgParam Name="SIDE_ANGLE" Value="-"/>
+            <MfgParam Name="LENGTH" Value="20"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="-"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="-"/>
+            <MfgParam Name="TOOL_COMMENT" Value="-"/>
+            <ToolSetUpOnWorkcell>
+                <OffsetDataCollection>
+                    <OffsetData Tip="1" Comment="" OffsetZ="0.000000" Register="-1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+    </ToolingSetup>
+</MfgSetupDocument>
