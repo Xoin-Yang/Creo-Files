@@ -1,0 +1,33 @@
+﻿!trail file version No. 1800
+!Creo  TM  3.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 2452
+!	Application: Creo_Parametric
+!	Start date&time: 2017/05/30  16:52:34
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: M120
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.205333 1737 0 0 1017 1920 0 0 1080 13
+!mem_use INCREASE Blocks 622849, AppSize 61043221, SysSize 72993728
+< 0 0.977778 1585 0 0 825 1920 0 0 1080 13
+< 0 0.977778 1379 0 0 825 1920 0 0 1080 13
+< 0 0.970667 1379 0 0 819 1920 0 0 1080 13
+!%CIWelcome to Creo Parametric 3.0.
+~ Activate `pse_abnorm_exit_dlg` `psh_continue`
+~ Activate `msglist` `msglist`
+~ Resize `msglist` `msglist` 4 15.388323 12.455978 19.021316 5.345690
+~ Select `msglist` `List_msgs` 1 `7788@pt-xy_pc: (-15) Cannot connect to license server system.`
+~ Select `msglist` `List_msgs` 0
+~ Activate `msglist` `List_msgs` 1 `7788@pt-xy_pc: (-15) Cannot connect to license server system.`
+~ Select `msglist` `List_msgs` 0
+~ Activate `msglist` `List_msgs` 1 `7788@pt-xy_pc: (-15) Cannot connect to license server system.`
+~ Activate `msglist` `msglist`
+~ Activate `msglist` `msglist`
+~ Activate `msglist` `msglist`
+~ Activate `msglist` `Ok`
+!AFX datecode: Dec 13 2016 : 10:01:30
+!End of Trail File

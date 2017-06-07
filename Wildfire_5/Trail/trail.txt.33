@@ -1,0 +1,1065 @@
+﻿!trail file version No. 1861
+!Creo  TM  4.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 5372
+!	Application: Creo_Parametric
+!	Start date&time: 2017/06/02  09:32:03
+!	language: chinese_cn
+!	machine type: x86e_win64
+!	datecode: M010
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.168593 1845 0 0 986 1920 0 0 1080 13
+!mem_use INCREASE Blocks 772439, AppSize 97261975, SysSize 110948176
+< 0 0.922074 1607 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1416 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1436 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1456 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1474 0 0 778 1920 0 0 1080 13
+!%CI欢迎使用 Creo Parametric 4.0。
+!AFX datecode: 4.0 M010 2017.02.16.11
+!AFX exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\x86e_win64\afx40.dll
+!AFX text path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\
+< 0 1.082074 1474 0 0 913 1920 0 0 1080 13
+< 0 0.922074 1474 0 0 778 1920 0 0 1080 13
+< 0 0.916148 1474 0 0 773 1920 0 0 1080 13
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): connected to Pro/E.
+!	exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\x86e_win64\obj\mcp_applet_async.exe
+!	type: asynchronous
+~ Command `ProCmdModelNew` 
+~ Activate `new` `OK`
+!Command ProCmdModelNewExe was pushed from the software.
+! 2-Jun-17 09:32:12  Start E:\Creo-Files\CREO\Templates\template_yang.prt
+! 2-Jun-17 09:32:12  End   E:\Creo-Files\CREO\Templates\template_yang.prt
+! 2-Jun-17 09:32:12  Start E:\Creo-Files\CREO\prt0001.prt
+! 2-Jun-17 09:32:12  End   E:\Creo-Files\CREO\prt0001.prt
+!%CI用默认模板E:\Creo-Files\CREO\Templates\template_yang.prt作为模板。
+@ oa_sel_filter_set _30_
+!%CE不能从模型树配置文件E:\Creo Files\CREO\tree.cfg读取。
+@ stack attr 2
+~ Activate `main_dlg_cur` `igToolbar_AncestorIGT_IGT_GRP_inh396938342.proe_win|.mcs29658718_mp|select_a\
+ll_check` 1
+!%CI将要显示轴。
+!%CI将显示基准点。
+~ Activate `main_dlg_cur` `igToolbar_AncestorIGT_IGT_GRP_inh396938342.proe_win|.mcs29658718_mp|select_a\
+ll_check` 0
+!%CI将不显示轴。
+!%CI将不显示基准点。
+!%CI不显示坐标系。
+!%CI基准平面将不显示。
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdModelOpen` 
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Select `file_open` `Ph_list.Filelist` 1 `PTCU`
+~ Activate `file_open` `Ph_list.Filelist` 1 `PTCU`
+~ Select `file_open` `Ph_list.Filelist` 1 `CreoParametric4`
+~ Activate `file_open` `Ph_list.Filelist` 1 `CreoParametric4`
+~ Select `file_open` `Ph_list.Filelist` 1 `使用Creo Parametric 界面`
+~ Activate `file_open` `Ph_list.Filelist` 1 `使用Creo Parametric 界面`
+~ Select `file_open` `Ph_list.Filelist` 1 `Sample_Topic`
+~ Activate `file_open` `Ph_list.Filelist` 1 `Sample_Topic`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `file_open:Ph_list.Filelist:<NULL>`
+~ Select `file_open` `Ph_list.Filelist` 1 `nut.prt`
+~ Activate `file_open` `Ph_preview.Preview`
+~ Select `file_open` `Ph_list.Filelist` 1 `Sample_Subfolder`
+!mem_use INCREASE Blocks 867896, AppSize 125131928, SysSize 140992128
+~ Activate `file_open` `Ph_list.Filelist` 1 `Sample_Subfolder`
+~ Activate `file_open` `SAB_.|PTCU|CreoParametric4|使用Creo Parametric 界面|Sample_Topic|`
+~ Command `ProFileSelPushOpen_Standard@context_dlg_open_cmd` 
+!Command ProCmdModelOpenExe was pushed from the software.
+< 2 0.807000 807 0 0 807 1920 0 0 1080 13
+< 2 0.900000 900 0 0 999 1920 0 0 1080 13
+< 2 0.922074 1507 0 0 778 1920 0 0 1080 13
+< 2 0.922074 1437 0 0 778 1920 0 0 1080 13
+< 2 0.922074 1457 0 0 778 1920 0 0 1080 13
+< 2 0.922074 1475 0 0 778 1920 0 0 1080 13
+! 2-Jun-17 09:34:41  Start E:\Creo-Files\CREO\PTCU\CreoParametric4\使用Creo Parametric 界面\Sample_Topic\nut.prt
+! 2-Jun-17 09:34:41  End   E:\Creo-Files\CREO\PTCU\CreoParametric4\使用Creo Parametric 界面\Sample_Topic\nut.prt
+!%CE不能从模型树配置文件E:\Creo Files\CREO\tree.cfg读取。
+< 2 1.082074 1475 0 0 913 1920 0 0 1080 13
+< 2 0.922074 1475 0 0 778 1920 0 0 1080 13
+< 2 0.916148 1475 0 0 773 1920 0 0 1080 13
+~ Command `ProCmdViewSpinCntr`  0
+!%CI将不显示旋转中心。
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1092 175 0 1 1475 773 1920 1080 161956
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1092 175 0 0 1475 773 1920 1080 162065
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+< 2 0.928000 1485 0 0 783 1920 0 0 1080 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+< 2 0.916148 1475 0 0 773 1920 0 0 1080 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 4 0.000000 0.000000 49.823911 27.143652
+< 2 0.928000 1485 0 0 783 1920 0 0 1080 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+< 2 0.916148 1475 0 0 773 1920 0 0 1080 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 4 0.000000 0.000000 49.823911 27.143652
+< 2 0.928000 1485 0 0 783 1920 0 0 1080 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+< 2 0.916148 1475 0 0 773 1920 0 0 1080 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 4 0.000000 0.000000 49.823911 27.143652
+< 2 0.916148 1488 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1497 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1475 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1474 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1463 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1337 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1115 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1035 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1007 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1003 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1002 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1003 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1020 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1105 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1248 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1296 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1314 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1339 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1366 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1388 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1395 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1399 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1408 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1421 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1433 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1442 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1447 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1446 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1418 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1376 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1350 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1349 0 0 773 1920 0 0 1080 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 4 3.269694 0.000000 46.554217 27.143652
+~ Move `main_dlg_cur` `main_dlg_cur` 2 3.269694 0.000000
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w2:PHTLeft.AssyTree:<NULL>`
+~ Move `main_dlg_cur` `main_dlg_cur` 2 -3.658943 10.068582
+~ Close `main_dlg_w1` `main_dlg_w1`
+!Command ProCmdWinOSCloseAsyn was pushed from the software.
+!%CI基本窗口不能关闭。
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Trail `UI Desktop` `UI Desktop` `ActivateOnFocus` \
+ `main_dlg_w1`
+~ Move `main_dlg_cur` `proe_win` 9 1011 244 0 1 1474 773 1920 1080 193965
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdWinOSCloseAsyn was pushed from the software.
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdWinOSCloseAsyn was pushed from the software.
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdWinOSCloseAsyn was pushed from the software.
+~ Restore `main_dlg_w2` `main_dlg_w2`
+~ Trail `UI Desktop` `UI Desktop` `ActivateOnFocus` \
+ `main_dlg_w2`
+~ Move `main_dlg_cur` `main_dlg_cur` 2 0.882298 3.788693
+< 2 0.914963 1348 0 0 772 1920 0 0 1080 13
+< 2 0.899556 1327 0 0 759 1920 0 0 1080 13
+< 2 0.859259 1251 0 0 725 1920 0 0 1080 13
+< 2 0.815407 1132 0 0 688 1920 0 0 1080 13
+< 2 0.776296 1023 0 0 655 1920 0 0 1080 13
+< 2 0.733630 951 0 0 619 1920 0 0 1080 13
+< 2 0.698074 895 0 0 589 1920 0 0 1080 13
+< 2 0.668444 846 0 0 564 1920 0 0 1080 13
+< 2 0.641185 804 0 0 541 1920 0 0 1080 13
+< 2 0.618667 777 0 0 522 1920 0 0 1080 13
+< 2 0.594963 749 0 0 502 1920 0 0 1080 13
+< 2 0.568889 723 0 0 480 1920 0 0 1080 13
+< 2 0.553481 706 0 0 467 1920 0 0 1080 13
+< 2 0.533333 692 0 0 450 1920 0 0 1080 13
+< 2 0.519111 679 0 0 438 1920 0 0 1080 13
+< 2 0.508444 674 0 0 429 1920 0 0 1080 13
+< 2 0.503704 671 0 0 425 1920 0 0 1080 13
+< 2 0.496593 666 0 0 419 1920 0 0 1080 13
+< 2 0.490667 663 0 0 414 1920 0 0 1080 13
+< 2 0.487111 662 0 0 411 1920 0 0 1080 13
+< 2 0.485926 660 0 0 410 1920 0 0 1080 13
+< 2 0.480000 657 0 0 405 1920 0 0 1080 13
+< 2 0.471704 653 0 0 398 1920 0 0 1080 13
+< 2 0.465778 651 0 0 393 1920 0 0 1080 13
+< 2 0.465778 650 0 0 393 1920 0 0 1080 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 4 0.882298 13.649676 28.415199 17.282669
+~ Move `main_dlg_cur` `main_dlg_cur` 2 0.882298 13.649676
+~ Move `main_dlg_cur` `main_dlg_cur` 2 11.340130 4.437442
+< 2 0.466963 650 0 0 394 1920 0 0 1080 13
+< 2 0.478815 648 0 0 404 1920 0 0 1080 13
+< 2 0.506074 647 0 0 427 1920 0 0 1080 13
+< 2 0.542815 649 0 0 458 1920 0 0 1080 13
+< 2 0.555852 649 0 0 469 1920 0 0 1080 13
+< 2 0.562963 650 0 0 475 1920 0 0 1080 13
+< 2 0.567704 650 0 0 479 1920 0 0 1080 13
+< 2 0.572444 650 0 0 483 1920 0 0 1080 13
+< 2 0.580741 650 0 0 490 1920 0 0 1080 13
+< 2 0.586667 648 0 0 495 1920 0 0 1080 13
+< 2 0.592593 644 0 0 500 1920 0 0 1080 13
+< 2 0.597333 640 0 0 504 1920 0 0 1080 13
+< 2 0.606815 634 0 0 512 1920 0 0 1080 13
+< 2 0.619852 624 0 0 523 1920 0 0 1080 13
+< 2 0.615000 615 0 0 534 1920 0 0 1080 13
+< 2 0.609000 609 0 0 538 1920 0 0 1080 13
+< 2 0.605000 605 0 0 541 1920 0 0 1080 13
+< 2 0.599000 599 0 0 546 1920 0 0 1080 13
+< 2 0.592000 592 0 0 548 1920 0 0 1080 13
+< 2 0.585000 585 0 0 551 1920 0 0 1080 13
+< 2 0.582000 582 0 0 552 1920 0 0 1080 13
+< 2 0.577000 577 0 0 555 1920 0 0 1080 13
+< 2 0.571000 571 0 0 557 1920 0 0 1080 13
+< 2 0.565000 565 0 0 559 1920 0 0 1080 13
+< 2 0.558000 558 0 0 561 1920 0 0 1080 13
+< 2 0.552000 552 0 0 563 1920 0 0 1080 13
+< 2 0.546000 546 0 0 563 1920 0 0 1080 13
+< 2 0.538000 538 0 0 559 1920 0 0 1080 13
+< 2 0.517000 517 0 0 557 1920 0 0 1080 13
+< 2 0.506000 506 0 0 556 1920 0 0 1080 13
+< 2 0.497000 497 0 0 555 1920 0 0 1080 13
+< 2 0.495000 495 0 0 555 1920 0 0 1080 13
+< 2 0.496000 496 0 0 555 1920 0 0 1080 13
+< 2 0.498000 498 0 0 554 1920 0 0 1080 13
+< 2 0.500000 500 0 0 554 1920 0 0 1080 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 4 11.340130 4.437442 24.522706 21.460612
+< 2 0.501000 501 0 0 554 1920 0 0 1080 13
+< 2 0.510000 510 0 0 554 1920 0 0 1080 13
+< 2 0.526000 526 0 0 554 1920 0 0 1080 13
+< 2 0.560000 560 0 0 554 1920 0 0 1080 13
+< 2 0.578000 578 0 0 554 1920 0 0 1080 13
+< 2 0.589000 589 0 0 554 1920 0 0 1080 13
+< 2 0.601000 601 0 0 554 1920 0 0 1080 13
+< 2 0.607000 607 0 0 554 1920 0 0 1080 13
+< 2 0.609000 609 0 0 554 1920 0 0 1080 13
+< 2 0.611000 611 0 0 554 1920 0 0 1080 13
+< 2 0.616000 616 0 0 554 1920 0 0 1080 13
+< 2 0.623000 623 0 0 554 1920 0 0 1080 13
+< 2 0.632000 632 0 0 554 1920 0 0 1080 13
+< 2 0.645000 645 0 0 554 1920 0 0 1080 13
+< 2 0.656593 664 0 0 554 1920 0 0 1080 13
+< 2 0.656593 674 0 0 554 1920 0 0 1080 13
+< 2 0.656593 675 0 0 554 1920 0 0 1080 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 4 11.340130 4.437442 29.063948 21.460612
+~ LButtonArm `main_dlg_cur` `drawinarea_resizer` 3 1 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 0 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -1 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -2 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -3 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -4 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -5 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -6 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -7 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -8 279 0
+< 2 0.656593 688 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 1 280 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -1 280 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -3 280 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -16 281 0
+< 2 0.656593 696 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -13 281 0
+< 2 0.656593 705 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -9 281 0
+< 2 0.656593 714 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -2 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -6 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -19 279 0
+< 2 0.656593 722 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -13 279 0
+< 2 0.656593 731 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -6 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -11 279 0
+< 2 0.656593 740 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -5 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -7 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -8 279 0
+< 2 0.656593 748 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -2 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -4 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -15 279 0
+< 2 0.656593 757 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -15 279 0
+< 2 0.656593 766 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -12 279 0
+< 2 0.656593 774 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -6 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -7 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -8 279 0
+< 2 0.656593 783 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -2 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -4 279 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -16 281 0
+< 2 0.656593 792 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -11 281 0
+< 2 0.656593 800 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -4 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -5 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -6 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -12 281 0
+< 2 0.656593 809 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -6 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -8 281 0
+< 2 0.656593 818 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 0 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -1 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -2 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -17 281 0
+< 2 0.656593 827 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -11 281 0
+< 2 0.656593 835 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -5 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -6 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -9 282 0
+< 2 0.656593 844 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -1 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -2 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -3 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -4 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -5 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -6 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -7 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -8 282 0
+< 2 0.656593 853 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 0 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -2 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -3 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -4 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -5 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -6 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -7 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -8 282 0
+< 2 0.656593 861 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -1 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -3 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -4 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -5 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -5 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -6 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -7 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -8 281 0
+< 2 0.656593 870 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 0 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -1 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -2 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -3 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -4 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -5 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -6 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -7 281 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -8 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -9 282 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -9 283 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -10 283 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -11 283 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -12 283 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -13 283 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -14 284 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -15 284 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -16 284 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 -16 285 0
+~ LButtonDisarm `main_dlg_cur` `drawinarea_resizer` 3 -16 285 0
+~ Move `main_dlg_cur` `main_dlg_cur` 2 12.663577 2.932345
+~ Minimize `main_dlg_w1` `main_dlg_w1`
+~ Key `main_dlg_cur` `proe_win` 9 402 -1 54591489 1536 870 554 1920 1080 211047 `Ctrl+Shift+A`
+~ Command `ProCmdViewGallery` 
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Activate `main_dlg_cur` `page_Analysis_control_btn` 1
+~ Command `ProCmdNaModelProperties` 
+!ODUI external UI session start for device : nma_model_massprop 
+!%CP选择坐标系。
+~ Move `nma_model_massprop` `nma_model_massprop` 2 17.931418 5.475440
+~ Trigger `nma_model_massprop` `coordinate_system` `0`
+~ Trigger `nma_model_massprop` `coordinate_system` ``
+~ Resize `nma_model_massprop` `nma_model_massprop` 4 17.931418 5.475440 9.160334 14.038925
+~ Trigger `nma_model_massprop` `coordinate_system` `0`
+~ Focus `nma_model_massprop` `coordinate_system`
+~ Select `nma_model_massprop` `coordinate_system` 0
+~ Trigger `nma_model_massprop` `coordinate_system` ``
+~ Select `nma_model_massprop` `mp_analysis_tool_tab` 1 `feature`
+~ Close `nma_model_massprop` `nma_model_massprop`
+!ODUI external UI session stop. 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 211 180 0 1 870 554 1920 1080 274995
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 211 180 0 0 870 554 1920 1080 275073
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Command `ProCmdDatumAnalysis` 
+!ODUI session starting: Okit widgets are off, Undo/Redo off, Dashboard style off, Tab style off. Feature title : 分析
+!ODUI session started.
+~ Close `Odui_Dlg_00` `Odui_Dlg_00`
+!ODUI session finished.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 654 176 0 1 870 554 1920 1080 278686
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 654 176 0 0 870 554 1920 1080 278795
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Activate `main_dlg_cur` `page_Model_control_btn` 1
+~ Command `ProCmdFtExtrude` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style on, Tab style off. Feature title : 拉伸
+!ODUI session started.
+!%CP选择一个草绘。(如果首选内部草绘，可在放置面板中找到 "定义" 选项。)
+~ Key `main_dlg_cur` `proe_win` 9 503 -1 65536 1536 870 554 1920 1080 279544 `Esc`
+~ Activate `main_dlg_cur` `dashInst0.Quit`
+!ODUI session finished.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 654 128 0 1 870 554 1920 1080 285509
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 654 128 0 0 870 554 1920 1080 285603
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ LButtonArm `main_dlg_cur` `proe_win` 9 188 126 0 1 870 554 1920 1080 288617
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 188 126 0 0 870 554 1920 1080 288726
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Move `main_dlg_cur` `proe_win` 9 163 203 33554432 0 870 554 1920 1080 291068
+>M Chain_oa_sel_CB ProeWin2 163 203 c0 20000 870 0 0 554 1920 0 0 1080 13
+>M RefselMouseMoveCB ProeWin2 163 203 c0 20000 870 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `proe_win` 9 163 203 50331648 0 870 554 1920 1080 291255
+>M Chain_oa_sel_CB ProeWin2 163 203 c0 30000 870 0 0 554 1920 0 0 1080 13
+>M Collectors_CB ProeWin2 163 203 c0 30000 870 0 0 554 1920 0 0 1080 13
+~ Move `main_dlg_cur` `proe_win` 9 163 203 0 0 870 554 1920 1080 292192
+>M Chain_oa_sel_CB ProeWin2 163 203 c0 0 870 0 0 554 1920 0 0 1080 13
+>M Collectors_CB ProeWin2 163 203 c0 0 870 0 0 554 1920 0 0 1080 13
+~ Close `main_dlg_w1` `main_dlg_w1`
+!Command ProCmdWinOSCloseAsyn was pushed from the software.
+~ Close `main_dlg_w1` `main_dlg_w1`
+!Command ProCmdWinOSCloseAsyn was pushed from the software.
+~ Close `main_dlg_w1` `main_dlg_w1`
+!Command ProCmdWinOSCloseAsyn was pushed from the software.
+~ Close `main_dlg_w1` `main_dlg_w1`
+!Command ProCmdWinOSCloseAsyn was pushed from the software.
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdWinOSCloseAsyn was pushed from the software.
+!Command ProCmdWinClose was pushed from the software.
+~ Command `ProCmdModelOpen` 
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `file_open:Ph_list.Filelist:<NULL>`
+~ Select `file_open` `Ph_list.Filelist` 1 `Part`
+~ Activate `file_open` `Ph_list.Filelist` 1 `Part`
+~ Activate `file_open` `SAB_.|`
+~ Select `file_open` `Ph_list.Filelist` 1 `PTCU`
+~ Activate `file_open` `Ph_list.Filelist` 1 `PTCU`
+~ Select `file_open` `Ph_list.Filelist` 1 `CreoParametric4`
+~ Activate `file_open` `Ph_list.Filelist` 1 `CreoParametric4`
+~ Select `file_open` `Ph_list.Filelist` 1 `使用Creo Parametric 界面`
+~ Select `file_open` `Ph_list.Filelist` 1 `使用Creo Parametric 界面`
+~ Activate `file_open` `Ph_list.Filelist` 1 `使用Creo Parametric 界面`
+~ Select `file_open` `Ph_list.Filelist` 1 `Sample_Topic`
+~ Activate `file_open` `Ph_list.Filelist` 1 `Sample_Topic`
+~ Command `ProFileSelPushOpen_Standard@context_dlg_open_cmd` 
+!Command ProCmdModelOpenExe was pushed from the software.
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 121 454 0 1 1474 773 1920 1080 1164522
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 121 454 0 0 1474 773 1920 1080 1164631
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 376 193 0 1 1474 773 1920 1080 1169050
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 376 193 0 0 1474 773 1920 1080 1169144
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Move `main_dlg_cur` `proe_win` 9 994 141 33554432 0 1474 773 1920 1080 1191944
+>M Chain_oa_sel_CB ProeWin0 994 141 c0 20000 1474 0 0 773 1920 0 0 1080 13
+>M RefselMouseMoveCB ProeWin0 994 141 c0 20000 1474 0 0 773 1920 0 0 1080 13
+~ Move `main_dlg_cur` `proe_win` 9 994 141 50331648 0 1474 773 1920 1080 1192225
+>M Chain_oa_sel_CB ProeWin0 994 141 c0 30000 1474 0 0 773 1920 0 0 1080 13
+>M Collectors_CB ProeWin0 994 141 c0 30000 1474 0 0 773 1920 0 0 1080 13
+>M Chain_oa_sel_CB ProeWin0 820 26 200c0 0 1474 0 0 773 1920 0 0 1080 13
+>M Collectors_CB ProeWin0 820 26 200c0 0 1474 0 0 773 1920 0 0 1080 13
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdModelOpen` 
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Select `file_open` `Ph_list.Filelist` 1 `Part`
+~ Activate `file_open` `Ph_list.Filelist` 1 `Part`
+~ Select `file_open` `Ph_list.Filelist` 1 `mfg0001.asm`
+~ Move `file_open` `Nav_List_Info` 98
+~ Move `file_open` `Nav_List_Info` 98
+~ Move `file_open` `Nav_List_Info` 96
+~ Move `file_open` `Nav_List_Info` 94
+~ Move `file_open` `Nav_List_Info` 90
+~ Move `file_open` `Nav_List_Info` 83
+~ Move `file_open` `Nav_List_Info` 78
+~ Move `file_open` `Nav_List_Info` 73
+~ Move `file_open` `Nav_List_Info` 71
+~ Move `file_open` `Nav_List_Info` 68
+~ Move `file_open` `Nav_List_Info` 64
+~ Move `file_open` `Nav_List_Info` 62
+~ Move `file_open` `Nav_List_Info` 57
+~ Move `file_open` `Nav_List_Info` 55
+~ Move `file_open` `Nav_List_Info` 53
+~ Move `file_open` `Nav_List_Info` 49
+~ Move `file_open` `Nav_List_Info` 46
+~ Move `file_open` `Nav_List_Info` 43
+~ Move `file_open` `Nav_List_Info` 41
+~ Move `file_open` `Nav_List_Info` 41
+~ Move `file_open` `Nav_List_Info` 41
+~ Move `file_open` `Nav_List_Info` 43
+~ Move `file_open` `Nav_List_Info` 46
+~ Move `file_open` `Nav_List_Info` 48
+~ Move `file_open` `Nav_List_Info` 51
+~ Move `file_open` `Nav_List_Info` 56
+~ Move `file_open` `Nav_List_Info` 60
+~ Move `file_open` `Nav_List_Info` 64
+~ Move `file_open` `Nav_List_Info` 66
+~ Move `file_open` `Nav_List_Info` 68
+~ Move `file_open` `Nav_List_Info` 69
+~ Move `file_open` `Nav_List_Info` 68
+~ Move `file_open` `Nav_List_Info` 68
+~ Move `file_open` `Nav_List_Info` 64
+~ Move `file_open` `Nav_List_Info` 62
+~ Move `file_open` `Nav_List_Info` 57
+~ Move `file_open` `Nav_List_Info` 54
+~ Move `file_open` `Nav_List_Info` 49
+~ Move `file_open` `Nav_List_Info` 43
+~ Move `file_open` `Nav_List_Info` 36
+~ Move `file_open` `Nav_List_Info` 32
+~ Move `file_open` `Nav_List_Info` 28
+~ Move `file_open` `Nav_List_Info` 24
+~ Move `file_open` `Nav_List_Info` 21
+~ Move `file_open` `Nav_List_Info` 19
+~ Move `file_open` `Nav_List_Info` 16
+~ Move `file_open` `Nav_List_Info` 14
+~ Move `file_open` `Nav_List_Info` 11
+~ Move `file_open` `Nav_List_Info` 9
+~ Move `file_open` `Nav_List_Info` 4
+~ Move `file_open` `Nav_List_Info` 1
+~ Move `file_open` `Nav_List_Info` 0
+~ RButtonArm `file_open` `Ph_preview.DisplayArea` 9 521 111 0 4 726 260 1920 1080 1991529
+~ RButtonDisarm `file_open` `Ph_preview.DisplayArea` 9 521 111 0 256 726 260 1920 1080 1991732
+~ Exit `file_open` `Ph_preview.DisplayArea` 9 521 111 0 4 726 260 1920 1080 1991732
+~ Close `pvpopup` `PopupMenu`
+~ Select `pvpopup` `DisplayTypeRadio` 1 `Nohidden`
+~ RButtonArm `file_open` `Ph_preview.DisplayArea` 9 499 97 0 4 726 260 1920 1080 1996278
+~ RButtonDisarm `file_open` `Ph_preview.DisplayArea` 9 499 97 0 256 726 260 1920 1080 1996465
+~ Exit `file_open` `Ph_preview.DisplayArea` 9 499 97 0 4 726 260 1920 1080 1996465
+~ Close `pvpopup` `PopupMenu`
+~ Select `pvpopup` `DisplayTypeRadio` 1 `Hiddenline`
+~ RButtonArm `file_open` `Ph_preview.DisplayArea` 9 536 92 0 4 726 260 1920 1080 1997796
+~ RButtonDisarm `file_open` `Ph_preview.DisplayArea` 9 536 92 0 256 726 260 1920 1080 1997999
+~ Exit `file_open` `Ph_preview.DisplayArea` 9 536 92 0 4 726 260 1920 1080 1997999
+~ Close `pvpopup` `PopupMenu`
+~ Select `pvpopup` `DisplayTypeRadio` 1 `Wireframe`
+~ RButtonArm `file_open` `Ph_preview.DisplayArea` 9 535 120 0 4 726 260 1920 1080 1999434
+~ RButtonDisarm `file_open` `Ph_preview.DisplayArea` 9 535 120 0 256 726 260 1920 1080 1999637
+~ Exit `file_open` `Ph_preview.DisplayArea` 9 535 120 0 4 726 260 1920 1080 1999637
+~ Close `pvpopup` `PopupMenu`
+~ Select `pvpopup` `ProjectionTypeRadio` 1 `Perspective`
+~ RButtonArm `file_open` `Ph_preview.DisplayArea` 9 525 105 0 4 726 260 1920 1080 2001635
+~ RButtonDisarm `file_open` `Ph_preview.DisplayArea` 9 525 105 0 256 726 260 1920 1080 2001824
+~ Exit `file_open` `Ph_preview.DisplayArea` 9 525 105 0 4 726 260 1920 1080 2001824
+~ Close `pvpopup` `PopupMenu`
+~ Select `pvpopup` `ProjectionTypeRadio` 1 `Orthographic`
+~ RButtonArm `file_open` `Ph_preview.DisplayArea` 9 560 82 0 4 726 260 1920 1080 2002931
+~ RButtonDisarm `file_open` `Ph_preview.DisplayArea` 9 560 82 0 256 726 260 1920 1080 2003134
+~ Exit `file_open` `Ph_preview.DisplayArea` 9 560 82 0 4 726 260 1920 1080 2003134
+~ Close `pvpopup` `PopupMenu`
+~ Select `pvpopup` `DisplayTypeRadio` 1 `Shaded`
+~ FocusIn `file_open` `Cancel`
+~ Activate `file_open` `Cancel`
+~ Select `main_dlg_cur` `igToolbar_AncestorIGT_IGT_GRP_inh396938342.proe_win:casc340798662`
+~ Close `main_dlg_cur` `igToolbar_AncestorIGT_IGT_GRP_inh396938342.proe_win:casc340798662`
+~ Command `ProCmdNamedViewsGalSelect`  `Default`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:PHTLeft.AssyTree:<NULL>`
+~ Command `ProCmdWinCloseGroup` 
+!Command ProCmdWinClose was pushed from the software.
+! Executed sub-command ProCmdWinCloseAsyn.
+!%CI基本窗口不能关闭。
+~ Activate `main_dlg_cur` `In Session`
+~ FocusIn `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `nut.prt`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `prt0001.prt`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `nut.prt`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `prt0001.prt`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist:<NULL>`
+~ RButtonArm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` `prt0001.prt`
+~ PopupOver `main_dlg_cur` `listPopup` 1 `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist`
+~ Open `main_dlg_cur` `listPopup`
+~ Select `main_dlg_cur` `rmb_fsl_views`
+~ Close `main_dlg_cur` `listPopup`
+~ FocusIn `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `nut.prt`
+~ RButtonArm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` `nut.prt`
+~ PopupOver `main_dlg_cur` `listPopup` 1 `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist`
+~ Open `main_dlg_cur` `listPopup`
+~ Close `main_dlg_cur` `listPopup`
+~ Activate `main_dlg_cur` `rmb_activate_button`
+!Command ProCmdModelOpenExe was pushed from the software.
+~ FocusIn `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist`
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+~ Command `ProCmdWinCloseGroup` 
+!Command ProCmdWinClose was pushed from the software.
+! Executed sub-command ProCmdWinCloseAsyn.
+!%CI基本窗口不能关闭。
+~ Activate `main_dlg_cur` `In Session`
+~ Activate `main_dlg_cur` `EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.page_1_close`
+~ Activate `main_dlg_cur` `EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.page_2` 1
+~ Trail `UI Desktop` `UI Desktop` `SmartTabs` \
+ `selectButton main_dlg_cur@EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay page_2 0`
+~ Drag `main_dlg_cur` `EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.page_3`
+~ DropOverNothing `main_dlg_cur` `EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.page_3` 3 543 247 0
+~ DragFinished `main_dlg_cur` `EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.page_3`
+~ Activate `main_dlg_cur` `EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.page_2_close`
+~ Activate `main_dlg_cur` `EMBED_BROWSER_SMARTAB_LAYOUT_buttons_lay_ph.page_3_close`
+~ FocusIn `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 0
+~ FocusIn `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `nut.prt`
+~ RButtonArm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` `nut.prt`
+~ PopupOver `main_dlg_cur` `listPopup` 1 `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist`
+~ Open `main_dlg_cur` `listPopup`
+~ Close `main_dlg_cur` `listPopup`
+~ FocusIn `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `nut.prt`
+~ Activate `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `nut.prt`
+!Command ProCmdModelOpenExe was pushed from the software.
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdModelErase` 
+~ Activate `0_std_confirm` `OK`
+!%CINUT已被清除。
+!Command ProCmdWinClose was pushed from the software.
+~ FocusIn `main_dlg_cur` `StatusBarFindToolLayout.StatusBarFindToolBtn`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ FocusIn `main_dlg_cur` `Sst_bar.filter_list`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Activate `main_dlg_cur` `In Session`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `prt0001.prt`
+~ RButtonArm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` `prt0001.prt`
+~ PopupOver `main_dlg_cur` `listPopup` 1 `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist`
+~ Open `main_dlg_cur` `listPopup`
+~ Close `main_dlg_cur` `listPopup`
+~ Activate `main_dlg_cur` `rmb_activate_button`
+!Command ProCmdModelOpenExe was pushed from the software.
+~ FocusIn `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist`
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdFilePurge` 
+!%CE没有正确的访问权限执行此功能。
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdModelRename` 
+~ Select `rename` `RadioGroup1` 1 `session_only`
+~ Select `rename` `RadioGroup1` 1 `session_and_disk`
+~ Select `rename` `RadioGroup1` 1 `session_only`
+~ Activate `rename` `Cancel`
+!%CE改名中止
+~ FocusIn `main_dlg_cur` `StatusBarFindToolLayout.StatusBarFindToolBtn`
+~ FocusIn `main_dlg_cur` `StatusBarFindToolLayout.StatusBarFindToolBtn`
+~ Close `main_dlg_cur` `appl_casc`
+~ FocusIn `main_dlg_cur` `StatusBarFindToolLayout.StatusBarFindToolBtn`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ FocusIn `main_dlg_cur` `StatusBarFindToolLayout.StatusBarFindToolBtn`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:PHTLeft.AssyTree:<NULL>`
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdRecentFileOpen`  `E:\\Creo-Files\\CREO\\PTCU\\CreoParametric4\\使用Creo Parametric 界面\\Sample_To\
+pic\\nut.prt`
+!Command ProCmdModelOpenExe was pushed from the software.
+< 2 0.807000 807 0 0 807 1920 0 0 1080 13
+< 2 0.900000 900 0 0 999 1920 0 0 1080 13
+< 2 0.922074 1507 0 0 778 1920 0 0 1080 13
+< 2 0.922074 1437 0 0 778 1920 0 0 1080 13
+< 2 0.922074 1457 0 0 778 1920 0 0 1080 13
+< 2 0.922074 1475 0 0 778 1920 0 0 1080 13
+! 2-Jun-17 10:47:10  Start E:\Creo-Files\CREO\PTCU\CreoParametric4\使用Creo Parametric 界面\Sample_Topic\nut.prt
+! 2-Jun-17 10:47:10  End   E:\Creo-Files\CREO\PTCU\CreoParametric4\使用Creo Parametric 界面\Sample_Topic\nut.prt
+!%CE不能从模型树配置文件E:\Creo Files\CREO\tree.cfg读取。
+< 2 1.082074 1475 0 0 913 1920 0 0 1080 13
+< 2 0.922074 1475 0 0 778 1920 0 0 1080 13
+< 2 0.916148 1475 0 0 773 1920 0 0 1080 13
+~ Command `ProCmdViewRepaint` 
+~ Command `ProCmdViewRepaint` 
+~ Wheel `main_dlg_cur` `proe_win` 9 664 234 458752 0 1475 773 1920 1080 4533821
+~ Wheel `main_dlg_cur` `proe_win` 9 664 234 458752 0 1475 773 1920 1080 4533852
+~ Wheel `main_dlg_cur` `proe_win` 9 664 234 458752 0 1475 773 1920 1080 4533883
+~ LButtonArm `main_dlg_cur` `proe_win` 9 672 179 0 1 1475 773 1920 1080 4535118
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 672 179 0 0 1475 773 1920 1080 4535258
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 1.953125 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 2 72 -1 (7.1583202888 8.0959651995) (-1.9621678661 9.0000000000 3.0959651995)
+!曲面:F6(拉伸_1) ID=72
+!%CI显示由特征6 (拉伸_1)，模型NUT创建的曲面。 
+~ Command `ProCmdViewRepaint` 
+~ Command `ProCmdViewRepaint` 
+~ Command `ProCmdViewRepaint` 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 532 221 0 1 1475 773 1920 1080 4538114
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 532 221 0 0 1475 773 1920 1080 4538208
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 1.953125 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 2 546 -1 (-1.0382295952 7.0498489447) (-4.8690585873 8.2614618254 4.2317905664)
+!曲面:F12(旋转_1) ID=546
+!%CI显示由特征12 (旋转_1)，模型NUT创建的曲面。 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1052 271 0 1 1475 773 1920 1080 4539489
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1052 271 0 0 1475 773 1920 1080 4539582
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 1.953125 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 2 70 -1 (8.0706699334 7.2551726757) (6.3569698787 6.9894051879 2.2551726757)
+!曲面:F6(拉伸_1) ID=70
+!%CI显示由特征6 (拉伸_1)，模型NUT创建的曲面。 
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Command `ProCmdViewRepaint` 
+~ Command `ProCmdViewRepaint` 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 481 159 0 1 1475 773 1920 1080 4541766
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 481 159 0 0 1475 773 1920 1080 4541862
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 1.953125 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Wheel `main_dlg_cur` `proe_win` 9 281 162 393216 0 1475 773 1920 1080 4542236
+~ Wheel `main_dlg_cur` `proe_win` 9 281 162 393216 0 1475 773 1920 1080 4542268
+~ Wheel `main_dlg_cur` `proe_win` 9 281 162 393216 0 1475 773 1920 1080 4542689
+~ Wheel `main_dlg_cur` `proe_win` 9 1064 439 458752 0 1475 773 1920 1080 4543455
+~ LButtonArm `main_dlg_cur` `proe_win` 9 259 221 0 1 1475 773 1920 1080 4544781
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 259 221 0 0 1475 773 1920 1080 4544846
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 2 59 -1 (-4.3158958076 5.2744211195) (-4.3158958076 5.2744211195 5.0000000000)
+!曲面:F6(拉伸_1) ID=59
+!%CI显示由特征6 (拉伸_1)，模型NUT创建的曲面。 
+~ Command `ProCmdViewRepaint` 
+~ Command `ProCmdViewRepaint` 
+~ Command `ProCmdViewRepaint` 
+~ Command `ProCmdViewRepaint` 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 613 211 0 1 1475 773 1920 1080 4547327
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 613 211 0 0 1475 773 1920 1080 4547405
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 2 70 -1 (5.9707147861 6.8678334707) (7.4069474524 5.1707906835 1.8678334707)
+!曲面:F6(拉伸_1) ID=70
+!%CI显示由特征6 (拉伸_1)，模型NUT创建的曲面。 
+~ Command `ProCmdViewRepaint` 
+~ Wheel `main_dlg_cur` `proe_win` 9 900 457 458752 0 1475 773 1920 1080 4553088
+~ Wheel `main_dlg_cur` `proe_win` 9 900 457 393216 0 1475 773 1920 1080 4553510
+~ Wheel `main_dlg_cur` `proe_win` 9 900 457 393216 0 1475 773 1920 1080 4553525
+~ Wheel `main_dlg_cur` `proe_win` 9 900 457 393216 0 1475 773 1920 1080 4553541
+~ Wheel `main_dlg_cur` `proe_win` 9 900 460 393216 0 1475 773 1920 1080 4553572
+~ LButtonArm `main_dlg_cur` `proe_win` 9 726 437 0 1 1475 773 1920 1080 4554416
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 726 437 0 0 1475 773 1920 1080 4554479
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 0.640000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 3 343 -1 (0.8542561744 0.0000000000) (5.8641918478 -1.2690227387 5.0000000000)
+!边:F10(切口) ID=343
+!%CI显示由特征10(切口),模型NUT创建的边。
+~ LButtonArm `main_dlg_cur` `proe_win` 9 719 480 0 1 1475 773 1920 1080 4555134
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 719 480 0 0 1475 773 1920 1080 4555212
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 0.640000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 2 59 -1 (5.5124659721 -4.3456076073) (5.5124659721 -4.3456076073 5.0000000000)
+!曲面:F6(拉伸_1) ID=59
+!%CI显示由特征6 (拉伸_1)，模型NUT创建的曲面。 
+~ Command `ProCmdViewRepaint` 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 755 151 0 1 1475 773 1920 1080 4560364
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 755 151 0 0 1475 773 1920 1080 4560458
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 0.640000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ LButtonArm `main_dlg_cur` `proe_win` 9 500 111 0 1 1475 773 1920 1080 4566298
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 500 111 0 0 1475 773 1920 1080 4566392
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 0.640000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w2:PHTLeft.AssyTree:<NULL>`
+~ Select `main_dlg_cur` `PHTLeft.ProExplorerTab` 1 `PHTLeft.Folders`
+~ Select `main_dlg_cur` `PHTLeft.ProExplorerTab` 1 `PHTLeft.MdlTreeLay`
+~ Command `ProCmdMdlTreeShowLyrs` 
+!%CINUT层01___PRT_ALL_DTM_PLN。
+~ Select `main_dlg_cur` `PHTLeft.PHLayerUI.AssyTree` 1 `node0:01___PRT_ALL_DTM_PLN`
+!01___PRT_ALL_DTM_PLN
+!%CINUT层01___PRT_ALL_DTM_PLN。
+!%CINUT层01___PRT_DEF_DTM_PLN。
+~ Select `main_dlg_cur` `PHTLeft.PHLayerUI.AssyTree` 1 `node0:01___PRT_DEF_DTM_PLN`
+!01___PRT_DEF_DTM_PLN
+!%CINUT层01___PRT_DEF_DTM_PLN。
+!%CINUT层04___PRT_ALL_DTM_PNT。
+!%CINUT层03___PRT_ALL_CURVES。
+!%CINUT层04___PRT_ALL_DTM_PNT。
+!%CINUT层05___PRT_DEF_DTM_CSYS。
+!%CINUT层01___PRT_DEF_DTM_PLN。
+~ Expand `main_dlg_cur` `PHTLeft.PHLayerUI.AssyTree` `node0:01___PRT_ALL_DTM_PLN`
+!Expanded 01___PRT_ALL_DTM_PLN
+~ Collapse `main_dlg_cur` `PHTLeft.PHLayerUI.AssyTree` `node0:01___PRT_ALL_DTM_PLN`
+!Collapsed 01___PRT_ALL_DTM_PLN
+~ Expand `main_dlg_cur` `PHTLeft.PHLayerUI.AssyTree` `node0:01___PRT_DEF_DTM_PLN`
+!Expanded 01___PRT_DEF_DTM_PLN
+~ Collapse `main_dlg_cur` `PHTLeft.PHLayerUI.AssyTree` `node0:01___PRT_DEF_DTM_PLN`
+!Collapsed 01___PRT_DEF_DTM_PLN
+~ Expand `main_dlg_cur` `PHTLeft.PHLayerUI.AssyTree` `node0:02___PRT_ALL_AXES`
+!Expanded 02___PRT_ALL_AXES
+~ Collapse `main_dlg_cur` `PHTLeft.PHLayerUI.AssyTree` `node0:02___PRT_ALL_AXES`
+!Collapsed 02___PRT_ALL_AXES
+~ Expand `main_dlg_cur` `PHTLeft.PHLayerUI.AssyTree` `node0:03___PRT_ALL_CURVES`
+!Expanded 03___PRT_ALL_CURVES
+!%CINUT层03___PRT_ALL_CURVES。
+~ Select `main_dlg_cur` `PHTLeft.PHLayerUI.AssyTree` 1 `node0:03___PRT_ALL_CURVES`
+!03___PRT_ALL_CURVES
+!%CINUT层03___PRT_ALL_CURVES。
+~ RButtonArm `main_dlg_cur` `PHTLeft.PHLayerUI.AssyTree` `node0:03___PRT_ALL_CURVES`
+~ Command `ProCmdViewHide` 
+!%CI层状况更改成功。重画来查看结果。
+!Undo: added rec_id 257 type 10600 
+! Executed sub-command ProCmdViewHideStandard.
+!%CINUT层03___PRT_ALL_CURVES。
+~ RButtonArm `main_dlg_cur` `PHTLeft.PHLayerUI.AssyTree` `node0:03___PRT_ALL_CURVES`
+~ Command `ProCmdViewShow` 
+!%CI层状况更改成功。重画来查看结果。
+!Undo: added rec_id 258 type 10600 
+! Executed sub-command ProCmdViewShowStandard.
+~ Collapse `main_dlg_cur` `PHTLeft.PHLayerUI.AssyTree` `node0:03___PRT_ALL_CURVES`
+!Collapsed 03___PRT_ALL_CURVES
+!%CINUT层03___PRT_ALL_CURVES。
+!%CINUT层04___PRT_ALL_DTM_PNT。
+~ Command `ProCmdLayer_ShowMdlTree` 
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node9`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 372 165 0 1 1475 773 1920 1080 4620920
+~ Move `main_dlg_cur` `proe_win` 9 372 165 0 1 1475 773 1920 1080 4620935
+~ Move `main_dlg_cur` `proe_win` 9 372 165 0 1 1475 773 1920 1080 4620935
+~ Move `main_dlg_cur` `proe_win` 9 372 165 0 1 1475 773 1920 1080 4620935
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 372 165 0 0 1475 773 1920 1080 4620982
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 0.640000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node9`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node9`
+!拉伸 1
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node9`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ LButtonArm `main_dlg_cur` `drawinarea_resizer` 3 2 202 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 2 202 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 2 202 0
+~ Move `main_dlg_cur` `drawinarea_resizer` 3 2 202 0
+~ LButtonDisarm `main_dlg_cur` `drawinarea_resizer` 3 2 202 0
+~ LButtonActivate `main_dlg_cur` `drawinarea_resizer` 3 2 202 0
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node9`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 578 105 0 1 1475 773 1920 1080 4627415
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 578 105 0 0 1475 773 1920 1080 4627525
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 0.640000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Command `ProCmdViewRepaint` 
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node9`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node9`
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node9`
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node9`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node2`
+!基准点 标识610
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 150 332 0 1 1475 773 1920 1080 4640097
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 150 332 0 0 1475 773 1920 1080 4640237
+@ sel view 0
+ 24.676631 -0.884259 -6.305027 -1.083790 24.285972 -7.647768
+ 6.273809 7.673398 23.478281 500.141863 422.047075 -1766.414186 0.640000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Command `ProCmdWinCloseGroup` 
+!Command ProCmdWinClose was pushed from the software.
+! Executed sub-command ProCmdWinCloseAsyn.
+~ FocusIn `main_dlg_cur` `StatusBarFindToolLayout.StatusBarFindToolBtn`
+~ Command `ProCmdWinCloseGroup` 
+!Command ProCmdWinClose was pushed from the software.
+! Executed sub-command ProCmdWinCloseAsyn.
+!%CI基本窗口不能关闭。
+~ Activate `main_dlg_cur` `In Session`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `nut.prt`
+~ RButtonArm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 807 97 0 4 1185 208 1920 1080 4652022
+~ RButtonDisarm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 807 97 0 256 1185 208 1920 1080 4652225
+~ Exit `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 807 97 0 4 1185 208 1920 1080 4652225
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist:<NULL>`
+~ Select `pvpopup` `Framespersecond`
+~ Close `pvpopup` `PopupMenu`
+~ Select `pvpopup` `FPSRadio` 1 `FPS30`
+~ RButtonArm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 838 72 0 4 1185 208 1920 1080 4656566
+~ RButtonDisarm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 838 72 0 256 1185 208 1920 1080 4656753
+~ Exit `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 838 72 0 4 1185 208 1920 1080 4656753
+~ Close `pvpopup` `PopupMenu`
+~ Activate `pvpopup` `Refit`
+~ MButtonArm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 791 127 0 2 1185 208 1920 1080 4658688
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 791 126 0 1026 1185 208 1920 1080 4658829
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 791 125 0 1026 1185 208 1920 1080 4658829
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 790 125 0 514 1185 208 1920 1080 4658829
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 790 124 0 1026 1185 208 1920 1080 4658844
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 790 123 0 1026 1185 208 1920 1080 4658844
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 789 123 0 514 1185 208 1920 1080 4658844
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 789 122 0 1026 1185 208 1920 1080 4658862
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 789 121 0 1026 1185 208 1920 1080 4658862
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 788 120 0 1538 1185 208 1920 1080 4658877
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 788 119 0 1026 1185 208 1920 1080 4658877
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 789 109 0 1538 1185 208 1920 1080 4658924
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 792 103 0 1538 1185 208 1920 1080 4658971
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 790 99 0 1538 1185 208 1920 1080 4659018
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 794 90 0 1538 1185 208 1920 1080 4659065
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 797 88 0 1538 1185 208 1920 1080 4659111
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 805 79 0 1538 1185 208 1920 1080 4659158
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 807 76 0 1538 1185 208 1920 1080 4659205
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 808 76 0 514 1185 208 1920 1080 4659361
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 808 77 0 1026 1185 208 1920 1080 4659361
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 809 80 0 1538 1185 208 1920 1080 4659408
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 810 92 0 1538 1185 208 1920 1080 4659455
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 807 108 0 1538 1185 208 1920 1080 4659501
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 806 116 0 1538 1185 208 1920 1080 4659548
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 806 119 0 1026 1185 208 1920 1080 4659595
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 805 120 0 1538 1185 208 1920 1080 4659642
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 802 127 0 1538 1185 208 1920 1080 4659689
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 802 128 0 1026 1185 208 1920 1080 4659751
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 801 131 0 1538 1185 208 1920 1080 4659782
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 800 131 0 514 1185 208 1920 1080 4659829
+~ MButtonDisarm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 800 131 0 0 1185 208 1920 1080 4660094
+~ MButtonArm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 533 126 0 2 1185 208 1920 1080 4660609
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 534 126 0 514 1185 208 1920 1080 4660656
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 534 125 0 1026 1185 208 1920 1080 4660656
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 534 124 0 1026 1185 208 1920 1080 4660687
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 535 124 0 514 1185 208 1920 1080 4660703
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 536 124 0 514 1185 208 1920 1080 4660749
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 536 123 0 1026 1185 208 1920 1080 4660781
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 535 122 0 1538 1185 208 1920 1080 4660796
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 535 121 0 1026 1185 208 1920 1080 4660796
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 534 121 0 514 1185 208 1920 1080 4660812
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 533 120 0 1538 1185 208 1920 1080 4660827
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 532 119 0 1538 1185 208 1920 1080 4660843
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 531 117 0 1538 1185 208 1920 1080 4660859
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 530 115 0 1538 1185 208 1920 1080 4660890
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 527 113 0 1538 1185 208 1920 1080 4660937
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 526 111 0 1538 1185 208 1920 1080 4660983
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 521 106 0 1538 1185 208 1920 1080 4661030
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 520 105 0 1538 1185 208 1920 1080 4661077
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 520 104 0 1026 1185 208 1920 1080 4661124
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 520 101 0 1026 1185 208 1920 1080 4661171
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 520 94 0 1026 1185 208 1920 1080 4661217
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 519 88 0 1538 1185 208 1920 1080 4661264
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 512 83 0 1538 1185 208 1920 1080 4661311
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 503 75 0 1538 1185 208 1920 1080 4661358
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 491 65 0 1538 1185 208 1920 1080 4661405
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 487 64 0 1538 1185 208 1920 1080 4661451
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 484 62 0 1538 1185 208 1920 1080 4661498
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 483 62 0 514 1185 208 1920 1080 4661561
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 482 63 0 1538 1185 208 1920 1080 4661592
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 481 64 0 1538 1185 208 1920 1080 4661639
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 481 65 0 1026 1185 208 1920 1080 4661685
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 483 80 0 1538 1185 208 1920 1080 4661732
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 494 99 0 1538 1185 208 1920 1080 4661779
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 508 110 0 1538 1185 208 1920 1080 4661826
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 518 117 0 1538 1185 208 1920 1080 4661859
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 546 125 0 1538 1185 208 1920 1080 4661906
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 578 121 0 1538 1185 208 1920 1080 4661953
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 581 121 0 514 1185 208 1920 1080 4661999
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 581 120 0 1026 1185 208 1920 1080 4662077
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 581 119 0 1026 1185 208 1920 1080 4662093
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 582 117 0 1538 1185 208 1920 1080 4662140
+~ Move `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 582 116 0 1026 1185 208 1920 1080 4662187
+~ MButtonDisarm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 582 116 0 0 1185 208 1920 1080 4662233
+~ RButtonArm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 755 86 0 4 1185 208 1920 1080 4662499
+~ RButtonDisarm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 755 86 0 256 1185 208 1920 1080 4662686
+~ Exit `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_preview.DisplayArea` 9 755 86 0 4 1185 208 1920 1080 4662686
+~ Select `pvpopup` `Framespersecond`
+~ Close `pvpopup` `PopupMenu`
+~ Select `pvpopup` `FPSRadio` 1 `FPS15`
+~ FocusIn `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 0
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 0
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `nut.prt`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `prt0001.prt`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `nut.prt`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 0
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 0
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `nut.prt`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `prt0001.prt`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 0
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric 将终止，所有未保存的工作都将会丢失。
+!               : 是否确实要退出?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

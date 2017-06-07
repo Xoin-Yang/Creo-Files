@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgWpMaterialDoc>
+    <DocType>PRO_NC_WORKPIECE_MATERIAL_LIST</DocType>
+    <DocTitle>Workpiece Material List</DocTitle>
+    <DateTime>2006-10-02T16:15:23</DateTime>
+    <ApplicationInfo AppName="Pro/ENGINEER" AppVersion="M020"/>
+    <MfgWpMaterialList>
+        <MfgWpMaterial Name="aluminum"/>
+        <MfgWpMaterial Name="steel-300-bhn"/>
+    </MfgWpMaterialList>
+</MfgWpMaterialDoc>

@@ -1,0 +1,90 @@
+﻿!trail file version No. 1861
+!Creo  TM  4.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 9644
+!	Application: Creo_Parametric
+!	Start date&time: 2017/05/29  18:05:36
+!	language: chinese_cn
+!	machine type: x86e_win64
+!	datecode: M010
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.205333 1741 0 0 1017 1920 0 0 1080 13
+!mem_use INCREASE Blocks 771824, AppSize 97101503, SysSize 110805472
+< 0 0.924444 1503 0 0 780 1920 0 0 1080 13
+< 0 0.924444 1375 0 0 780 1920 0 0 1080 13
+< 0 0.923259 1375 0 0 779 1920 0 0 1080 13
+< 0 0.923259 1395 0 0 779 1920 0 0 1080 13
+< 0 0.923259 1415 0 0 779 1920 0 0 1080 13
+< 0 0.923259 1435 0 0 779 1920 0 0 1080 13
+!%CI欢迎使用 Creo Parametric 4.0。
+!AFX datecode: 4.0 M010 2017.02.16.11
+!AFX exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\x86e_win64\afx40.dll
+!AFX text path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\
+< 0 1.083259 1435 0 0 914 1920 0 0 1080 13
+< 0 0.923259 1435 0 0 779 1920 0 0 1080 13
+< 0 0.917333 1435 0 0 774 1920 0 0 1080 13
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): connected to Pro/E.
+!	exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\x86e_win64\obj\mcp_applet_async.exe
+!	type: asynchronous
+~ Sync LearnConn_Startup
+~ Activate `transient_balloon` `no`
+!mem_use INCREASE Blocks 797586, AppSize 121293091, SysSize 137207176
+< 0 0.929185 1547 0 0 784 1920 0 0 1080 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdRibbonOptionsDlg` 
+!ODUI external UI session start for device : ribbon_options_dialog 
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `LicLayout`
+~ Activate `ribbon_options_dialog` `LicLayout.RefBtn`
+~ Activate `ribbon_options_dialog` `LicLayout.ck.Options_Modeler_Enterprise_SET` 1
+~ Activate `ribbon_options_dialog` `LicLayout.ck.Options_Modeler_Enterprise_SET` 0
+~ Activate `ribbon_options_dialog` `LicLayout.ck.Options_Modeler_Enterprise_SET` 1
+~ Activate `ribbon_options_dialog` `LicLayout.ck.Options_Modeler_Enterprise_SET` 0
+~ Activate `ribbon_options_dialog` `LicLayout.InfoBtn`
+~ Move `texttool` `texttool` 2 11.885079 4.645042
+~ Move `texttool` `texttool` 2 12.559778 5.215941
+~ Close `texttool` `texttool`
+~ Command `ProCmdUtilWebLicFlush` 
+! Message Dialog: Warning
+!               : 确实要取消吗?
+~ Activate `UI Message Dialog` `yes`
+!ODUI external UI session stop. 
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdExit` 
+! Message Dialog: Warning
+!               : Creo Parametric 将终止，所有未保存的工作都将会丢失。
+!               : 是否确实要退出?
+~ Activate `UI Message Dialog` `no`
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdRibbonOptionsDlg` 
+!ODUI external UI session start for device : ribbon_options_dialog 
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `Screen`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `RibbonCustShortcutLayout`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `RibbonCustQATLayout`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `RibbonCustMenuLayout`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `RibbonCustMenuLayout`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `Print3dLayouts`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `update_control_layouts`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `smt_layouts`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `smt_layouts`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `part_layouts`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `board_layouts`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `ecad_asm_opts_layout`
+~ Close `ribbon_options_dialog` `ribbon_options_dialog`
+!ODUI external UI session stop. 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 825 78 0 1 1547 784 1920 1080 424760
+** 0.555425 0.899235 0 1 1
+0.555425 0.758729 L 0 0.929185185 0
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 825 78 0 0 1547 784 1920 1080 424854
+~ Key `main_dlg_cur` `proe_win` 9 -4 338 3080239 1536 1547 784 1920 1080 431094 `/`
+< 0 0.001000 1 0 0 219 1920 0 0 1080 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 4 0.000000 0.000000 4.151993 0.830399
+~ Minimize `main_dlg_cur` `main_dlg_cur`

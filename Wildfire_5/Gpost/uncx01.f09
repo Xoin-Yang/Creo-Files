@@ -1,0 +1,293 @@
+$$ ****************************************************
+$$ *    Default Mill FIL file created by the OFG      *
+$$ ****************************************************
+
+$$  PRINT/OFF,IN                  $$ USE FOR PRODUCTION
+  PRINT/ON                      $$ USE FOR DEVELOPMENT
+  DMY = POSTF(24,1)             $$ USE FOR DEVELOPMENT
+
+$$ ****************************************************
+$$ *  G l o b a l   V a r i a b l e   S e c t i o n   *
+$$ ****************************************************
+
+   REDEF/ON                     $$ ALLOW VARAIBLES TO BE REDEFINED
+
+$$ THE FOLLOWING VARIABLES ARE DEFINED FOR USE WITH THE 
+$$ POSTN/ AND REPEAT/ COMMANDS.  THE USE SINGLE LETTER 
+$$ VARIABLES ANY WHERE ELSE IN FIL WILL REDEFINE THEM
+   A=1  ; B=2  ; C=3  ; D=4  ; E=5  ; F=6  ; G=7  ; H=8 
+   I=9  ; J=10 ; K=11 ; L=12 ; M=13 ; N=14 ; O=15 ; P=16 
+   Q=17 ; R=18 ; S=19 ; T=20 ; U=21 ; V=22 ; W=23 ;X=24
+   Y=25 ; Z=26
+
+S_F=0 
+TNUM=0
+S_Q=0
+S_T=0
+
+$$ ****************************************************
+$$ *                （设定开关）                    *
+$$ ****************************************************
+
+S_G54=5                $$ =0 G54 不固定输出/ =1~6分别对应固定输出G54~G59
+                       $$ 【注意】如坐标固定输出，软件中不要设定坐标
+S_TND=1                $$ =1关闭程序生成时间/ =1开启程序生成时间输出
+S_G51=1                $$ =0 G5.1 Q1&G5.0 Q0 不输出/ =1输出
+S_PRM=1                $$ =1 不输出程序名/  =1 输出程序名【保存程序名称】/ =2程序档名称
+S_PRO=2                $$ =1 ( / 555)/ =2 (PROGRAM -  / 555) 【程序名格式】
+S_N=1                  $$ =0 不输出行号/  =1 输出行号/ =2 【输出行号且N号=于刀具号】
+S_TOOL=1               $$ =1 不输出刀具名/  =1 输出刀具名
+S_M29=1                $$ =0 不增加M29/  =1 增加M29刚性攻牙
+S_M6=1                 $$ =0 程序结束时换刀/  =1 程序结束时换第一把刀
+S_DEL=1                $$ =0 后处理结束不清理垃圾文件/  =1 后处理结束清理垃圾文件
+N_N=1                  $$ =1 行号增量1，=2行号增量2，(0<N_N<10)
+
+%PARTN=TEXT/'DEFAULT NAME'
+CIMFIL/ON,PARTNO
+$$ This FIL is used to store the PARTNO in %PARTN
+%PARTN=TEXT/CLW			$$ Extract text argument
+%PARTN=TEXT/OMIT,%PARTN,1   	$$ Remove trailing blank
+DMY=POSTF(13)                 $$ Process
+CIMFIL/OFF
+CIMFIL/ON,MACHIN
+  XX = POSTF(13)
+  XX = POSTF(26,2,(ICODEF(MACHIN)),0)
+  MODE/90
+  FN1 = TEXT/PART,2
+  FN1 = TEXT/UP,FN1
+  TND = TEXT/TIMES,1
+ IF(S_PRM .EQ. 1) THEN
+   IF(S_PRO .EQ. 1) THEN
+     INSERT/'(',FN1,')$'
+   ENDIF
+   IF(S_PRO .EQ. 2) THEN
+     INSERT/'(PROGRAM - ',FN1,')$'
+   ENDIF
+ ENDIF
+ IF(S_PRM .EQ. 2) THEN
+   IF(S_PRO .EQ. 1) THEN
+     PPRINT/%PARTN
+   ENDIF
+   IF(S_PRO .EQ. 2) THEN
+     INSERT/'(PROGRAM - ',%PARTN,')$'
+   ENDIF
+ ENDIF
+ IF(S_TND .EQ. 1) THEN
+  PPRINT/TND
+ ENDIF
+  INSERT/'G21$'                                    $$2016/6/1 modification
+  INSERT/'G90 G80 G49 G40 G17 G98 G94$'            $$2015/11/5 modification
+CIMFIL/OFF
+CIMFIL/ON,PPRINT
+$$ Macro to store the tool name in a variable
+$$ to re-issue with the tool change
+TXT=TEXT/CLW                                   $$ Text of message
+TEST=TEXT/'TOOL NAME'                          $$ Text to test for
+OKCOM=INDXF(TXT,TEST)
+IF (OKCOM.NE.0) THEN
+  $$ This is a tool comment
+  MESS=TEXT/OMIT,TXT,1                         $$ Omit trailing blank
+  COL=TEXT/':'
+  COLPOS=INDXF(MESS,COL)                       $$ position of : in MESS
+  LEN=CANF(MESS,1)                             $$ number of char in MESS
+  NMESS=TEXT/RANGE,MESS,COLPOS+1,LEN           $$ Extract from : to end
+ELSE
+  DMY=POSTF(13) $$ Process
+ENDIF
+CIMFIL/OFF
+     IF(N_N .EQ. 1) THEN
+          SEQNO=1 
+     ENDIF
+     IF(N_N .EQ. 2) THEN
+          SEQNO=2 
+     ENDIF
+     IF(N_N .EQ. 3) THEN
+          SEQNO=3 
+     ENDIF
+     IF(N_N .EQ. 4) THEN
+          SEQNO=4 
+     ENDIF
+     IF(N_N .EQ. 5) THEN
+          SEQNO=5 
+     ENDIF
+     IF(N_N .EQ. 6) THEN
+          SEQNO=6 
+     ENDIF
+     IF(N_N .EQ. 7) THEN
+          SEQNO=7 
+     ENDIF
+     IF(N_N .EQ. 8) THEN
+          SEQNO=8
+     ENDIF
+     IF(N_N .EQ. 9) THEN
+          SEQNO=9 
+     ENDIF
+     IF(N_N .EQ. 10) THEN
+          SEQNO=10
+     ENDIF
+CIMFIL / ON,LOADTL		               $$ Starts on all LOADTL statement
+ DMY=POSTF(20)			               $$ save the LOADTL record in memory
+ PARAM=POSTF(7,4)		               $$ first parameter of LOADTL command
+ $$FRX=POSTF(1,3,911)		               $$ Get last X
+ $$FRY=POSTF(1,3,912)		               $$ Get last Y
+ PARAMT=POSTF(6,4)		               $$ get word type of first parameter of LOADTL command
+ IF (PARAMT.EQ.0 .AND. PARAM.EQ.ICODEF(OFF)) THEN
+   DMY=POSTF(21)			       $$ restore the LOADTL record saved in memory
+   DMY=POSTF(13)			       $$ Process the CL record
+ ELSE
+     IF(S_G51 .EQ. 1 .AND. S_Q.EQ. 1) THEN
+       INSERT/'G5.1 Q0$'
+     ENDIF
+     S_Q=1
+   INSERT/'G91 G30 Z0.$'
+   INSERT/'M01$'                               
+   INSERT/'  $'                                
+   TNUM=PARAM
+$$   INSERT/'T',OMIT,TNUM,' (',NMESS,' )$'
+ IF(S_N .EQ. 0 .AND. S_TOOL .EQ. 1) THEN       
+      INSERT/'(',OMIT,NMESS,' )$'
+ ENDIF
+ IF(S_N .EQ. 1 .AND. S_TOOL .EQ. 0) THEN       
+     INSERT/'N',OMIT,SEQNO,'$'
+ ENDIF
+ IF(S_N .EQ. 1 .AND. S_TOOL .EQ. 1) THEN       
+   INSERT/'N',OMIT,SEQNO, '(',NMESS,' )$'
+ ENDIF
+ IF(S_N .EQ. 2 .AND. S_TOOL .EQ. 0) THEN       
+     INSERT/'N',OMIT,TNUM,'$'
+ ENDIF
+ IF(S_N .EQ. 2 .AND. S_TOOL .EQ. 1) THEN       
+   INSERT/'N',OMIT,TNUM, '(',NMESS,' )$'
+ ENDIF
+  IF(S_T .EQ. 0) THEN
+     S_T=PARAM
+  ENDIF
+   S_M=0                                       
+   DMY=POSTF(21)			       $$ restore the LOADTL record saved in memory
+   DMY=POSTF(13)			       $$ Process the CL record
+     IF(N_N .EQ. 1) THEN
+         SEQNO=SEQNO+1
+     ENDIF
+     IF(N_N .EQ. 2) THEN
+         SEQNO=SEQNO+2
+     ENDIF
+     IF(N_N .EQ. 3) THEN
+         SEQNO=SEQNO+3
+     ENDIF
+     IF(N_N .EQ. 4) THEN
+         SEQNO=SEQNO+4
+     ENDIF
+     IF(N_N .EQ. 5) THEN
+         SEQNO=SEQNO+5
+     ENDIF
+     IF(N_N .EQ. 6) THEN
+         SEQNO=SEQNO+6
+     ENDIF
+     IF(N_N .EQ. 7) THEN
+         SEQNO=SEQNO+7
+     ENDIF
+     IF(N_N .EQ. 8) THEN
+         SEQNO=SEQNO+8
+     ENDIF
+     IF(N_N .EQ. 9) THEN
+         SEQNO=SEQNO+9
+     ENDIF
+     IF(N_N .EQ. 10) THEN
+         SEQNO=SEQNO+10
+     ENDIF
+   ENDIF
+REPEAT/G,G,90
+IF(S_G54 .EQ. 1) THEN
+    REPEAT/G,G,54
+ENDIF
+IF(S_G54 .EQ. 2) THEN
+    REPEAT/G,G,55
+ENDIF
+IF(S_G54 .EQ. 3) THEN
+    REPEAT/G,G,56
+ENDIF
+IF(S_G54 .EQ. 4) THEN
+    REPEAT/G,G,57
+ENDIF
+IF(S_G54 .EQ. 5) THEN
+    REPEAT/G,G,58
+ENDIF
+IF(S_G54 .EQ. 6) THEN
+    REPEAT/G,G,59
+ENDIF
+CIMFIL/OFF			               $$ End of CIMFIL on LOADTL
+CIMFIL / ON, SPINDL		$$ Starts on all SPINDL statement
+DMY=POSTF(20)			$$ save the SPINDL record in memory
+PARAM=POSTF(7,4)		$$ first parameter of SPINDL command
+LXX=POSTF(1,3,911)
+LYY=POSTF(1,3,912)
+IF (PARAM.EQ.ICODEF(OFF)) THEN
+$$ INSERT/'G80$'  
+DMY=POSTF(21)			$$ restore the SPINDL record saved in memory
+DMY=POSTF(13)			$$ Process the CL record
+ELSE
+DMY=POSTF(21)			$$ restore the SPINDL record saved in memory
+DMY=POSTF(13)			$$ Process the CL record
+ IF(S_G51 .EQ. 1 .AND. S_Q.EQ. 1) THEN
+        INSERT/'G5.1 Q1$'
+  ENDIF
+$$    INSERT/'G90 G00 G54 $'
+  ENDIF
+CIMFIL/OFF			$$ End of CIMFIL on SPINDL
+CIMFIL/ON,CYCLE
+    DMY=POSTF(20)
+TTAP=POSTF(7,4)
+   CASE/TTAP
+  WHEN/ICODEF(TAP)
+$$     INSERT/'M29$'
+
+ IF(S_M29 .EQ. 1) THEN
+   IF(S_M .EQ. 0) THEN
+     INSERT/'M29$'
+     S_M=1
+   ENDIF
+ ENDIF
+ ENDOF/CASE
+ DMY=POSTF(21)
+ DMY=POSTF(13)
+CIMFIL/OFF
+CIMFIL/ON,FINI
+DMY=POSTF(20)			$$ save the SPINDL record in memory
+     IF(S_G51 .EQ. 1 .AND. S_Q.EQ. 1) THEN
+       INSERT/'G5.1 Q0$'
+     ENDIF
+   INSERT/'G91 G30 Z0.$'
+   INSERT/'G91 G28 Y0.$'
+ IF(S_M6 .EQ. 1) THEN
+   INSERT/'T',OMIT,S_T,' M06$'
+ ENDIF
+   INSERT/'M30$'
+IF(S_DEL .EQ. 1) THEN
+ T1=TEXT/'TESTB.BAT'                 $$ MAKE A TEMP BAT FILE
+ I1=FILEF(1,7,T1)                    $$ DELETE OLD FILE
+ IF(I1 .EQ. 1) THEN
+ DMY=FILEF(1,2,T1)
+ DMY=FILEF(1,6)
+ ENDIF
+ DMY=FILEF(1,3,T1)                   $$ OPEN TO WRITE DOS COMMANDS
+ DMY=FILEF(1,1,(TEXT/'ATTRIB +h APS00W07'))
+ $$DMY=FILEF(1,1,(TEXT/'del  *.MBX *.LST *.BAT *.NCL.* *.ACL'))
+ DMY=FILEF(1,1,(TEXT/'if exist *.MBX DEL *.MBX'))
+ DMY=FILEF(1,1,(TEXT/'if exist *.LST DEL *.LST'))
+ DMY=FILEF(1,1,(TEXT/'if exist *.NCL.* DEL *.NCL.*'))
+ DMY=FILEF(1,1,(TEXT/'if exist *.ACL DEL *.ACL'))
+ DMY=FILEF(1,1,(TEXT/'if exist *.TAP REN *.TAP *.NC'))
+ DMY=FILEF(1,1,(TEXT/'if exist *.PTP REN *.PTP *.NC'))
+ DMY=FILEF(1,1,(TEXT/'DEL %0'))
+ DMY=FILEF(1,1,(TEXT/'exit'))
+ DMY=FILEF(1,5)                      $$ CLOSE FILE
+ T2=TEXT/'E:\Creo-Files\CREO\Gpost\shanchu\DELRUBBISH TESTB.BAT'
+ DMY=SPWNF(T2,0)                   $$ RUN AFTER FINI - END OF GPOST RUN
+ $$DMY=SPWNF(T2,1)                   $$ RUN NOW - WAIT FOR USER TO TYPE CON
+ $$DMY=SPWNF(T2,2)                     $$ RUN NOW- NO WAIT
+ENDIF
+DMY=POSTF(21)			$$ restore the SPINDL record saved in memory
+DMY=POSTF(13)			$$ Process the CL record
+CIMFIL/OFF
+FINI
+

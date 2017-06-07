@@ -1,0 +1,15 @@
+2017-6-6 10:30:54
+Starting plugin
+Loading plugin from D:\Program Files\PTC\Creo 3.0\M120\Common Files\x86e_win64\mworks\
+Initializing plugin UI
+Obtaining components
+Obtaining model file path
+Obtaining current window id
+Obtaining NC sequences
+Obtaining operations
+Tessellating stock and target
+Creating interface structs
+Obtaining workcells
+Activating dashboard
+Dashboard deactivated
+Terminating plugin

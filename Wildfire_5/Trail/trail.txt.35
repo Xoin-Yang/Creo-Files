@@ -1,0 +1,255 @@
+﻿!trail file version No. 1800
+!Creo  TM  3.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 3108
+!	Application: Creo_Parametric
+!	Start date&time: 2017/06/02  11:30:28
+!	language: chinese_cn
+!	machine type: x86e_win64
+!	datecode: M120
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.168593 1845 0 0 986 1920 0 0 1080 13
+!mem_use INCREASE Blocks 654973, AppSize 84029235, SysSize 96328608
+< 0 0.970667 1677 0 0 819 1920 0 0 1080 13
+< 0 0.970667 1426 0 0 819 1920 0 0 1080 13
+!%CI欢迎使用 Creo Parametric 3.0。
+~ Activate `msglist` `msglist`
+~ Select `msglist` `List_msgs` 1 ` NOTEBOOK`
+~ Activate `msglist` `Ok`
+!AFX datecode: Dec 13 2016 : 10:01:30
+< 0 0.968296 1426 0 0 817 1920 0 0 1080 13
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): connected to Pro/E.
+!	exec path: D:\Program Files\PTC\Creo 3.0\M120\Common Files\x86e_win64\obj\mcp_applet_async.exe
+!	type: asynchronous
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Command `ProCmdModelNew` 
+~ Select `new` `Type` 1 `Drawing`
+~ Activate `new` `OK`
+!Command ProCmdModelNewExe was pushed from the software.
+!%CE无法找到默认模板E:\Creo Files\CREO\Templates\GB_Yang_a4prt.drw.1。
+~ Select `dwg_create` `rad_format` 1 `2`
+~ Select `dwg_create` `rad_format` 1 `1`
+~ Activate `dwg_create` `psh_model_browse`
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Select `file_open` `Ph_list.Filelist` 1 `Part`
+~ Activate `file_open` `Ph_list.Filelist` 1 `Part`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `file_open:Ph_list.Filelist:<NULL>`
+~ Activate `file_open` `SAB_.|`
+~ Select `file_open` `Ph_list.Filelist` 1 `PTCU`
+~ Activate `file_open` `Ph_list.Filelist` 1 `PTCU`
+~ Select `file_open` `Ph_list.Filelist` 1 `CreoParametric4`
+~ Activate `file_open` `Ph_list.Filelist` 1 `CreoParametric4`
+~ Select `file_open` `Ph_list.Filelist` 1 `使用Creo Parametric 界面`
+~ Activate `file_open` `Ph_list.Filelist` 1 `使用Creo Parametric 界面`
+~ Select `file_open` `Ph_list.Filelist` 1 `Sample_Topic`
+~ Activate `file_open` `Ph_list.Filelist` 1 `Sample_Topic`
+~ Select `file_open` `Ph_list.Filelist` 1 `nut.prt`
+~ Activate `file_open` `Ph_list.Filelist` 1 `nut.prt`
+~ FocusOut `dwg_create` `inp_template_name`
+~ Activate `dwg_create` `psh_ok`
+@ ok
+!mem_use INCREASE Blocks 685768, AppSize 126872834, SysSize 141190416
+!02-Jun-17 11:33:30  Start D:\Program Files\PTC\Creo 3.0\M120\Common Files\creo_standards\templates\a1_drawing.drw
+!02-Jun-17 11:33:30  Start D:\Program Files\PTC\Creo 3.0\M120\Common Files\creo_standards\formats\a1_format.frm
+!02-Jun-17 11:33:30  End   D:\Program Files\PTC\Creo 3.0\M120\Common Files\creo_standards\formats\a1_format.frm
+!02-Jun-17 11:33:30  End   D:\Program Files\PTC\Creo 3.0\M120\Common Files\creo_standards\templates\a1_drawing.drw
+!Application (UNNAMED): running public notification type 122, mode spawn
+!Application (UNNAMED): returned from public notification type 122, mode spawn
+!02-Jun-17 11:33:30  Start E:\Creo-Files\CREO\PTCU\CreoParametric4\使用Creo Parametric 界面\Sample_Topic\nut.prt
+!%CE文件 E:\Creo-Files\CREO\PTCU\CreoParametric4\使用Creo Parametric 界面\Sample_Topic\nut.prt 是在较新版本的 Creo Parametric 中创建的。
+!%CE文件E:\Creo-Files\CREO\PTCU\CreoParametric4\使用Creo Parametric 界面\Sample_Topic\nut.prt 是一无效PART 文件。
+!%CE'E:\Creo-Files\CREO\PTCU\CreoParametric4\使用Creo Parametric 界面\Sample_Topic\nut.prt'不能检索。
+!02-Jun-17 11:33:30  End   E:\Creo-Files\CREO\PTCU\CreoParametric4\使用Creo Parametric 界面\Sample_Topic\nut.prt
+!%CE不能加载模型 E:\Creo-Files\CREO\PTCU\CreoParametric4\使用Creo Parametric 界面\Sample_Topic\nut.prt。
+!%CE绘图请求失败。
+!Command ProCmdWinActivate was pushed from the software.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 221 363 0 1 1426 817 1920 1080 185224
+** -0.008109 0.554468 0 1 1
+-0.008109 0.467832 L 0 0.968296296 0
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 221 363 0 0 1426 817 1920 1080 185349
+~ Command `ProCmdModelNew` 
+~ Select `new` `Type` 1 `Drawing`
+~ Activate `new` `OK`
+!Command ProCmdModelNewExe was pushed from the software.
+!%CE无法找到默认模板E:\Creo Files\CREO\Templates\GB_Yang_a4prt.drw.1。
+~ Activate `dwg_create` `psh_model_browse`
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Select `file_open` `Ph_list.Filelist` 1 `PTCU`
+~ Activate `file_open` `Ph_list.Filelist` 1 `PTCU`
+~ Select `file_open` `Ph_list.Filelist` 1 `CreoParametric4`
+~ Activate `file_open` `Ph_list.Filelist` 1 `CreoParametric4`
+~ Select `file_open` `Ph_list.Filelist` 1 `Parametric 基本建模过程`
+~ Activate `file_open` `Ph_list.Filelist` 1 `Parametric 基本建模过程`
+~ Select `file_open` `Ph_list.Filelist` 1 `Basic-Modeling`
+~ Activate `file_open` `Ph_list.Filelist` 1 `Basic-Modeling`
+~ Select `file_open` `Ph_list.Filelist` 1 `key_base.prt`
+~ Command `ProFileSelPushOpen_Standard@context_dlg_open_cmd` 
+~ FocusOut `dwg_create` `inp_template_name`
+~ Select `dwg_create` `lst_template_names` 1 `a1_drawing`
+~ Select `dwg_create` `lst_template_names` 1 `a4_drawing_portrait`
+~ Select `dwg_create` `lst_template_names` 1 `a3_drawing`
+~ Select `dwg_create` `rad_format` 1 `2`
+~ Open `dwg_create` `opt_format_name`
+~ Close `dwg_create` `opt_format_name`
+~ Select `dwg_create` `opt_format_name` 1 `0`
+~ Activate `dwg_create` `psh_ok`
+@ ok
+!%CI正在加载公差表 2 ...
+!%CWE:\Creo Files\CREO\GB_PTC.dtls 不存在。使用系统默认值。
+!02-Jun-17 11:33:58  Start E:\Creo-Files\CREO\PTCU\CreoParametric4\Parametric 基本建模过程\Basic-Modeling\key_base.prt
+!%CE文件 E:\Creo-Files\CREO\PTCU\CreoParametric4\Parametric 基本建模过程\Basic-Modeling\key_base.prt 是在较新版本的 Creo Parametric 中创建的。
+!%CE文件E:\Creo-Files\CREO\PTCU\CreoParametric4\Parametric 基本建模过程\Basic-Modeling\key_base.prt 是一无效PART 文件。
+!%CE'E:\Creo-Files\CREO\PTCU\CreoParametric4\Parametric 基本建模过程\Basic-Modeling\key_base.prt'不能检索。
+!02-Jun-17 11:33:58  End   E:\Creo-Files\CREO\PTCU\CreoParametric4\Parametric 基本建模过程\Basic-Modeling\key_base.prt
+!%CE'key_base'不能检索。
+!%CE不能从模型树配置文件E:\Creo Files\CREO\tree.cfg读取。
+< 0 0.938667 1426 0 0 792 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_LMX_control_btn` 1
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Layout to page_LMX
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~ Activate `main_dlg_cur` `page_Analysis_control_btn` 1
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_LMX to page_Analysis
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~ Activate `main_dlg_cur` `page_Review_control_btn` 1
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Analysis to page_Review
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~ Activate `main_dlg_cur` `page_Tools_control_btn` 1
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Review to page_Tools
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~ Activate `main_dlg_cur` `page_View_control_btn` 1
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Tools to page_View
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~ Activate `main_dlg_cur` `efx_user_custom_page_2_control_btn` 1
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_View to efx_user_custom_page_2
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~ Activate `main_dlg_cur` `page_Layout_control_btn` 1
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from efx_user_custom_page_2 to page_Layout
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~ RButtonArm `main_dlg_cur` `proe_win` 9 720 299 0 4 1426 792 1920 1080 219633
+~ RButtonDisarm `main_dlg_cur` `proe_win` 9 720 299 0 0 1426 792 1920 1080 219742
+~ RButtonArm `main_dlg_cur` `proe_win` 9 698 311 0 4 1426 792 1920 1080 220288
+~ Timer `UI Desktop` `UI Desktop` `popupMenuRMBTimerCB`
+~ RButtonDisarm `main_dlg_cur` `proe_win` 9 698 311 0 256 1426 792 1920 1080 220772
+~ Exit `main_dlg_cur` `proe_win` 9 698 311 0 4 1426 792 1920 1080 220772
+~ Close `rmb_popup` `PopupMenu`
+~ Command `ProCmdDwgViewGen@PopupMenuGraphicWinStack` 
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Activate `file_open` `Cancel`
+~ Wheel `main_dlg_cur` `proe_win` 9 1078 709 458752 0 1426 792 1920 1080 225719
+~ Wheel `main_dlg_cur` `proe_win` 9 1078 709 458752 0 1426 792 1920 1080 225750
+~ Wheel `main_dlg_cur` `proe_win` 9 1078 709 458752 0 1426 792 1920 1080 225781
+~ Wheel `main_dlg_cur` `proe_win` 9 1078 704 458752 0 1426 792 1920 1080 226125
+~ Wheel `main_dlg_cur` `proe_win` 9 1078 703 458752 0 1426 792 1920 1080 226156
+~ Wheel `main_dlg_cur` `proe_win` 9 1078 703 458752 0 1426 792 1920 1080 226171
+~ Wheel `main_dlg_cur` `proe_win` 9 1079 702 458752 0 1426 792 1920 1080 226218
+~ Wheel `main_dlg_cur` `proe_win` 9 1015 568 458752 0 1426 792 1920 1080 226577
+~ Wheel `main_dlg_cur` `proe_win` 9 1015 568 458752 0 1426 792 1920 1080 226608
+~ LButtonArm `main_dlg_cur` `proe_win` 9 770 577 0 1 1426 792 1920 1080 227575
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 770 577 0 0 1426 792 1920 1080 227700
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 7.450581 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 7.450581 0.000000 0
+~ LButtonArm `main_dlg_cur` `proe_win` 9 770 577 0 129 1426 792 1920 1080 227763
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 770 577 0 0 1426 792 1920 1080 227872
+~ Wheel `main_dlg_cur` `proe_win` 9 765 579 393216 0 1426 792 1920 1080 228355
+~ Wheel `main_dlg_cur` `proe_win` 9 765 579 393216 0 1426 792 1920 1080 228402
+~ Wheel `main_dlg_cur` `proe_win` 9 765 579 393216 0 1426 792 1920 1080 228418
+~ Wheel `main_dlg_cur` `proe_win` 9 765 579 393216 0 1426 792 1920 1080 228496
+~ Wheel `main_dlg_cur` `proe_win` 9 765 579 393216 0 1426 792 1920 1080 228745
+~ Wheel `main_dlg_cur` `proe_win` 9 765 579 393216 0 1426 792 1920 1080 228761
+~ Wheel `main_dlg_cur` `proe_win` 9 765 579 393216 0 1426 792 1920 1080 228792
+~ Wheel `main_dlg_cur` `proe_win` 9 765 579 393216 0 1426 792 1920 1080 229198
+~ Wheel `main_dlg_cur` `proe_win` 9 765 579 393216 0 1426 792 1920 1080 229229
+~ Wheel `main_dlg_cur` `proe_win` 9 765 580 393216 0 1426 792 1920 1080 229291
+~ Command `ProCmdDwgViewGen` 
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Select `file_open` `Ph_list.Filelist` 1 `PTCU`
+~ Activate `file_open` `Ph_list.Filelist` 1 `PTCU`
+~ Select `file_open` `Ph_list.Filelist` 1 `CreoParametric4`
+~ Activate `file_open` `Ph_list.Filelist` 1 `CreoParametric4`
+~ Select `file_open` `Ph_list.Filelist` 1 `使用Creo Parametric 界面`
+~ Activate `file_open` `Ph_list.Filelist` 1 `使用Creo Parametric 界面`
+~ Select `file_open` `Ph_list.Filelist` 1 `Sample_Topic`
+~ Activate `file_open` `Ph_list.Filelist` 1 `Sample_Topic`
+~ Select `file_open` `Ph_list.Filelist` 1 `nut.prt`
+~ Activate `file_open` `Ph_list.Filelist` 1 `nut.prt`
+!02-Jun-17 11:34:26  Start E:\Creo-Files\CREO\PTCU\CreoParametric4\使用Creo Parametric 界面\Sample_Topic\nut.prt
+!%CE文件 E:\Creo-Files\CREO\PTCU\CreoParametric4\使用Creo Parametric 界面\Sample_Topic\nut.prt 是在较新版本的 Creo Parametric 中创建的。
+!%CE文件E:\Creo-Files\CREO\PTCU\CreoParametric4\使用Creo Parametric 界面\Sample_Topic\nut.prt 是一无效PART 文件。
+!%CE'E:\Creo-Files\CREO\PTCU\CreoParametric4\使用Creo Parametric 界面\Sample_Topic\nut.prt'不能检索。
+!02-Jun-17 11:34:26  End   E:\Creo-Files\CREO\PTCU\CreoParametric4\使用Creo Parametric 界面\Sample_Topic\nut.prt
+!%CE'nut'不能检索。
+~ RButtonArm `main_dlg_cur` `proe_win` 9 299 316 0 4 1426 792 1920 1080 240149
+~ RButtonDisarm `main_dlg_cur` `proe_win` 9 299 316 0 0 1426 792 1920 1080 240258
+~ RButtonArm `main_dlg_cur` `proe_win` 9 299 316 0 132 1426 792 1920 1080 240679
+~ Timer `UI Desktop` `UI Desktop` `popupMenuRMBTimerCB`
+~ RButtonDisarm `main_dlg_cur` `proe_win` 9 299 316 0 256 1426 792 1920 1080 241116
+~ Exit `main_dlg_cur` `proe_win` 9 299 316 0 4 1426 792 1920 1080 241116
+~ Close `rmb_popup` `PopupMenu`
+~ Command `ProCmdDwgShowAllAnnots@PopupMenuGraphicWinStack` 
+~ Activate `show_model_annotations` `psh_cancel`
+~ RButtonArm `main_dlg_cur` `proe_win` 9 696 301 0 4 1426 792 1920 1080 243087
+~ Timer `UI Desktop` `UI Desktop` `popupMenuRMBTimerCB`
+~ RButtonDisarm `main_dlg_cur` `proe_win` 9 696 301 0 256 1426 792 1920 1080 243524
+~ Exit `main_dlg_cur` `proe_win` 9 696 301 0 4 1426 792 1920 1080 243524
+~ Close `rmb_popup` `PopupMenu`
+~ Command `ProCmdDwgViewGen@PopupMenuGraphicWinStack` 
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Activate `file_open` `Cancel`
+~ Command `ProCmdWinCloseGroup` 
+!Command ProCmdWinClose was pushed from the software.
+! Executed sub-command ProCmdWinCloseAsyn.
+!%CI基本窗口不能关闭。
+< 0 0.963556 1426 0 0 813 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `In Session`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist:<NULL>`
+~ Command `ProCmdModelEraseNotDisp` 
+~ Activate `file_erase_nd` `ok_pb`
+!Application (UNNAMED): running public notification type 99, mode spawn
+!Application (UNNAMED): returned from public notification type 99, mode spawn
+!Application (UNNAMED): running public notification type 99, mode spawn
+!Application (UNNAMED): returned from public notification type 99, mode spawn
+!Application (UNNAMED): running public notification type 99, mode spawn
+!Application (UNNAMED): returned from public notification type 99, mode spawn
+!%CI所有没有显示的对象已被拭除。
+~ RButtonArm `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` ``
+~ PopupOver `main_dlg_cur` `listPopup` 1 `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist`
+~ Open `main_dlg_cur` `listPopup`
+~ Close `main_dlg_cur` `listPopup`
+~ Activate `main_dlg_cur` `psh_refresh`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 0
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric 将终止，所有未保存的工作都将会丢失。
+!               : 是否确实要退出?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

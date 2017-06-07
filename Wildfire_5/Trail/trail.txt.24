@@ -1,0 +1,140 @@
+﻿!trail file version No. 1861
+!Creo  TM  4.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 10424
+!	Application: Creo_Parametric
+!	Start date&time: 2017/05/31  14:26:19
+!	language: chinese_cn
+!	machine type: x86e_win64
+!	datecode: M010
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.168593 1845 0 0 986 1920 0 0 1080 13
+!mem_use INCREASE Blocks 772429, AppSize 97258727, SysSize 110944656
+< 0 0.922074 1607 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1450 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1470 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1490 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1508 0 0 778 1920 0 0 1080 13
+!%CI欢迎使用 Creo Parametric 4.0。
+!AFX datecode: 4.0 M010 2017.02.16.11
+!AFX exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\x86e_win64\afx40.dll
+!AFX text path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\
+< 0 1.082074 1508 0 0 913 1920 0 0 1080 13
+< 0 0.922074 1508 0 0 778 1920 0 0 1080 13
+< 0 0.916148 1508 0 0 773 1920 0 0 1080 13
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdRibbonOptionsDlg` 
+!ODUI external UI session start for device : ribbon_options_dialog 
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): connected to Pro/E.
+!	exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\x86e_win64\obj\mcp_applet_async.exe
+!	type: asynchronous
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `LicLayout`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `ConfigLayout`
+~ Activate `ribbon_options_dialog` `ConfigLayout.SearchOpt`
+~ Input `find` `EnterKeyword` `dtl`
+~ Update `find` `EnterKeyword` `dtl`
+~ Activate `find` `FindNow`
+~ Select `find` `Options` 1 `PRO_DTL_SETUP_DIR`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Select `find` `Options` 1 `PRO_DTL_SETUP_DIR`
+~ Activate `find` `Browse`
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Select `file_open` `Ph_list.Filelist` 1 `Dtl`
+~ Activate `file_open` `Ph_list.Filelist` 1 `Dtl`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `file_open:Ph_list.Filelist:<NULL>`
+~ Command `ProFileSelPushOpen_Standard@context_dlg_open_cmd` 
+~ Activate `find` `Apply`
+~ Input `find` `EnterKeyword` `f`
+~ Input `find` `EnterKeyword` `fr`
+~ Input `find` `EnterKeyword` `frl`
+~ Input `find` `EnterKeyword` `fr`
+~ Input `find` `EnterKeyword` `f`
+~ Input `find` `EnterKeyword` ``
+~ Input `find` `EnterKeyword` ``
+~ Input `find` `EnterKeyword` `d`
+~ Input `find` `EnterKeyword` `dr`
+~ Input `find` `EnterKeyword` `drl`
+~ Input `find` `EnterKeyword` `dr`
+~ Input `find` `EnterKeyword` `d`
+~ Input `find` `EnterKeyword` `di`
+~ Input `find` `EnterKeyword` `dir`
+~ Update `find` `EnterKeyword` `dir`
+~ Activate `find` `FindNow`
+~ Select `find` `Options` 1 `AUTODRILL_UDF_DIR`
+~ Resize `find` `find` 4 18.865616 5.968489 22.187210 15.206673
+~ Select `find` `Options` 1 `BOARD_BEND_NOTES_DIRECTION_UP`
+~ Select `find` `Options` 1 `BOARD_DESIGN_RULES_DIRECTORY`
+~ Select `find` `Options` 1 `BOARD_BEND_TABLE_DIRECTORY`
+~ Select `find` `Options` 1 `CAMPOST_DIR`
+~ Select `find` `Options` 1 `EXCEL_ANALYSIS_DIRECTORY`
+~ Select `find` `Options` 1 `FLANGE_SHAPE_SKETCHES_DIRECTORY`
+~ Select `find` `Options` 1 `LAYOUT_TEMPLATE_DIR`
+~ Select `find` `Options` 1 `LOAD_UI_CUSTOMIZATION_RUN_DIR`
+~ Select `find` `Options` 1 `MFG_TEMPLATE_DIR`
+~ Select `find` `Options` 1 `MODELCHECK_DIR`
+~ Select `find` `Options` 1 `MODIFIED_OBJS_IN_NEW_DIR`
+~ Select `find` `Options` 1 `USE_TEMP_DIR_FOR_INST`
+~ Select `find` `Options` 1 `TRAIL_DIR`
+~ Select `find` `Options` 1 `TOLERANCE_TABLE_DIR`
+~ Select `find` `Options` 1 `START_MODEL_DIR`
+~ Select `find` `Options` 1 `SMT_BEND_NOTES_DIRECTION_UP`
+~ Select `find` `Options` 1 `SIM_RUN_OUT_DIR`
+~ Select `find` `Options` 1 `SIM_PP_TEMPLATE_DIR`
+~ Select `find` `Options` 1 `PRO_MFG_CMDSYN_DIR`
+~ Select `find` `Options` 1 `PRO_MDB_DIR`
+~ Activate `find` `Browse`
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ RButtonArm `file_open` `Ph_list.Filelist` ``
+~ PopupOver `file_open` `listPopup` 1 `Ph_list.Filelist`
+~ Open `file_open` `listPopup`
+~ Close `file_open` `listPopup`
+~ Activate `file_open` `newdirectory_pb0`
+~ Update `getnewdir` `new_dir_input` `MDB`
+~ Activate `getnewdir` `Cancel_button`
+~ Activate `file_open` `Cancel`
+~ Select `find` `Options` 1 `PRO_LIBRARY_DIR`
+~ Select `find` `Options` 1 `PRO_FONT_DIR`
+~ Select `find` `Options` 1 `PRO_DTL_SETUP_DIR`
+~ Activate `find` `Browse`
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Select `file_open` `Ph_list.Filelist` 1 `Dtl`
+~ Activate `file_open` `Ph_list.Filelist` 1 `Dtl`
+~ Command `ProFileSelPushOpen_Standard@context_dlg_open_cmd` 
+~ Activate `find` `Apply`
+~ Activate `find` `Close`
+~ Activate `ribbon_options_dialog` `OkPshBtn`
+! UITools Msg Dialog Future: warning
+!                          : 所做的配置设置将仅应用于当前会话。
+!                          : 
+!                          : 是否要将这些设置保存到配置文件?
+!                          : 
+!                          : 注意: 用户自定义设置将自动
+!                          : 保存到配置文件目录。
+~ Activate `UITools Msg Dialog Future` `yes`
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Command `ProFileSelPushOpen@context_dlg_open_cmd` 
+!ODUI external UI session stop. 
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric 将终止，所有未保存的工作都将会丢失。
+!               : 是否确实要退出?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

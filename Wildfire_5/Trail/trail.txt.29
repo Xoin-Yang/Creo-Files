@@ -1,0 +1,51 @@
+﻿!trail file version No. 1861
+!Creo  TM  4.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 8368
+!	Application: Creo_Parametric
+!	Start date&time: 2017/06/01  13:22:56
+!	language: chinese_cn
+!	machine type: x86e_win64
+!	datecode: M010
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.168593 1845 0 0 986 1920 0 0 1080 13
+!mem_use INCREASE Blocks 772441, AppSize 97262031, SysSize 110948176
+< 0 0.922074 1607 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1416 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1436 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1456 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1474 0 0 778 1920 0 0 1080 13
+!%CI欢迎使用 Creo Parametric 4.0。
+!AFX datecode: 4.0 M010 2017.02.16.11
+!AFX exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\x86e_win64\afx40.dll
+!AFX text path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\
+< 0 1.082074 1474 0 0 913 1920 0 0 1080 13
+< 0 0.922074 1474 0 0 778 1920 0 0 1080 13
+< 0 0.916148 1474 0 0 773 1920 0 0 1080 13
+~ Command `ProCmdModelNew` 
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): connected to Pro/E.
+!	exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\x86e_win64\obj\mcp_applet_async.exe
+!	type: asynchronous
+~ Activate `new` `OK`
+!Command ProCmdModelNewExe was pushed from the software.
+! 1-Jun-17 13:23:02  Start E:\Creo-Files\CREO\Templates\template_yang.prt
+! 1-Jun-17 13:23:02  End   E:\Creo-Files\CREO\Templates\template_yang.prt
+! 1-Jun-17 13:23:02  Start E:\Creo-Files\CREO\prt0001.prt
+! 1-Jun-17 13:23:02  End   E:\Creo-Files\CREO\prt0001.prt
+!%CI用默认模板E:\Creo-Files\CREO\Templates\template_yang.prt作为模板。
+@ oa_sel_filter_set _30_
+!%CE不能从模型树配置文件E:\Creo Files\CREO\tree.cfg读取。
+@ stack attr 2
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric 将终止，所有未保存的工作都将会丢失。
+!               : 是否确实要退出?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

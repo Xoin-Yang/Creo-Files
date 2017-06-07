@@ -1,0 +1,18 @@
+ERROR - D:\Program Files\PTC\Creo 4.0\M010\Common Files\text\config.pro, linenum 5 :  Keyword 'ALLOW_SAVE_FAILED_MODELS' is not valid.
+ERROR - D:\Program Files\PTC\Creo 4.0\M010\Common Files\text\config.pro, linenum 11:  Keyword 'SYSTEM_BACKGROUND_COLOR' is not valid.
+ERROR - D:\Program Files\PTC\Creo 4.0\M010\Common Files\text\config.pro, linenum 22: Invalid value '128' for keyword 'DIM_FRACTION_DENOMINATOR'.
+ERROR - D:\Program Files\PTC\Creo 4.0\M010\Common Files\text\config.pro, linenum 45: Invalid value 'shading_low' for keyword 'SAVE_MODEL_DISPLAY'.
+ERROR - E:\Creo-Files\CREO_4\config.pro, linenum 1 :  Keyword 'TOL_MODE' is not valid.
+ERROR - E:\Creo-Files\CREO_4\config.pro, linenum 12:  Keyword 'TOL_MODE' is not valid.
+Warning:: Loading a non-english file into another non-english session
+Data integrity is not guaranteed
+Warning:: Loading a non-english file into another non-english session
+Data integrity is not guaranteed
+Warning:: A non-english file is saved under a non-english session
+Data integrity is not guaranteed
+Warning:: A non-english file is saved under a non-english session
+Data integrity is not guaranteed
+Warning:: A non-english file is saved under a non-english session
+Data integrity is not guaranteed
+Warning:: A non-english file is saved under a non-english session
+Data integrity is not guaranteed

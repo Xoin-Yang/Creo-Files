@@ -1,0 +1,141 @@
+!trail file version No. 1350
+!Pro/ENGINEER  TM  Wildfire 3.0  (c) 2006 by Parametric Technology Corporation  All Rights Reserved.
+< 0 1.355852 1799 0 0 1144 1920 0 0 1200 13
+!mem_use INCREASE Blocks 6498, AppSize 39369776, SysSize 39457888
+~ Activate `main_dlg_w1` `main_dlg_w1`
+< 0 1.101037 1645 0 0 929 1920 0 0 1200 13
+< 0 1.101037 1480 0 0 929 1920 0 0 1200 13
+< 0 1.101037 1439 0 0 929 1920 0 0 1200 13
+< 0 1.101037 1443 0 0 929 1920 0 0 1200 13
+~ Select `main_dlg_cur` `MenuBar1` \
+1  `Help`
+~ Close `main_dlg_cur` `MenuBar1`
+~ Activate `main_dlg_cur` `Help.psh_help_support_info`
+!%CICustomer Services information has been written to D:\users\student\Piping_WF3\support.inf.1.
+~ Update `texttool` `textPH.VertScrollBar` \
+80 
+~ Update `texttool` `textPH.VertScrollBar` \
+79 
+~ Update `texttool` `textPH.VertScrollBar` \
+78 
+~ Update `texttool` `textPH.VertScrollBar` \
+77 
+~ Update `texttool` `textPH.VertScrollBar` \
+76 
+~ Update `texttool` `textPH.VertScrollBar` \
+75 
+~ Update `texttool` `textPH.VertScrollBar` \
+74 
+~ Update `texttool` `textPH.VertScrollBar` \
+73 
+~ Update `texttool` `textPH.VertScrollBar` \
+72 
+~ Update `texttool` `textPH.VertScrollBar` \
+71 
+~ Update `texttool` `textPH.VertScrollBar` \
+70 
+~ Update `texttool` `textPH.VertScrollBar` \
+69 
+~ Update `texttool` `textPH.VertScrollBar` \
+68 
+~ Update `texttool` `textPH.VertScrollBar` \
+67 
+~ Update `texttool` `textPH.VertScrollBar` \
+66 
+~ Update `texttool` `textPH.VertScrollBar` \
+65 
+~ Update `texttool` `textPH.VertScrollBar` \
+64 
+~ Update `texttool` `textPH.VertScrollBar` \
+63 
+~ Update `texttool` `textPH.VertScrollBar` \
+62 
+~ Update `texttool` `textPH.VertScrollBar` \
+61 
+~ Update `texttool` `textPH.VertScrollBar` \
+60 
+~ Update `texttool` `textPH.VertScrollBar` \
+59 
+~ Update `texttool` `textPH.VertScrollBar` \
+58 
+~ Update `texttool` `textPH.VertScrollBar` \
+57 
+~ Update `texttool` `textPH.VertScrollBar` \
+56 
+~ Update `texttool` `textPH.VertScrollBar` \
+54 
+~ Update `texttool` `textPH.VertScrollBar` \
+53 
+~ Update `texttool` `textPH.VertScrollBar` \
+52 
+~ Update `texttool` `textPH.VertScrollBar` \
+51 
+~ Update `texttool` `textPH.VertScrollBar` \
+50 
+~ Update `texttool` `textPH.VertScrollBar` \
+49 
+~ Update `texttool` `textPH.VertScrollBar` \
+48 
+~ Update `texttool` `textPH.VertScrollBar` \
+47 
+~ Update `texttool` `textPH.VertScrollBar` \
+46 
+~ Update `texttool` `textPH.VertScrollBar` \
+45 
+~ Update `texttool` `textPH.VertScrollBar` \
+44 
+** 0.003415 0.263815 2 1 1
+** 0.299396 0.258467 2 0 0
+** 0.137745 0.281640 2 2 2
+~ Activate `texttool` `texttool`
+~ Select `texttool` `MenuBar` \
+1  `EditMenu`
+~ Close `texttool` `MenuBar`
+~ Activate `texttool` `EditModeCB` \
+1 
+~ Select `texttool` `MenuBar` \
+1  `EditMenu`
+~ Close `texttool` `MenuBar`
+~ Activate `texttool` `CopyPushButton`
+** 0.091071 0.274510 2 2 2
+~ Activate `texttool` `texttool`
+** 0.004554 0.263815 2 1 1
+** 0.297120 0.267380 2 0 0
+~ Select `texttool` `MenuBar` \
+1  `EditMenu`
+~ Close `texttool` `MenuBar`
+~ Activate `texttool` `CopyPushButton`
+** 0.125223 0.326203 2 1 1
+~ Activate `texttool` `texttool`
+** 0.125223 0.326203 2 0 0
+~ Resize `texttool` `texttool` \
+4 1.658048 1.984987 19.242702 14.922435 
+~ Move `texttool` `texttool` \
+2 1.658048 1.984987 
+** 0.035847 0.798932 2 1 1
+** 0.116193 0.741993 2 0 0
+** 0.116193 0.741993 2 1 1
+** 0.116193 0.741993 2 0 0
+~ Select `texttool` `MenuBar` \
+1  `EditMenu`
+~ Close `texttool` `MenuBar`
+~ Activate `texttool` `EditModeCB` \
+0 
+~ Select `texttool` `MenuBar` \
+1  `EditMenu`
+~ Select `texttool` `MenuBar` \
+1  `FileMenu`
+~ Close `texttool` `MenuBar`
+~ Close `texttool` `texttool`
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Do you really want to exit?
+~ FocusIn `UI Message Dialog` `no`
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

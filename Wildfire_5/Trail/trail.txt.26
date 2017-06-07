@@ -1,0 +1,101 @@
+﻿!trail file version No. 1861
+!Creo  TM  4.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 6868
+!	Application: Creo_Parametric
+!	Start date&time: 2017/06/01  10:13:08
+!	language: chinese_cn
+!	machine type: x86e_win64
+!	datecode: M010
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.168593 1845 0 0 986 1920 0 0 1080 13
+!mem_use INCREASE Blocks 772435, AppSize 97261767, SysSize 110948176
+< 0 0.922074 1607 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1416 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1436 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1456 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1474 0 0 778 1920 0 0 1080 13
+!%CI欢迎使用 Creo Parametric 4.0。
+!AFX datecode: 4.0 M010 2017.02.16.11
+!AFX exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\x86e_win64\afx40.dll
+!AFX text path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\
+< 0 1.082074 1474 0 0 913 1920 0 0 1080 13
+< 0 0.922074 1474 0 0 778 1920 0 0 1080 13
+< 0 0.916148 1474 0 0 773 1920 0 0 1080 13
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): connected to Pro/E.
+!	exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\x86e_win64\obj\mcp_applet_async.exe
+!	type: asynchronous
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdHelpAboutProE` 
+~ Activate `ptc_about` `Close`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 860 520 0 1 1474 773 1920 1080 225513
+** 0.634258 0.326003 0 1 1
+0.634258 0.275065 L 0 0.916148148 0
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 860 520 0 0 1474 773 1920 1080 225622
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdRibbonOptionsDlg` 
+!ODUI external UI session start for device : ribbon_options_dialog 
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `ConfigLayout`
+~ Activate `ribbon_options_dialog` `ConfigLayout.SearchOpt`
+~ Input `find` `EnterKeyword` `p`
+~ Input `find` `EnterKeyword` `pr`
+~ Input `find` `EnterKeyword` `pro`
+~ Input `find` `EnterKeyword` `pro_`
+~ Input `find` `EnterKeyword` `pro_u`
+~ Input `find` `EnterKeyword` `pro_un`
+~ Input `find` `EnterKeyword` `pro_uni`
+~ Input `find` `EnterKeyword` `pro_unit`
+~ Update `find` `EnterKeyword` `pro_unit`
+~ Activate `find` `EnterKeyword`
+~ Open `find` `Values`
+~ Close `find` `Values`
+~ Select `find` `Values` 1 `unit_mm`
+~ Select `find` `Options` 1 `PRO_UNIT_MASS`
+~ Open `find` `Values`
+~ Close `find` `Values`
+~ Select `find` `Values` 1 `unit_gram`
+~ Select `find` `Options` 1 `PRO_UNIT_SYS`
+~ Open `find` `Values`
+~ Close `find` `Values`
+~ Select `find` `Values` 1 `mmks`
+~ Activate `find` `Apply`
+~ Select `find` `Options` 1 `PRO_UNIT_MASS`
+~ Open `find` `Values`
+~ Close `find` `Values`
+~ Select `find` `Values` 1 `unit_gram`
+~ Activate `find` `Apply`
+~ Select `find` `Options` 1 `PRO_UNIT_LENGTH`
+~ Open `find` `Values`
+~ Close `find` `Values`
+~ Select `find` `Values` 1 `unit_mm`
+~ Activate `find` `Apply`
+~ Activate `find` `Close`
+~ Activate `ribbon_options_dialog` `OkPshBtn`
+!ODUI external UI session stop. 
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdRibbonOptionsDlg` 
+!ODUI external UI session start for device : ribbon_options_dialog 
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `ConfigLayout`
+~ Close `ribbon_options_dialog` `ribbon_options_dialog`
+!ODUI external UI session stop. 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 901 152 0 1 1474 773 1920 1080 1712958
+** 0.679010 0.802070 0 1 1
+0.679010 0.676746 L 0 0.916148148 0
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 901 152 0 0 1474 773 1920 1080 1713082
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric 将终止，所有未保存的工作都将会丢失。
+!               : 是否确实要退出?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

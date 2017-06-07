@@ -1,0 +1,67 @@
+﻿!trail file version No. 1861
+!Creo  TM  4.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 9528
+!	Application: Creo_Parametric
+!	Start date&time: 2017/05/31  14:22:17
+!	language: chinese_cn
+!	machine type: x86e_win64
+!	datecode: M010
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.168593 1845 0 0 986 1920 0 0 1080 13
+!mem_use INCREASE Blocks 772428, AppSize 97190644, SysSize 110942088
+< 0 0.922074 1607 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1450 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1470 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1490 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1508 0 0 778 1920 0 0 1080 13
+!%CI欢迎使用 Creo Parametric 4.0。
+!AFX datecode: 4.0 M010 2017.02.16.11
+!AFX exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\x86e_win64\afx40.dll
+!AFX text path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\
+< 0 1.082074 1508 0 0 913 1920 0 0 1080 13
+< 0 0.922074 1508 0 0 778 1920 0 0 1080 13
+< 0 0.916148 1508 0 0 773 1920 0 0 1080 13
+~ Command `ProCmdModelNew` 
+~ Activate `new` `OK`
+!Command ProCmdModelNewExe was pushed from the software.
+!31-May-17 14:22:22  Start D:\Program Files\PTC\Creo 4.0\M010\Common Files\templates\mmns_part_solid.prt
+!31-May-17 14:22:22  End   D:\Program Files\PTC\Creo 4.0\M010\Common Files\templates\mmns_part_solid.prt
+!31-May-17 14:22:22  Start E:\Creo-Files\CREO\prt0001.prt
+!31-May-17 14:22:22  End   E:\Creo-Files\CREO\prt0001.prt
+!%CI用默认模板D:\Program Files\PTC\Creo 4.0\M010\Common Files\templates\mmns_part_solid.prt作为模板。
+@ oa_sel_filter_set _30_
+!%CE不能从模型树配置文件E:\Creo Files\CREO\tree.cfg读取。
+@ stack attr 2
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): connected to Pro/E.
+!	exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\x86e_win64\obj\mcp_applet_async.exe
+!	type: asynchronous
+~ Wheel `main_dlg_cur` `proe_win` 9 827 388 458752 0 1508 773 1920 1080 5975
+~ Wheel `main_dlg_cur` `proe_win` 9 827 388 458752 0 1508 773 1920 1080 6022
+~ Wheel `main_dlg_cur` `proe_win` 9 827 388 458752 0 1508 773 1920 1080 6053
+~ Wheel `main_dlg_cur` `proe_win` 9 827 388 458752 0 1508 773 1920 1080 6147
+~ Wheel `main_dlg_cur` `proe_win` 9 727 377 393216 0 1508 773 1920 1080 6583
+~ Wheel `main_dlg_cur` `proe_win` 9 727 378 393216 0 1508 773 1920 1080 6615
+~ Wheel `main_dlg_cur` `proe_win` 9 727 378 393216 0 1508 773 1920 1080 6646
+~ Wheel `main_dlg_cur` `proe_win` 9 726 378 393216 0 1508 773 1920 1080 6693
+~ Wheel `main_dlg_cur` `proe_win` 9 725 378 393216 0 1508 773 1920 1080 6786
+~ Wheel `main_dlg_cur` `proe_win` 9 722 381 458752 0 1508 773 1920 1080 7067
+~ Wheel `main_dlg_cur` `proe_win` 9 722 381 458752 0 1508 773 1920 1080 7083
+~ Wheel `main_dlg_cur` `proe_win` 9 722 381 458752 0 1508 773 1920 1080 7129
+~ Wheel `main_dlg_cur` `proe_win` 9 722 381 458752 0 1508 773 1920 1080 7161
+~ Wheel `main_dlg_cur` `proe_win` 9 722 381 393216 0 1508 773 1920 1080 7488
+~ Wheel `main_dlg_cur` `proe_win` 9 722 381 393216 0 1508 773 1920 1080 7519
+~ Wheel `main_dlg_cur` `proe_win` 9 722 381 393216 0 1508 773 1920 1080 7551
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric 将终止，所有未保存的工作都将会丢失。
+!               : 是否确实要退出?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

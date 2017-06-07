@@ -1,0 +1,234 @@
+﻿!trail file version No. 1861
+!Creo  TM  4.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 10132
+!	Application: Creo_Parametric
+!	Start date&time: 2017/06/01  13:24:17
+!	language: chinese_cn
+!	machine type: x86e_win64
+!	datecode: M010
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: E:\Creo-Files\CREO\traceback.log
+!end Exit Logger data.
+< 0 1.168593 1845 0 0 986 1920 0 0 1080 13
+!mem_use INCREASE Blocks 772442, AppSize 97327567, SysSize 111013664
+< 0 0.922074 1607 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1416 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1436 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1456 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1474 0 0 778 1920 0 0 1080 13
+!%CI欢迎使用 Creo Parametric 4.0。
+!AFX datecode: 4.0 M010 2017.02.16.11
+!AFX exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\x86e_win64\afx40.dll
+!AFX text path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\afx\
+< 0 1.082074 1474 0 0 913 1920 0 0 1080 13
+< 0 0.922074 1474 0 0 778 1920 0 0 1080 13
+< 0 0.916148 1474 0 0 773 1920 0 0 1080 13
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): connected to Pro/E.
+!	exec path: D:\Program Files\PTC\Creo 4.0\M010\Common Files\x86e_win64\obj\mcp_applet_async.exe
+!	type: asynchronous
+~ Command `ProCmdModelOpen` 
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Select `file_open` `Ph_list.Filelist` 1 `Templates`
+~ Activate `file_open` `Ph_list.Filelist` 1 `Templates`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `file_open:Ph_list.Filelist:<NULL>`
+~ Select `file_open` `Ph_list.Filelist` 1 `template_yang.prt`
+~ Command `ProFileSelPushOpen_Standard@context_dlg_open_cmd` 
+!Command ProCmdModelOpenExe was pushed from the software.
+! 1-Jun-17 13:24:29  Start E:\Creo-Files\CREO\Templates\template_yang.prt
+! 1-Jun-17 13:24:29  End   E:\Creo-Files\CREO\Templates\template_yang.prt
+@ oa_sel_filter_set _30_
+!%CE不能从模型树配置文件E:\Creo Files\CREO\tree.cfg读取。
+@ stack attr 2
+~ Activate `main_dlg_cur` `page_Tools_control_btn` 1
+~ Activate `main_dlg_cur` `page_View_control_btn` 1
+~ Activate `main_dlg_cur` `page_Flex_Modeling_control_btn` 1
+!mem_use INCREASE Blocks 862444, AppSize 118112584, SysSize 137338536
+@ oa_sel_filter_set Prt_fl_objs
+~ Sync LearnConn_Startup
+~ Activate `transient_balloon` `no`
+~ Activate `main_dlg_cur` `page_Applications_control_btn` 1
+@ oa_sel_filter_set 2
+~ Activate `main_dlg_cur` `user_standard_page_for_cust_control_btn` 1
+~ PopupOver `main_dlg_cur` `adb_main_menu` 1 `user_standard_page_for_cust_control_btn`
+~ Open `main_dlg_cur` `adb_main_menu`
+~ Close `main_dlg_cur` `adb_main_menu`
+~ Activate `main_dlg_cur` `adb_main_menu.adb_hideCmdLabels` 1
+~ PopupOver `main_dlg_cur` `adb_main_menu` 1 `user_standard_page_for_cust_control_btn`
+~ Open `main_dlg_cur` `adb_main_menu`
+~ Close `main_dlg_cur` `adb_main_menu`
+~ Activate `main_dlg_cur` `adb_main_menu.adb_hideCmdLabels` 0
+~ PopupOver `main_dlg_cur` `adb_main_menu` 1 `user_standard_page_for_cust_control_btn`
+~ Open `main_dlg_cur` `adb_main_menu`
+~ Select `main_dlg_cur` `adb_main_menu.adb_showTabs`
+~ Close `main_dlg_cur` `adb_main_menu`
+~ Activate `main_dlg_cur` `adb_showTabsMP_user_standard_page_for_cust` 0
+~ Activate `main_dlg_cur` `page_Analysis_control_btn` 1
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+< 0 0.879407 1474 0 0 742 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_Tools_control_btn` 1
+< 0 0.916148 1474 0 0 773 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_View_control_btn` 1
+~ Activate `main_dlg_cur` `page_Flex_Modeling_control_btn` 1
+@ oa_sel_filter_set Prt_fl_objs
+~ Activate `main_dlg_cur` `page_Applications_control_btn` 1
+@ oa_sel_filter_set 2
+~ Activate `main_dlg_cur` `page_Tools_control_btn` 1
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdMmModelProperties` 
+~ Activate `mdlprops_dlg` `UNITS_lay_Controls.push_Change.lay_instance`
+~ Resize `um_finder` `um_finder` 4 38.821131 0.622799 11.002780 12.430028
+~ Move `um_finder` `um_finder` 2 38.821131 0.622799
+~ Move `um_finder` `um_finder` 2 31.062095 1.816497
+~ Resize `um_finder` `um_finder` 4 31.062095 1.816497 11.002780 15.076923
+~ Close `um_finder` `um_finder`
+~ Activate `mdlprops_dlg` `ACCURACY_lay_Controls.push_Change.lay_instance`
+~ Open `setup_accuracy_dlg` `cmb_Rel_Enter`
+~ Close `setup_accuracy_dlg` `cmb_Rel_Enter`
+~ Update `setup_accuracy_dlg` `cmb_Rel_Enter` `0.0001`
+~ Activate `setup_accuracy_dlg` `pushbt_OK`
+!ProgressBarDlg: Regen Started
+!%CI正在从4 重新生成TEMPLATE_YANG特征1 ...
+!%CI正在从4 重新生成TEMPLATE_YANG特征2 ...
+!%CI正在从4 重新生成TEMPLATE_YANG特征3 ...
+!%CI正在从4 重新生成TEMPLATE_YANG特征4 ...
+!%CITEMPLATE_YANG 重新生成成功完成。
+!ProgressBarDlg: Regen Completed
+!%CI精度已更改为0.0001（相对）。
+!Undo: added rec_id -1 type 5104 
+~ Activate `mdlprops_dlg` `ACCURACY_lay_Controls.push_Change.lay_instance`
+~ Update `setup_accuracy_dlg` `cmb_Rel_Enter` `0.0012`
+~ Activate `setup_accuracy_dlg` `pushbt_OK`
+!ProgressBarDlg: Regen Started
+!%CI正在从4 重新生成TEMPLATE_YANG特征1 ...
+!%CI正在从4 重新生成TEMPLATE_YANG特征2 ...
+!%CI正在从4 重新生成TEMPLATE_YANG特征3 ...
+!%CI正在从4 重新生成TEMPLATE_YANG特征4 ...
+!%CITEMPLATE_YANG 重新生成成功完成。
+!ProgressBarDlg: Regen Completed
+!%CI精度已更改为0.0012（相对）。
+!Undo: added rec_id -1 type 5104 
+~ Activate `mdlprops_dlg` `MASS_PROPS_lay_Controls.push_Change.lay_instance`
+!ODUI external UI session start for device : mass_prop_dlg 
+~ Move `mass_prop_dlg` `mass_prop_dlg` 2 25.327155 5.760890
+~ Trigger `mass_prop_dlg` `CSYSInput` `0`
+~ Trigger `mass_prop_dlg` `CSYSInput` ``
+~ Trigger `mass_prop_dlg` `CSYSInput` `0`
+~ Trigger `mass_prop_dlg` `CSYSInput` ``
+~ Open `mass_prop_dlg` `DefPropertiesByOptMenu`
+~ Close `mass_prop_dlg` `DefPropertiesByOptMenu`
+~ Select `mass_prop_dlg` `DefPropertiesByOptMenu` 1 `geometry_n_density`
+~ Trigger `mass_prop_dlg` `CSYSInput` `0`
+~ Trigger `mass_prop_dlg` `CSYSInput` ``
+~ Activate `mass_prop_dlg` `ResetPush`
+~ Activate `mass_prop_dlg` `OkPush`
+!Undo: added rec_id -1 type 5205 
+!ODUI external UI session stop. 
+~ Activate `mdlprops_dlg` `REF_CTRL_lay_Controls.chk_Expand.lay_instance` 1
+~ Activate `mdlprops_dlg` `OPTIONS_lay_Controls.push_Change.lay_instance`
+~ FocusOut `preferences` `InputOpt`
+~ Select `preferences` `AssyTree` 1\
+ `node0:These options control text not subject to other options : 0:text_heigh\
+t : CALCULATED : 0`
+~ Activate `preferences` `AssyTree` 1\
+ `node0:These options control text not subject to other options : 0:text_heigh\
+t : CALCULATED : 0`
+!Expanded text_height
+~ Activate `preferences` `AssyTree` 1\
+ `node0:These options control text not subject to other options : 0:text_heigh\
+t : CALCULATED : 0`
+!Expanded text_height
+~ Resize `preferences` `preferences` 4 13.519926 1.219648 31.399444 24.678406
+~ Open `preferences` `EditPanel`
+~ Close `preferences` `EditPanel`
+~ Input `preferences` `EditPanel` `3`
+~ Input `preferences` `EditPanel` `3.`
+~ Input `preferences` `EditPanel` `3.5`
+~ Update `preferences` `EditPanel` `3.5`
+~ Activate `preferences` `EditPanel`
+~ FocusOut `preferences` `InputOpt`
+~ Select `preferences` `AssyTree` 1\
+ `node0:These options control text not subject to other options : 0:text_thick\
+ness : 0.000000 : 0`
+~ Select `preferences` `AssyTree` 1\
+ `node0:These options control text not subject to other options : 0:text_width\
+_factor : 0.800000 : 0`
+~ Select `preferences` `AssyTree` 1\
+ `node0:These options control cross sections and their arrows : 0:show_clipped\
+_annotations : NO : 0`
+~ Activate `preferences` `ok`
+~ Activate `mdlprops_dlg` `DlgClose_push`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:PHTLeft.AssyTree:<NULL>`
+~ Close `main_dlg_cur` `appl_menu.left_pane.manage_session_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdUtilWebRegServ` 
+~ Close `siteregistrydialog` `siteregistrydialog`
+~ Command `ProCmdModelSave` 
+!%CITEMPLATE_YANG 已保存。
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdFilePurge` 
+~ Activate `0_std_confirm` `OK`
+!%CITEMPLATE_YANG的任何旧版本已被删除。
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdMmDeclare` 
+#DECLARE NBK
+!%CE内存中没有记事本。
+#DECLARE NBK
+!%CE内存中没有记事本。
+#DECLARE NBK
+!%CE内存中没有记事本。
+#DECLARENAME
+!%CW模型TEMPLATE_YANG 未参考任何其他模型。
+#TABLE
+!%CW模型TEMPLATE_YANG 未参考任何其他模型。
+#UNDECLR NBK
+!%CI没有声明对象。
+#DECLARE NBK
+!%CE内存中没有记事本。
+#LIST DECL
+!%CE模型TEMPLATE_YANG不含声明。
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1374 309 0 1 1474 773 1920 1080 234326
+~ Move `main_dlg_cur` `proe_win` 9 1374 309 0 1 1474 773 1920 1080 234326
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1374 309 0 0 1474 773 1920 1080 234416
+@ sel view 0
+ 1.327015 0.000000 0.000000 0.000000 0.000000 -1.327015
+ 0.000000 1.327015 0.000000 500.000000 421.875000 -2338.268590 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Activate `mpd0` `pin_button.2`
+~ Activate `mpd0` `pin_button.2`
+#UNDECL NAME
+!%CW模型TEMPLATE_YANG 未参考任何其他模型。
+#UNDECL NAME
+!%CW模型TEMPLATE_YANG 未参考任何其他模型。
+#UNDECL NAME
+!%CW模型TEMPLATE_YANG 未参考任何其他模型。
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1306 370 0 1 1474 773 1920 1080 242176
+~ Move `main_dlg_cur` `proe_win` 9 1306 370 0 1 1474 773 1920 1080 242176
+~ Move `main_dlg_cur` `proe_win` 9 1306 371 0 1025 1474 773 1920 1080 242267
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1306 371 0 0 1474 773 1920 1080 242271
+@ sel view 0
+ 1.327015 0.000000 0.000000 0.000000 0.000000 -1.327015
+ 0.000000 1.327015 0.000000 500.000000 421.875000 -2338.268590 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr twk_s_eps
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdFileInstAccelDlg` 
+~ Activate `inst_accel` `UpdateButton`
+~ Activate `inst_accel` `PurgeButton`
+~ Activate `inst_accel` `CloseButton`
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric 将终止，所有未保存的工作都将会丢失。
+!               : 是否确实要退出?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File
